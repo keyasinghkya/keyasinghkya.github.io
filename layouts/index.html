@@ -1,0 +1,15 @@
+{{ define "main" }}
+<!-- Background GIF -->
+<div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;">
+  <img src="/gifs/homepg-bg.gif" style="width: 100%; height: 100%; object-fit: cover;">
+
+  <!-- Top gradient for header -->
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 200px; background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, transparent 100%);"></div>
+
+  <!-- Bottom gradient for footer -->
+  <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 200px; background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%);"></div>
+</div>
+
+<!-- Empty main content - just the GIF -->
+<div style="min-height: 70vh;"></div>
+{{ end }}

@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reading on keya singh 𓂃 ⌂ ོ☼ 𓂃</title>
+    <link>http://localhost:1313/categories/reading/</link>
+    <description>Recent content in reading on keya singh 𓂃 ⌂ ོ☼ 𓂃</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/reading/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Oceanic Feeling and Communist Affect / Jackie Wang</title>
+      <link>http://localhost:1313/posts/oceanic-feels/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/oceanic-feels/</guid>
+      <description>&lt;div id=&#34;floating-toc&#34; class=&#34;floating-toc&#34;&gt;
+  &lt;button id=&#34;toc-toggle&#34; class=&#34;toc-toggle&#34;&gt;
+    &lt;span id=&#34;toc-icon&#34;&gt;☰&lt;/span&gt; Contents
+  &lt;/button&gt;
+  &lt;div id=&#34;toc-content&#34; class=&#34;toc-content&#34;&gt;
+    &lt;h3 class=&#34;text-sm font-bold mb-3 text-neutral-900 dark:text-neutral&#34;&gt;On this page&lt;/h3&gt;
+    &lt;nav id=&#34;toc-nav&#34;&gt;
+      
+      
+      &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#notes-while-listeningreading&#34;&gt;notes while listening/reading&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#reflectionthoughts&#34;&gt;reflection/thoughts&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+      
+    &lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.floating-toc {
+  position: fixed;
+  right: 2rem;
+  top: 120px;
+  width: 280px;
+  z-index: 0;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  border: 2px solid rgb(var(--color-primary-400));
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.dark .floating-toc {
+  background: rgb(var(--color-neutral-800));
+  border-color: rgb(var(--color-primary-600));
+}
+
+.toc-toggle {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: rgba(var(--color-primary-600), 0.3);
+  color: white;
+  border: none;
+  border-radius: 0.5rem 0.5rem 0 0;
+  cursor: pointer;
+  font-weight: 600;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background 0.2s;
+}
+
+.toc-toggle:hover {
+  background: rgb(var(--color-primary-700));
+}
+
+.toc-content {
+  max-height: 70vh;
+  overflow-y: auto;
+  padding: 1rem;
+  display: block;
+}
+
+.toc-content.hidden {
+  display: none;
+}
+
+.floating-toc nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.floating-toc nav ul ul {
+  padding-left: 1rem;
+  margin-top: 0.25rem;
+}
+
+.floating-toc nav li {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.floating-toc nav a {
+  color: rgb(var(--color-neutral-700));
+  text-decoration: none;
+  transition: color 0.2s;
+  display: block;
+}
+
+.floating-toc nav a:hover {
+  color: rgb(var(--color-primary-600));
+}
+
+.dark .floating-toc nav a {
+  color: rgb(var(--color-neutral-300));
+}
+
+.dark .floating-toc nav a:hover {
+  color: rgb(var(--color-primary-400));
+}
+
+@media (min-width: 1280px) and (max-width: 1600px) {
+  .floating-toc {
+    right: 1rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .floating-toc {
+    right: calc((100vw - 1200px) / 2 - 320px);
+  }
+}
+
+@media (max-width: 1280px) {
+  .floating-toc {
+    display: none;
+  }
+}
+
+.toc-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.toc-content::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.05);
+}
+
+.toc-content::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.4);
+  border-radius: 10px;
+}
+&lt;/style&gt;
+
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+  
+  const toggle = document.getElementById(&#39;toc-toggle&#39;);
+  const content = document.getElementById(&#39;toc-content&#39;);
+  const icon = document.getElementById(&#39;toc-icon&#39;);
+
+  if (toggle &amp;&amp; content &amp;&amp; icon) {
+    toggle.addEventListener(&#39;click&#39;, function() {
+      content.classList.toggle(&#39;hidden&#39;);
+      icon.textContent = content.classList.contains(&#39;hidden&#39;) ? &#39;☰&#39; : &#39;✕&#39;;
+    });
+  }
+
+  
+  const tocList = document.getElementById(&#39;toc-list&#39;);
+  if (tocList) {
+    const tocItems = tocList.querySelectorAll(&#39;li&#39;);
+    tocItems.forEach(function(item) {
+      const link = item.querySelector(&#39;a&#39;);
+      if (link) {
+        const href = link.getAttribute(&#39;href&#39;);
+        const targetId = href.substring(1); 
+        const target = document.getElementById(targetId);
+
+        
+        if (!target &amp;&amp; item.id !== &#39;documentation-item&#39;) {
+          item.style.display = &#39;none&#39;;
+        }
+      }
+    });
+  }
+
+  
+  const galleries = document.querySelectorAll(&#39;.gallery-box h3&#39;);
+  const documentationItem = document.getElementById(&#39;documentation-item&#39;);
+
+  if (galleries.length &gt; 0 &amp;&amp; documentationItem) {
+    const submenu = document.createElement(&#39;ul&#39;);
+    galleries.forEach(function(gallery, index) {
+      const title = gallery.textContent;
+      const anchor = &#39;gallery-&#39; + index;
+      gallery.id = anchor;
+
+      const li = document.createElement(&#39;li&#39;);
+      const link = document.createElement(&#39;a&#39;);
+      link.href = &#39;#&#39; + anchor;
+      link.textContent = title;
+      li.appendChild(link);
+      submenu.appendChild(li);
+    });
+
+    documentationItem.appendChild(submenu);
+    
+    documentationItem.style.display = &#39;&#39;;
+  } else if (documentationItem) {
+    
+    const docSection = document.getElementById(&#39;documentation&#39;);
+    if (!docSection) {
+      documentationItem.style.display = &#39;none&#39;;
+    }
+  }
+});
+&lt;/script&gt;
+
+&lt;div class=&#34;format-buttons&#34;&gt;
+  &lt;a href=&#34;https://loneberry.tumblr.com/post/153995404787/oceanic-feeling-and-communist-affect&#34;&gt;‧₊˚🖇️✩ ₊˚ read Jackie&#39;s tumblr post&lt;/a&gt;
+  &lt;a href=&#34;https://riboca.libsyn.com/jackie-wang-oceanic-feeling-and-communist-affect&#34;&gt;✩˚.🎧⋆podcast episode&lt;/a&gt;
+  &lt;a href=&#34;https://www.youtube.com/watch?v=ma6y2IFDfUY&#34;&gt;.݁₊watch Jackie here📽.ᐟ&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;notes while listening/reading
+    &lt;div id=&#34;notes-while-listeningreading&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#notes-while-listeningreading&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;roland noted that freud noted that all religion is rooted in mysticism or oceanic feeling&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>The Wretched of the Screen / Hito Steyerl</title>
+      <link>http://localhost:1313/posts/wretched-tiktok/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/wretched-tiktok/</guid>
+      <description>&lt;div id=&#34;floating-toc&#34; class=&#34;floating-toc&#34;&gt;
+  &lt;button id=&#34;toc-toggle&#34; class=&#34;toc-toggle&#34;&gt;
+    &lt;span id=&#34;toc-icon&#34;&gt;☰&lt;/span&gt; Contents
+  &lt;/button&gt;
+  &lt;div id=&#34;toc-content&#34; class=&#34;toc-content&#34;&gt;
+    &lt;h3 class=&#34;text-sm font-bold mb-3 text-neutral-900 dark:text-neutral&#34;&gt;On this page&lt;/h3&gt;
+    &lt;nav id=&#34;toc-nav&#34;&gt;
+      
+      
+      &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#1-cut-reproduction-and-recombination-pp-176-190&#34;&gt;1. Cut! Reproduction and Recombination (pp 176-190)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#2-in-defense-of-the-poor-image-pp-31-45&#34;&gt;2. In Defense of the Poor Image (pp 31-45)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#3-the-spam-of-the-earth-withdrawal-from-representation-pp-160-175&#34;&gt;3. The Spam of the Earth: Withdrawal from Representation (pp 160-175)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#4-a-thing-like-you-and-me-pp-46-59&#34;&gt;4. A Thing Like You and Me (pp 46-59)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#5-politics-of-art-contemporary-art-and-the-transition-to-post-democracy-pp-92-101&#34;&gt;5. Politics of Art: Contemporary Art and the Transition to Post-Democracy (pp 92-101)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#6-the-articulation-of-protest-pp-77-91&#34;&gt;6. The Articulation of Protest (pp 77-91)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#7-is-a-museum-a-factory-pp-60-76&#34;&gt;7. Is a Museum a Factory? (pp 60-76)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#8-art-as-occupation-claims-for-an-autonomy-of-life-pp-102-120&#34;&gt;8. Art as Occupation: Claims for an Autonomy of Life (pp 102-120)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#9-in-free-fall-a-thought-experiment-on-vertical-perspective-pp-12-30&#34;&gt;9. In Free Fall: A Thought Experiment on Vertical Perspective (pp 12-30)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#10-freedom-from-everything-freelancers-and-mercenaries-pp-121-137&#34;&gt;10. Freedom from Everything: Freelancers and Mercenaries (pp 121-137)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#11-missing-people-entanglement-superposition-and-exhumation-as-sites-of-indeterminacy-pp-138-159&#34;&gt;11. Missing People: Entanglement, Superposition, and Exhumation as Sites of Indeterminacy (pp 138-159)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#-supporting-text-&#34;&gt;~ supporting text ~&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+      
+    &lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.floating-toc {
+  position: fixed;
+  right: 2rem;
+  top: 120px;
+  width: 280px;
+  z-index: 0;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  border: 2px solid rgb(var(--color-primary-400));
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.dark .floating-toc {
+  background: rgb(var(--color-neutral-800));
+  border-color: rgb(var(--color-primary-600));
+}
+
+.toc-toggle {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: rgba(var(--color-primary-600), 0.3);
+  color: white;
+  border: none;
+  border-radius: 0.5rem 0.5rem 0 0;
+  cursor: pointer;
+  font-weight: 600;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background 0.2s;
+}
+
+.toc-toggle:hover {
+  background: rgb(var(--color-primary-700));
+}
+
+.toc-content {
+  max-height: 70vh;
+  overflow-y: auto;
+  padding: 1rem;
+  display: block;
+}
+
+.toc-content.hidden {
+  display: none;
+}
+
+.floating-toc nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.floating-toc nav ul ul {
+  padding-left: 1rem;
+  margin-top: 0.25rem;
+}
+
+.floating-toc nav li {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.floating-toc nav a {
+  color: rgb(var(--color-neutral-700));
+  text-decoration: none;
+  transition: color 0.2s;
+  display: block;
+}
+
+.floating-toc nav a:hover {
+  color: rgb(var(--color-primary-600));
+}
+
+.dark .floating-toc nav a {
+  color: rgb(var(--color-neutral-300));
+}
+
+.dark .floating-toc nav a:hover {
+  color: rgb(var(--color-primary-400));
+}
+
+@media (min-width: 1280px) and (max-width: 1600px) {
+  .floating-toc {
+    right: 1rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .floating-toc {
+    right: calc((100vw - 1200px) / 2 - 320px);
+  }
+}
+
+@media (max-width: 1280px) {
+  .floating-toc {
+    display: none;
+  }
+}
+
+.toc-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.toc-content::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.05);
+}
+
+.toc-content::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.4);
+  border-radius: 10px;
+}
+&lt;/style&gt;
+
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+  
+  const toggle = document.getElementById(&#39;toc-toggle&#39;);
+  const content = document.getElementById(&#39;toc-content&#39;);
+  const icon = document.getElementById(&#39;toc-icon&#39;);
+
+  if (toggle &amp;&amp; content &amp;&amp; icon) {
+    toggle.addEventListener(&#39;click&#39;, function() {
+      content.classList.toggle(&#39;hidden&#39;);
+      icon.textContent = content.classList.contains(&#39;hidden&#39;) ? &#39;☰&#39; : &#39;✕&#39;;
+    });
+  }
+
+  
+  const tocList = document.getElementById(&#39;toc-list&#39;);
+  if (tocList) {
+    const tocItems = tocList.querySelectorAll(&#39;li&#39;);
+    tocItems.forEach(function(item) {
+      const link = item.querySelector(&#39;a&#39;);
+      if (link) {
+        const href = link.getAttribute(&#39;href&#39;);
+        const targetId = href.substring(1); 
+        const target = document.getElementById(targetId);
+
+        
+        if (!target &amp;&amp; item.id !== &#39;documentation-item&#39;) {
+          item.style.display = &#39;none&#39;;
+        }
+      }
+    });
+  }
+
+  
+  const galleries = document.querySelectorAll(&#39;.gallery-box h3&#39;);
+  const documentationItem = document.getElementById(&#39;documentation-item&#39;);
+
+  if (galleries.length &gt; 0 &amp;&amp; documentationItem) {
+    const submenu = document.createElement(&#39;ul&#39;);
+    galleries.forEach(function(gallery, index) {
+      const title = gallery.textContent;
+      const anchor = &#39;gallery-&#39; + index;
+      gallery.id = anchor;
+
+      const li = document.createElement(&#39;li&#39;);
+      const link = document.createElement(&#39;a&#39;);
+      link.href = &#39;#&#39; + anchor;
+      link.textContent = title;
+      li.appendChild(link);
+      submenu.appendChild(li);
+    });
+
+    documentationItem.appendChild(submenu);
+    
+    documentationItem.style.display = &#39;&#39;;
+  } else if (documentationItem) {
+    
+    const docSection = document.getElementById(&#39;documentation&#39;);
+    if (!docSection) {
+      documentationItem.style.display = &#39;none&#39;;
+    }
+  }
+});
+&lt;/script&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;1. Cut! Reproduction and Recombination (pp 176-190)
+    &lt;div id=&#34;1-cut-reproduction-and-recombination-pp-176-190&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#1-cut-reproduction-and-recombination-pp-176-190&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;cuts as seen in filmmaking and economic discourse&lt;/li&gt;
+&lt;li&gt;bodies carry the memory of guilt and debt&lt;/li&gt;
+&lt;li&gt;editing in cinema works temporally as well as spatially&lt;/li&gt;
+&lt;li&gt;framing is done according to a chosen narrative&lt;/li&gt;
+&lt;li&gt;editing as a tool for economic efficiency&lt;/li&gt;
+&lt;li&gt;recombination, re-articulation of bodies by removing their identities&lt;/li&gt;
+&lt;li&gt;removal of identity rids bodies of memory/debt&lt;/li&gt;
+&lt;li&gt;today, postproduction IS the production&lt;/li&gt;
+&lt;li&gt;some spaces are created through postproduction/ not production&lt;/li&gt;
+&lt;li&gt;collective postproduction via the internet produces composite works&lt;/li&gt;
+&lt;li&gt;disassembling existing films and videos to conform to alternative, artificial political bodies&lt;/li&gt;
+&lt;li&gt;moments created by editing, in editing&lt;/li&gt;
+&lt;li&gt;physical intimacy is seen by her as a condenser of this notion of reproduction: redistributing affects, desire and creating bodies via movement and love&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;2. In Defense of the Poor Image (pp 31-45)
+    &lt;div id=&#34;2-in-defense-of-the-poor-image-pp-31-45&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#2-in-defense-of-the-poor-image-pp-31-45&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;the poor image is copy that deteriorates as it accelerates into circulation/motion&lt;/li&gt;
+&lt;li&gt;the poor image transforms quality into accessibility&lt;/li&gt;
+&lt;li&gt;the poor image defies copyright and mocks the claims of digital technology&lt;/li&gt;
+&lt;li&gt;the poor image is met with refusal to be shown by conservative artists + making room for audiences to image what they must look like&lt;/li&gt;
+&lt;li&gt;the poor image allows for the revival of resistant/non-conformist visual matter which disappeared due to the commercialisation of cinema + marginalisation of indie filmmaking&lt;/li&gt;
+&lt;li&gt;the poor image has seen a rise in circulation due to rampant privatisation of intellectual property = piracy + appropriation&lt;/li&gt;
+&lt;li&gt;the poor image jeopardises the elitism held by filmmakers by making authorship available to more people ~ blurring the lines between author/audience&lt;/li&gt;
+&lt;li&gt;the poor image belongs to combating ideologies and politics thus making space for hate speech, spam, and other trash&lt;/li&gt;
+&lt;li&gt;the poor image is the popular image; as seen through the formatting/reformatting done by countless people who cared &amp;ldquo;enough&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;the poor image is caught in a capitalistic tension = resistance against the fetish value of high-resolution x being perfectly integrated into information capitalism due to its compressed attention spans&lt;/li&gt;
+&lt;li&gt;the poor image constructs global networks of translations or mistranslations along with new publics and debates&lt;/li&gt;
+&lt;li&gt;the poor image creates saturation and confusion along with moments of thought and affect&lt;/li&gt;
+&lt;li&gt;the poor image is no longer about the original or the real; it is about reality&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;3. The Spam of the Earth: Withdrawal from Representation (pp 160-175)
+    &lt;div id=&#34;3-the-spam-of-the-earth-withdrawal-from-representation-pp-160-175&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#3-the-spam-of-the-earth-withdrawal-from-representation-pp-160-175&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;a reserve army of digitally enhanced creatures who resemble the minor demons and angels of mystic speculation, luring, pushing, and blackmailing people into the profane rapture of consumption&lt;/li&gt;
+&lt;li&gt;image spam is an accurate portrayal of what humanity is actually not - a negative image&lt;/li&gt;
+&lt;li&gt;within a fully immersive media landscape, pictorial representation feels more like a threat&lt;/li&gt;
+&lt;li&gt;what would happen if we withdrew from representation?&lt;/li&gt;
+&lt;li&gt;dieting is the metonymic equivalent to an economic recession mixed with intellectual regression caused by mainstream media has allowed intelligence to vanish from mainstream representation&lt;/li&gt;
+&lt;li&gt;social media + phone cameras = mutual mass surveillance&lt;/li&gt;
+&lt;li&gt;hegemony is increasingly internalised + pressure to perform, conform + to represent + be represented&lt;/li&gt;
+&lt;li&gt;cameras are at present tools of disappearance ≈ more people are represented = less is left of them in reality&lt;/li&gt;
+&lt;li&gt;if photography is a civil contract bet the photographer and subject, the current withdrawal is breaking that contract (which promised participation but delivered gossip, surveillance, narcissism and occasional uprisings)&lt;/li&gt;
+&lt;li&gt;image spam is a representation that remains invisible&lt;/li&gt;
+&lt;li&gt;people might happen by jointly making the image and not by being represented in one&lt;/li&gt;
+&lt;li&gt;image spam people are double agents; they are continuously smiling but not saying anything !!!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;4. A Thing Like You and Me (pp 46-59)
+    &lt;div id=&#34;4-a-thing-like-you-and-me-pp-46-59&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#4-a-thing-like-you-and-me-pp-46-59&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;1977 brings the end of the New Left (refers to RAF’s descent into political sectarianism) + the Strangers declare that “heroism is over”&lt;/li&gt;
+&lt;li&gt;1977 also brings David Bowie’s “heroes” = packaged Bowie’s post-gender that is no longer an icon just an image (nothing but an image)&lt;/li&gt;
+&lt;li&gt;the hero’s immortality = ability to be xeroxed, recycled&lt;/li&gt;
+&lt;li&gt;mario perniola: to give oneself as a thing that feels and to take a thing that feels is the contemporary experience…things and senses are no longer in conflict but have become allies causing the most detached abstraction and the most unrestrained excitement to become indistinguishable&lt;/li&gt;
+&lt;li&gt;the image is without expression; it is yet another thing like you and me - a fragment of the real world&lt;/li&gt;
+&lt;li&gt;viewing forensics as the torture of objects; things condense power and violence&lt;/li&gt;
+&lt;li&gt;participation in the image is a participation in its abuse (via its manipulation, transfer, reduction, etc)&lt;/li&gt;
+&lt;li&gt;walter benjamin’s idea of participation involve abject objects are hieroglyphs containing congealed/fragmented social relations&lt;/li&gt;
+&lt;li&gt;things understood not as simple objects but as condensation of social forces is a classic materialist take&lt;/li&gt;
+&lt;li&gt;recognising things as equals releases its potential energy, agency&lt;/li&gt;
+&lt;li&gt;(referring to benjamin’s notion of history as a pile of rubble as seen from the pov of an angel): we are not the angel, we are the rubble&lt;/li&gt;
+&lt;li&gt;“Because they (actors) love the pixel, not the hero. The hero is dead. Long live the thing.”
+&lt;video controls style=&#34;width: 70%; max-width: 400; max-height: 150; margin: 2rem auto; display: block; border-radius: 8px;&#34;&gt;
+    &lt;source src=&#34;https://va.media.tumblr.com/tumblr_t5gf3qnISV1uflz58.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    Your browser doesn&#39;t support video.
+  &lt;/video&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;5. Politics of Art: Contemporary Art and the Transition to Post-Democracy (pp 92-101)
+    &lt;div id=&#34;5-politics-of-art-contemporary-art-and-the-transition-to-post-democracy-pp-92-101&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#5-politics-of-art-contemporary-art-and-the-transition-to-post-democracy-pp-92-101&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;politics of art = viewing the field of art as a place of work&lt;/li&gt;
+&lt;li&gt;contemporary art is about function as much as it is about beauty&lt;/li&gt;
+&lt;li&gt;production of art today presents the post-democratic ways in which hypercapitalism is the new dominant political paradigm&lt;/li&gt;
+&lt;li&gt;strike work flourishes on exploitation = the art industry sustains itself on unpaid interns and self-exploiting actors on almost every level&lt;/li&gt;
+&lt;li&gt;opportunism + competition are part of the inherent structure of artistic labour; which allows no automatically available route to resistance/organisation&lt;/li&gt;
+&lt;li&gt;the politics of art is missing from political art&lt;/li&gt;
+&lt;li&gt;what makes art intrinsically political = a site of contradictions of capital + extremely entertaining, often devastating misunderstandings between local and global&lt;/li&gt;
+&lt;li&gt;the art field is full of contradictions = a place of power-mongering, financial engineering, massive manipulations + a place of commonality, movement, energy and desire&lt;/li&gt;
+&lt;li&gt;art is not outside politics but politics resides within its production, distribution and reception&lt;/li&gt;
+&lt;li&gt;if we embrace its inherent politics, we might surpass the plane of the politics of representation
+&lt;video src=&#34;http://localhost:1313/videos/tiktok5.mp4&#34; controls preload&gt;&lt;/video&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;6. The Articulation of Protest (pp 77-91)
+    &lt;div id=&#34;6-the-articulation-of-protest-pp-77-91&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#6-the-articulation-of-protest-pp-77-91&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;articulation of protest has 2 levels: 1 = verbalisation, vocalisation, visualisation of the protest = symbols +
+2 = shaping the internal organisation of the movement = political forces&lt;/li&gt;
+&lt;li&gt;concatenation = a series of interconnected things&lt;/li&gt;
+&lt;li&gt;applying the theory of montage to political movements/protests (how are they edited and what significance do those edits hold?)&lt;/li&gt;
+&lt;li&gt;films referred to: 1. Showdown in Seattle (1999) and 2. Ici et ailleurs (1975) - both dealing with trans/inter-national occurrences of political articulation - Steyerl focuses on the self-reflection in these films regarding their own forms of articulation&lt;/li&gt;
+&lt;li&gt;by standardising the language of form, Showdown in Seattle portrays different statements into a chain of formal equivalence - using conventional methods of media montage&lt;/li&gt;
+&lt;li&gt;in contrast, ici et ailleurs chains material sourced from around the world, then mixed in a wild manner - creating the impression that the images attain their significance through this act of chaining/montage&lt;/li&gt;
+&lt;li&gt;the voice of the people simultaneously organises the principle of concatenation and suppression&lt;/li&gt;
+&lt;li&gt;reactionary (if not outright fascist) movements involve tremendous dynamic in their elements only to leave everything as it was before
+&lt;video src=&#34;http://localhost:1313/videos/tiktok6.mp4&#34; controls preload&gt;&lt;/video&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;7. Is a Museum a Factory? (pp 60-76)
+    &lt;div id=&#34;7-is-a-museum-a-factory-pp-60-76&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#7-is-a-museum-a-factory-pp-60-76&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;transition of factory —&amp;gt; museum = disappearance of traditional fordist factories + mass production, commercialisation of cinema&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

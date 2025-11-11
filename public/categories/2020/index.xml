@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2020 on keya singh 𓂃 ⌂ ོ☼ 𓂃</title>
+    <link>http://localhost:1313/categories/2020/</link>
+    <description>Recent content in 2020 on keya singh 𓂃 ⌂ ོ☼ 𓂃</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/2020/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>#jpeg2dicom</title>
+      <link>http://localhost:1313/projects/neither/jpeg2dicom/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/neither/jpeg2dicom/</guid>
+      <description>&lt;p&gt;Ongoing experiments using a CT scan reader to compress video frames into objects that can be manipulated in 3D. This curiosity was born while attending an online workshop, &amp;ldquo;Creative and Artistic Use of Medical Imagery&amp;rdquo; led by Haraldur Karlsson and organised by Vašulka Kitchen Brno in April-May 2020.&lt;/p&gt;
+&lt;a href=&#34;https://www.facebook.com/groups/265164758212506&#34; target=&#34;_blank&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/vkb-workshop.png&#34; alt=&#34;VKB Workshop facebook group&#34;&gt;
+&lt;/a&gt;
+&lt;p&gt;Since the workshop, I have been testing material in terms of footage (filmed, found, images in motion) and colours. My aim for the future is to convert these objects into 3D files that can be used in 3D and VR environments.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

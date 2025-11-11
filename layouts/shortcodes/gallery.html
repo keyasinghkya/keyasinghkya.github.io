@@ -1,0 +1,114 @@
+<div class="gallery-box border-4 border-neutral-300 dark:border-neutral-600 rounded-lg p-6 my-8">
+  {{ if .Get "title" }}
+  <h3 class="text-xl font-bold mb-2">{{ .Get "title" }}</h3>
+  {{ end }}
+
+  {{ if .Get "date" }}
+  <p class="text-sm text-primary-600 dark:text-primary-400 mb-2">{{ .Get "date" }}</p>
+  {{ end }}
+
+  <!-- TEXT BLURB -->
+  {{ if or (.Get "location") (.Get "year") (.Get "city") (.Get "country") (.Get "format") }}
+  <div class="text-blurb text-sm text-neutral-600 dark:text-neutral-400 mb-4">
+    {{ if .Get "location" }}<p>{{ .Get "location" }}</p>{{ end }}
+    {{ if or (.Get "city") (.Get "country") }}
+    <p>
+      {{ if .Get "city" }}{{ .Get "city" }}{{ end }}
+      {{ if and (.Get "city") (.Get "country") }},{{ end }}
+      {{ if .Get "country" }}{{ .Get "country" }}{{ end }}
+    </p>
+    {{ end }}
+    {{ if .Get "year" }}<p>{{ .Get "year" }}</p>{{ end }}
+    {{ if .Get "format" }}<p class="italic">{{ .Get "format" }}</p>{{ end }}
+  </div>
+  {{ end }}
+
+  <div class="image-gallery">
+    {{ $images := split (.Get "images") "," }}
+    {{ $captions := split (.Get "captions" | default "") "|" }}
+    {{ range $index, $image := $images }}
+      <div class="gallery-item">
+        <img src="{{ trim $image " " }}" alt="" loading="lazy">
+        {{ if index $captions $index }}
+        <p class="image-caption">{{ index $captions $index }}</p>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</div>
+
+<style>
+  .image-gallery {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 0rem 0 1rem 0;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .gallery-item {
+    flex-shrink: 0;
+    scroll-snap-align: start;
+  }
+
+  .image-gallery img {
+    height: 600px;
+    min-width: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+  }
+
+  .image-caption {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: rgb(var(--color-neutral-600));
+    max-width: 450px;
+  }
+
+  .dark .image-caption {
+    color: rgb(var(--color-neutral-400));
+  }
+
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .image-gallery img {
+      height: 400px;
+      min-width: 300px;
+    }
+
+    .image-caption {
+      max-width: 300px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .image-gallery img {
+      height: 300px;
+      min-width: 250px;
+    }
+
+    .image-caption {
+      max-width: 250px;
+    }
+  }
+
+  .image-gallery::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  .image-gallery::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+
+  .image-gallery::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.3);
+    border-radius: 10px;
+  }
+
+  .text-blurb p {
+    margin-bottom: 0.25rem;
+  }
+</style>

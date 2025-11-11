@@ -1,0 +1,155 @@
+{{ define "main" }}
+  <header>
+    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+  </header>
+
+  <section class="mt-8 prose dark:prose-invert max-w-full">
+    {{ .Content }}
+  </section>
+
+  <div class="filter-section mb-4 mt-8">
+    <h3 class="text-sm font-bold mb-2">Filter by category:</h3>
+    <div class="category-buttons flex gap-2 flex-wrap mb-6">
+      <button class="category-btn active text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-category="all">all</button>
+      <button class="category-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-category="video">video</button>
+      <button class="category-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-category="live">live</button>
+      <button class="category-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-category="neither">neither</button>
+      <button class="category-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-category="teaching">teaching</button>
+      <button class="category-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-category="social-media-work">social media</button>
+    </div>
+  </div>
+
+  <div class="flex justify-between items-center mb-6">
+    <div class="filter-section">
+      <button id="tagFilterToggle" class="text-sm font-bold flex items-center gap-1 cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+        <span>Filter by tags</span>
+        <span id="tagToggleIcon">▼</span>
+      </button>
+    </div>
+
+    <div>
+      <label class="text-sm">sort: </label>
+      <select id="sortSelect" class="text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-800">
+        <option value="date-desc">newest first</option>
+        <option value="date-asc">oldest first</option>
+        <option value="title">title (a-z)</option>
+      </select>
+    </div>
+  </div>
+
+  <div id="tagFilterContent" class="hidden mb-6">
+    <div class="tag-buttons flex gap-2 flex-wrap mb-2">
+      {{ $allTags := slice }}
+      {{ range where .Site.RegularPages "Type" "projects" }}
+        {{ range .Params.tags }}
+          {{ $allTags = $allTags | append . }}
+        {{ end }}
+      {{ end }}
+      {{ $uniqueTags := $allTags | uniq | sort }}
+
+      {{ range $uniqueTags }}
+      <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="{{ . | urlize }}">{{ . }}</button>
+      {{ end }}
+    </div>
+    <p class="text-xs text-neutral-500">Click multiple tags (AND logic)</p>
+  </div>
+
+  <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3" id="article-container">
+    {{ range where .Site.RegularPages "Type" "projects" }}
+      <article data-categories="{{ delimit (apply .Params.categories "urlize" ".") "," }}"
+               data-tags="{{ delimit (apply .Params.tags "urlize" ".") "," }}">
+        {{ partial "article-link/card.html" . }}
+      </article>
+    {{ end }}
+  </section>
+
+  <style>
+    .category-btn.active, .tag-btn.active {
+      background-color: rgb(var(--color-primary-600));
+      color: white;
+      border-color: rgb(var(--color-primary-600));
+    }
+    .category-btn:hover, .tag-btn:hover {
+      background-color: rgb(var(--color-primary-500));
+      color: white;
+    }
+  </style>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const categoryBtns = document.querySelectorAll('.category-btn');
+    const tagBtns = document.querySelectorAll('.tag-btn');
+    const articles = document.querySelectorAll('#article-container > article');
+
+    let activeCategory = 'all';
+    let activeTags = new Set();
+
+    articles.forEach(article => article.style.display = '');
+
+    const tagToggle = document.getElementById('tagFilterToggle');
+    const tagContent = document.getElementById('tagFilterContent');
+    const tagIcon = document.getElementById('tagToggleIcon');
+
+    tagToggle.addEventListener('click', function() {
+      tagContent.classList.toggle('hidden');
+      tagIcon.textContent = tagContent.classList.contains('hidden') ? '▼' : '▲';
+    });
+
+    categoryBtns.forEach(btn => {
+      btn.addEventListener('click', function() {
+        categoryBtns.forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        activeCategory = this.dataset.category;
+        applyFilters();
+      });
+    });
+
+    tagBtns.forEach(btn => {
+      btn.addEventListener('click', function() {
+        const tag = this.dataset.tag;
+
+        if (activeTags.has(tag)) {
+          activeTags.delete(tag);
+          this.classList.remove('active');
+        } else {
+          activeTags.add(tag);
+          this.classList.add('active');
+        }
+
+        applyFilters();
+      });
+    });
+
+    function applyFilters() {
+      articles.forEach(article => {
+        const categories = article.dataset.categories.split(',');
+        const tags = article.dataset.tags.split(',');
+
+        const categoryMatch = activeCategory === 'all' || categories.includes(activeCategory);
+        const tagMatch = activeTags.size === 0 ||
+                        [...activeTags].every(tag => tags.includes(tag));
+
+        article.style.display = (categoryMatch && tagMatch) ? '' : 'none';
+      });
+    }
+
+    const select = document.getElementById('sortSelect');
+    const container = document.getElementById('article-container');
+
+    select.addEventListener('change', function() {
+      const sorted = Array.from(articles).sort((a, b) => {
+        const timeA = a.querySelector('time')?.getAttribute('datetime') || '';
+        const timeB = b.querySelector('time')?.getAttribute('datetime') || '';
+        const titleA = a.querySelector('h2')?.textContent.toLowerCase() || '';
+        const titleB = b.querySelector('h2')?.textContent.toLowerCase() || '';
+
+        if (this.value === 'date-desc') return timeB.localeCompare(timeA);
+        if (this.value === 'date-asc') return timeA.localeCompare(timeB);
+        return titleA.localeCompare(titleB);
+      });
+
+      sorted.forEach(a => container.appendChild(a));
+    });
+  });
+  </script>
+{{ end }}

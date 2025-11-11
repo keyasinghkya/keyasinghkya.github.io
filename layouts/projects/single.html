@@ -1,0 +1,80 @@
+{{ define "main" }}
+<article class="project-page prose dark:prose-invert max-w-none" id="project-content">
+  <header class="mb-10 pt-32" style="text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);">
+    <h1 class="mt-0 text-4xl font-extrabold text-white mb-2">{{ .Title }}</h1>
+
+    {{ if .Params.subtitle }}
+    <p class="text-xl text-neutral-200 mb-3">{{ .Params.subtitle }}</p>
+    {{ end }}
+
+    <div class="project-meta text-sm text-neutral-200 flex items-center gap-1.5 mb-3">
+      {{ if .Params.year }}
+      <span>{{ .Params.year }}</span>
+      {{ end }}
+
+      {{ if .Params.medium }}
+      {{ if .Params.year }}
+      <span class="text-primary-400 mx-1">·</span>
+      {{ end }}
+      <span>{{ .Params.medium }}</span>
+      {{ end }}
+    </div>
+
+    {{ if .Params.tags }}
+    <div class="flex flex-wrap gap-1.5">
+      {{ range .Params.tags }}
+      <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"
+         class="text-xs px-2 py-1 rounded border border-primary-400 bg-black/40 text-primary-300 backdrop-blur-sm no-underline hover:bg-primary-600 hover:text-white transition-colors">
+        {{ . }}
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </header>
+
+  <div class="project-content">
+    {{ .Content }}
+  </div>
+</article>
+
+<style>
+.project-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  transition: max-width 0.3s ease;
+}
+
+/* If TOC exists, make content narrower */
+body:has(#floating-toc) .project-page {
+  max-width: 850px;
+  margin-right: auto;
+  margin-left: 2rem;
+}
+
+.project-content {
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.project-content h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.project-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+@media (max-width: 1280px) {
+  body:has(#floating-toc) .project-page {
+    max-width: 1100px;
+    margin-left: auto;
+  }
+}
+</style>
+{{ end }}

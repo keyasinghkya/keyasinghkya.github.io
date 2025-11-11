@@ -1,0 +1,99 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+#
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+# Top level menu
+
+[[main]]
+  name = "ヾ( ˃ᴗ˂ )◞ • *"
+  pageRef = "about"
+  weight = 10
+
+[[main]]
+  name = "projects ⋆.𐙚˚"
+  pageRef = "projects"
+  weight = 20
+
+[[main]]
+  name = "blog╭ರ_•́"
+  pageRef = "posts"
+  weight = 30
+
+# Projects submenu
+[[main]]
+  name = "♡´ video ♡´"
+  parent = "projects ⋆.𐙚˚"
+  pageRef = "categories/video"
+  weight = 1
+
+[[main]]
+  name = "live ৻(•̀ᗜ •́৻)"
+  parent = "projects ⋆.𐙚˚"
+  pageRef = "categories/live"
+  weight = 2
+
+[[main]]
+  name = "₍^. .^₎⟆ neither"
+  parent = "projects ⋆.𐙚˚"
+  pageRef = "categories/neither"
+  weight = 3
+
+[[main]]
+  name = "teaching ˶ᵔ ᵕ ᵔ˶"
+  parent = "projects ⋆.𐙚˚"
+  pageRef = "categories/teaching"
+  weight = 4
+
+[[main]]
+  name = "social media work"
+  parent = "projects ⋆.𐙚˚"
+  pageRef = "categories/social-media-work"
+  weight = 5
+
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+[[footer]]
+  name = "categories.𖥔 📁 ࣪"
+  pageRef = "categories"
+  weight = 10
+
+[[footer]]
+  name = "tags ༘⋆ 🏷"
+  pageRef = "tags"
+  weight = 20
+
+[[footer]]
+  name = "email"
+  url = "mailto:keyas95@gmail.com"
+  weight = 30
+
+[[footer]]
+   name = "vimeo"
+   url = "https://vimeo.com/keyasingh"
+   weight = 40
+
+[[footer]]
+   name = "soundcloud"
+   url = "https://soundcloud.com/keyasingh"
+   weight = 50
+
+[[footer]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/keyasingh/"
+  weight = 60
+
+[[footer]]
+  name = "instagram"
+  url = "https://www.instagram.com/keyasinghkya"
+  weight = 70

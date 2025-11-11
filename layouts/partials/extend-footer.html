@@ -1,0 +1,5 @@
+<script>
+  // Disable medium-zoom globally by setting a safe no-op on window
+  // (This ensures other scripts calling mediumZoom won't throw; change if you want the library enabled.)
+  window.mediumZoom = function() { return { attach: function() {} }; };
+</script>

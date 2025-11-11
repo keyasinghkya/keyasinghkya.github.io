@@ -1,0 +1,3 @@
+{{ $randomColor := resources.Get "js/random-color.js" }}
+{{ $randomColor = $randomColor | resources.Minify }}
+<script>{{ $randomColor.Content | safeJS }}</script>

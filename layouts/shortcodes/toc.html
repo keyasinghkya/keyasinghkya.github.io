@@ -1,0 +1,206 @@
+<div id="floating-toc" class="floating-toc">
+  <button id="toc-toggle" class="toc-toggle">
+    <span id="toc-icon">☰</span> Contents
+  </button>
+  <div id="toc-content" class="toc-content">
+    <h3 class="text-sm font-bold mb-3 text-neutral-900 dark:text-neutral">On this page</h3>
+    <nav id="toc-nav">
+      {{ if eq .Page.Type "projects" }}
+      <!-- Custom sections for projects -->
+      <ul id="toc-list">
+        <li><a href="#about">About</a></li>
+        <li id="documentation-item"><a href="#documentation">Documentation</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#related">Related</a></li>
+        <li><a href="#press">Press</a></li>
+        <li><a href="#credits">Credits</a></li>
+      </ul>
+      {{ else }}
+      <!-- Auto-generated TOC for blog posts -->
+      {{ .Page.TableOfContents }}
+      {{ end }}
+    </nav>
+  </div>
+</div>
+
+<style>
+.floating-toc {
+  position: fixed;
+  right: 2rem;
+  top: 120px;
+  width: 280px;
+  z-index: 0;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  border: 2px solid rgb(var(--color-primary-400));
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.dark .floating-toc {
+  background: rgb(var(--color-neutral-800));
+  border-color: rgb(var(--color-primary-600));
+}
+
+.toc-toggle {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: rgba(var(--color-primary-600), 0.3);
+  color: white;
+  border: none;
+  border-radius: 0.5rem 0.5rem 0 0;
+  cursor: pointer;
+  font-weight: 600;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background 0.2s;
+}
+
+.toc-toggle:hover {
+  background: rgb(var(--color-primary-700));
+}
+
+.toc-content {
+  max-height: 70vh;
+  overflow-y: auto;
+  padding: 1rem;
+  display: block;
+}
+
+.toc-content.hidden {
+  display: none;
+}
+
+.floating-toc nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.floating-toc nav ul ul {
+  padding-left: 1rem;
+  margin-top: 0.25rem;
+}
+
+.floating-toc nav li {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.floating-toc nav a {
+  color: rgb(var(--color-neutral-700));
+  text-decoration: none;
+  transition: color 0.2s;
+  display: block;
+}
+
+.floating-toc nav a:hover {
+  color: rgb(var(--color-primary-600));
+}
+
+.dark .floating-toc nav a {
+  color: rgb(var(--color-neutral-300));
+}
+
+.dark .floating-toc nav a:hover {
+  color: rgb(var(--color-primary-400));
+}
+
+@media (min-width: 1280px) and (max-width: 1600px) {
+  .floating-toc {
+    right: 1rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .floating-toc {
+    right: calc((100vw - 1200px) / 2 - 320px);
+  }
+}
+
+@media (max-width: 1280px) {
+  .floating-toc {
+    display: none;
+  }
+}
+
+.toc-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.toc-content::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.05);
+}
+
+.toc-content::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.4);
+  border-radius: 10px;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Toggle functionality
+  const toggle = document.getElementById('toc-toggle');
+  const content = document.getElementById('toc-content');
+  const icon = document.getElementById('toc-icon');
+
+  if (toggle && content && icon) {
+    toggle.addEventListener('click', function() {
+      content.classList.toggle('hidden');
+      icon.textContent = content.classList.contains('hidden') ? '☰' : '✕';
+    });
+  }
+
+  // Hide TOC items that don't have corresponding content on the page
+  const tocList = document.getElementById('toc-list');
+  if (tocList) {
+    const tocItems = tocList.querySelectorAll('li');
+    tocItems.forEach(function(item) {
+      const link = item.querySelector('a');
+      if (link) {
+        const href = link.getAttribute('href');
+        const targetId = href.substring(1); // Remove the #
+        const target = document.getElementById(targetId);
+
+        // If target doesn't exist, hide the TOC item (unless it's documentation-item which gets galleries)
+        if (!target && item.id !== 'documentation-item') {
+          item.style.display = 'none';
+        }
+      }
+    });
+  }
+
+  // Auto-generate TOC from gallery titles (only for project pages)
+  const galleries = document.querySelectorAll('.gallery-box h3');
+  const documentationItem = document.getElementById('documentation-item');
+
+  if (galleries.length > 0 && documentationItem) {
+    const submenu = document.createElement('ul');
+    galleries.forEach(function(gallery, index) {
+      const title = gallery.textContent;
+      const anchor = 'gallery-' + index;
+      gallery.id = anchor;
+
+      const li = document.createElement('li');
+      const link = document.createElement('a');
+      link.href = '#' + anchor;
+      link.textContent = title;
+      li.appendChild(link);
+      submenu.appendChild(li);
+    });
+
+    documentationItem.appendChild(submenu);
+    // Show the documentation item since it has gallery content
+    documentationItem.style.display = '';
+  } else if (documentationItem) {
+    // If no galleries, check if #documentation section exists
+    const docSection = document.getElementById('documentation');
+    if (!docSection) {
+      documentationItem.style.display = 'none';
+    }
+  }
+});
+</script>

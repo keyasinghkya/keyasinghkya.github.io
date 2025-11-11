@@ -1,0 +1,144 @@
+{{ define "main" }}
+  <header>
+    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+  </header>
+
+  <section class="mt-8 prose dark:prose-invert max-w-full">
+    {{ .Content }}
+  </section>
+
+  <!-- FILTERS AND SORT ROW -->
+  <div class="flex justify-between items-center mb-6 mt-8">
+    <div class="filter-section">
+      <button id="tagFilterToggle" class="text-sm font-bold flex items-center gap-1 cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+        <span>Filter by tags</span>
+        <span id="tagToggleIcon">▼</span>
+      </button>
+    </div>
+
+    <div>
+      <label class="text-sm">sort: </label>
+      <select id="sortSelect" class="text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-800">
+        <option value="date-desc">newest first</option>
+        <option value="date-asc">oldest first</option>
+        <option value="title">title (a-z)</option>
+      </select>
+    </div>
+  </div>
+
+  <div id="tagFilterContent" class="hidden mb-6">
+    <div class="filter-buttons flex gap-2 flex-wrap mb-2">
+      <button class="filter-btn active text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="all">all</button>
+
+      {{ $allTags := slice }}
+      {{ range where .Site.RegularPages "Type" "posts" }}
+        {{ range .Params.tags }}
+          {{ $allTags = $allTags | append . }}
+        {{ end }}
+      {{ end }}
+      {{ $uniqueTags := $allTags | uniq | sort }}
+
+      {{ range $uniqueTags }}
+      <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="{{ . | urlize }}">{{ . }}</button>
+      {{ end }}
+    </div>
+    <p class="text-xs text-neutral-500">Click multiple tags (AND logic)</p>
+  </div>
+
+  <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3" id="article-container">
+    {{ range where .Site.RegularPages "Type" "posts" }}
+      <article data-tags="{{ delimit (apply .Params.tags "urlize" ".") "," }}">
+        {{ partial "article-link/card.html" . }}
+      </article>
+    {{ end }}
+  </section>
+
+  <style>
+    .filter-btn.active {
+      background-color: rgb(var(--color-primary-600));
+      color: white;
+      border-color: rgb(var(--color-primary-600));
+    }
+    .filter-btn:hover {
+      background-color: rgb(var(--color-primary-500));
+      color: white;
+    }
+  </style>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const articles = document.querySelectorAll('#article-container > article');
+    let activeFilters = new Set(['all']);
+
+    articles.forEach(article => article.style.display = '');
+
+    const tagToggle = document.getElementById('tagFilterToggle');
+    const tagContent = document.getElementById('tagFilterContent');
+    const tagIcon = document.getElementById('tagToggleIcon');
+
+    tagToggle.addEventListener('click', function() {
+      tagContent.classList.toggle('hidden');
+      tagIcon.textContent = tagContent.classList.contains('hidden') ? '▼' : '▲';
+    });
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', function() {
+        const filter = this.dataset.filter;
+
+        if (filter === 'all') {
+          activeFilters.clear();
+          activeFilters.add('all');
+          filterBtns.forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+        } else {
+          activeFilters.delete('all');
+          document.querySelector('[data-filter="all"]').classList.remove('active');
+
+          if (activeFilters.has(filter)) {
+            activeFilters.delete(filter);
+            this.classList.remove('active');
+          } else {
+            activeFilters.add(filter);
+            this.classList.add('active');
+          }
+
+          if (activeFilters.size === 0) {
+            activeFilters.add('all');
+            document.querySelector('[data-filter="all"]').classList.add('active');
+          }
+        }
+
+        articles.forEach(article => {
+          const tags = article.dataset.tags.split(',');
+
+          if (activeFilters.has('all')) {
+            article.style.display = '';
+          } else {
+            const hasAllTags = [...activeFilters].every(filter => tags.includes(filter));
+            article.style.display = hasAllTags ? '' : 'none';
+          }
+        });
+      });
+    });
+
+    const select = document.getElementById('sortSelect');
+    const container = document.getElementById('article-container');
+
+    select.addEventListener('change', function() {
+      const sorted = Array.from(articles).sort((a, b) => {
+        const timeA = a.querySelector('time')?.getAttribute('datetime') || '';
+        const timeB = b.querySelector('time')?.getAttribute('datetime') || '';
+        const titleA = a.querySelector('h2')?.textContent.toLowerCase() || '';
+        const titleB = b.querySelector('h2')?.textContent.toLowerCase() || '';
+
+        if (this.value === 'date-desc') return timeB.localeCompare(timeA);
+        if (this.value === 'date-asc') return timeA.localeCompare(timeB);
+        return titleA.localeCompare(titleB);
+      });
+
+      sorted.forEach(a => container.appendChild(a));
+    });
+  });
+  </script>
+{{ end }}
