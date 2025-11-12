@@ -1,26 +1,25 @@
 <div class="gallery-box border-4 border-neutral-300 dark:border-neutral-600 rounded-lg p-6 my-8">
   {{ if .Get "title" }}
-  <h3 class="text-xl font-bold mb-2">{{ .Get "title" }}</h3>
+  <h3 class="gallery-title text-xl font-bold mb-1">{{ .Get "title" }}</h3>
   {{ end }}
 
-  {{ if .Get "date" }}
-  <p class="text-sm text-primary-600 dark:text-primary-400 mb-2">{{ .Get "date" }}</p>
+  <!-- Location and Date on same line -->
+  {{ if or (.Get "location") (.Get "date") }}
+  <p class="gallery-location text-sm mb-2">
+    {{ if .Get "location" }}{{ .Get "location" }}{{ end }}
+    {{ if and (.Get "location") (.Get "date") }}, {{ end }}
+    {{ if .Get "date" }}{{ .Get "date" }}{{ end }}
+  </p>
   {{ end }}
 
-  <!-- TEXT BLURB -->
-  {{ if or (.Get "location") (.Get "year") (.Get "city") (.Get "country") (.Get "format") }}
-  <div class="text-blurb text-sm text-neutral-600 dark:text-neutral-400 mb-4">
-    {{ if .Get "location" }}<p>{{ .Get "location" }}</p>{{ end }}
-    {{ if or (.Get "city") (.Get "country") }}
-    <p>
-      {{ if .Get "city" }}{{ .Get "city" }}{{ end }}
-      {{ if and (.Get "city") (.Get "country") }},{{ end }}
-      {{ if .Get "country" }}{{ .Get "country" }}{{ end }}
-    </p>
-    {{ end }}
-    {{ if .Get "year" }}<p>{{ .Get "year" }}</p>{{ end }}
-    {{ if .Get "format" }}<p class="italic">{{ .Get "format" }}</p>{{ end }}
-  </div>
+  <!-- Short description text -->
+  {{ if .Get "description" }}
+  <p class="gallery-description text-sm mb-2">{{ .Get "description" }}</p>
+  {{ end }}
+
+  <!-- Image credits -->
+  {{ if .Get "credits" }}
+  <p class="gallery-credits text-xs italic mb-4">{{ .Get "credits" }}</p>
   {{ end }}
 
   <div class="image-gallery">
@@ -38,6 +37,40 @@
 </div>
 
 <style>
+  .gallery-title {
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9),
+                 0 0 20px rgba(0, 0, 0, 0.8);
+  }
+
+  .gallery-location {
+    color: rgb(var(--color-primary-400));
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9),
+                 0 0 10px rgba(0, 0, 0, 0.7);
+  }
+
+  .dark .gallery-location {
+    color: rgb(var(--color-primary-300));
+  }
+
+  .gallery-description {
+    color: rgba(255, 255, 255, 0.95);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+  }
+
+  .dark .gallery-description {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .gallery-credits {
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+  }
+
+  .dark .gallery-credits {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
   .image-gallery {
     display: flex;
     overflow-x: auto;
@@ -77,7 +110,6 @@
       height: 400px;
       min-width: 300px;
     }
-
     .image-caption {
       max-width: 300px;
     }
@@ -88,7 +120,6 @@
       height: 300px;
       min-width: 250px;
     }
-
     .image-caption {
       max-width: 250px;
     }
@@ -106,9 +137,5 @@
   .image-gallery::-webkit-scrollbar-thumb {
     background: rgba(0,0,0,0.3);
     border-radius: 10px;
-  }
-
-  .text-blurb p {
-    margin-bottom: 0.25rem;
   }
 </style>
