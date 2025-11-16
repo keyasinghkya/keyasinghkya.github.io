@@ -481,7 +481,7 @@
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -497,13 +497,20 @@
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
@@ -631,7 +638,7 @@ In 2019, as part of a collective, I explored overlapping presences in a mixed re
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -647,13 +654,20 @@ In 2019, as part of a collective, I explored overlapping presences in a mixed re
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
@@ -680,7 +694,7 @@ Self-reflection comes through even more clearly often with the help of others. W
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -696,13 +710,20 @@ Self-reflection comes through even more clearly often with the help of others. W
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
@@ -1033,7 +1054,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -1049,13 +1070,20 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
@@ -1102,7 +1130,7 @@ While interning at Teren in 2020, I filmed and edited a series of videos for a s
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -1118,13 +1146,20 @@ While interning at Teren in 2020, I filmed and edited a series of videos for a s
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
@@ -1459,7 +1494,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -1475,13 +1510,20 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
@@ -1508,7 +1550,7 @@ A (hyper)realistic representation of what it would be like to party with myself 
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -1524,13 +1566,20 @@ A (hyper)realistic representation of what it would be like to party with myself 
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
@@ -1557,7 +1606,7 @@ A (hyper)realistic representation of what it would be like to party with myself 
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -1573,13 +1622,20 @@ A (hyper)realistic representation of what it would be like to party with myself 
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
@@ -1616,7 +1672,7 @@ A (hyper)realistic representation of what it would be like to party with myself 
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -1632,13 +1688,20 @@ A (hyper)realistic representation of what it would be like to party with myself 
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }

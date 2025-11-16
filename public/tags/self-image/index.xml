@@ -37,7 +37,7 @@ So far the longest set I have made, this was a great opportunity to see how far 
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -53,13 +53,20 @@ So far the longest set I have made, this was a great opportunity to see how far 
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
@@ -362,7 +369,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -378,13 +385,20 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
@@ -411,7 +425,7 @@ A (hyper)realistic representation of what it would be like to party with myself 
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -427,13 +441,20 @@ A (hyper)realistic representation of what it would be like to party with myself 
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
@@ -460,7 +481,7 @@ A (hyper)realistic representation of what it would be like to party with myself 
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -476,13 +497,20 @@ A (hyper)realistic representation of what it would be like to party with myself 
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }

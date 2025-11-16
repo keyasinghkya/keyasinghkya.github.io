@@ -12,9 +12,6 @@ tags:
   - video essay
 draft: false
 ---
-{{< two-column
-  images="/images/denle-ostrava-3.jpeg,/images/denle-ostrava-2.jpeg,/images/denle-ostrava-1.jpeg,/images/denle-ostrava-4.jpeg,/images/spotlight-ostrava-1.jpg,/images/spotlight-ostrava-2.jpg,/images/spotlight-ostrava-3.jpg,/images/spotlight-ostrava-6.jpg,/images/spotlight-ostrava-7.jpg"
-  caption="Photo documentation by Jana Macečková">}}
 **Solo exhibition at Galerie Provoz, Ostrava**
 
 ![](/images/ostrava-exhib2.png)
@@ -44,7 +41,9 @@ Druhá video inštalácia s názvom Denle Chayote sa ponára do komplexnosti ide
 
 Rozhodnutie vystavovania práve týchto dvoch diel, ktoré priamo odkazujú na názov výstavy hey, look what’s staring back at you (ktorý je inšpirovaný pesničkou Shit Mirror od Nine Inch Nails), priamo konfrontuje diváka s pohľadom, kedy divák sám sleduje seba, alebo sleduje postavu, ktorá nejasne stotožňuje ideu, či artefakt kultúrnych totožností. Určitá polarita, alebo pomyselné hľadenie diel samotných oproti sebe, má ešte podporovať celú ideu určitého státia proti sebe, nie však v opozícií.
 
-{{< /two-column >}}
+{{< gallery
+  images="/images/denle-ostrava-3.jpeg,/images/denle-ostrava-2.jpeg,/images/denle-ostrava-1.jpeg,/images/denle-ostrava-4.jpeg,/images/spotlight-ostrava-1.jpg,/images/spotlight-ostrava-2.jpg,/images/spotlight-ostrava-3.jpg,/images/spotlight-ostrava-6.jpg,/images/spotlight-ostrava-7.jpg"
+  description="Photo documentation by Jana Macečková">}}
 
 ## Related
 {{< related-links >}}

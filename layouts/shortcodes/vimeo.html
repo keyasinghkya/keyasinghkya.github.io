@@ -1,5 +1,5 @@
-<div class="vimeo-responsive {{ if .Get "portrait" }}portrait{{ end }}" style="margin: 2rem 0;">
-  <iframe src="https://player.vimeo.com/video/{{ .Get 0 }}{{ with .Get "id" }}{{ . }}{{ end }}?responsive=1"
+<div class="vimeo-responsive {{ if .Get "portrait" }}portrait{{ end }}{{ if eq (.Get "orientation") "portrait" }}portrait{{ end }}{{ if eq (.Get "orientation") "square" }}square{{ end }}" style="margin: 2rem 0;">
+  <iframe src="https://player.vimeo.com/video/{{ if .Get "id" }}{{ .Get "id" }}{{ else }}{{ .Get 0 }}{{ end }}?responsive=1"
           frameborder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           allowfullscreen>
@@ -9,7 +9,7 @@
 <style>
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -25,13 +25,20 @@
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%; /* 9:16 */
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }

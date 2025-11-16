@@ -15,9 +15,7 @@
       <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/ostrava-solo/</guid>
-      <description>&lt;div class=&#34;two-column-layout&#34;&gt;
-  &lt;div class=&#34;two-column-text&#34;&gt;
-    &lt;p&gt;&lt;strong&gt;Solo exhibition at Galerie Provoz, Ostrava&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Solo exhibition at Galerie Provoz, Ostrava&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img
     class=&#34;my-0 rounded-md&#34;
     loading=&#34;lazy&#34;
@@ -67,7 +65,7 @@
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -83,13 +81,20 @@
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
@@ -136,7 +141,7 @@ This work is an attempt to delve into the complexities of identity, culture, and
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -152,13 +157,20 @@ This work is an attempt to delve into the complexities of identity, culture, and
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
@@ -194,7 +206,7 @@ Edward Said interviewed by Salman Rushdie (1986)&lt;/p&gt;</description>
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -210,13 +222,20 @@ Edward Said interviewed by Salman Rushdie (1986)&lt;/p&gt;</description>
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }

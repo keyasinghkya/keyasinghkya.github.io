@@ -26,7 +26,7 @@
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -42,13 +42,20 @@
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
@@ -96,7 +103,7 @@ the body provides us a sensual experience of itself, others and the world. in re
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -112,13 +119,20 @@ the body provides us a sensual experience of itself, others and the world. in re
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
@@ -168,7 +182,7 @@ The Slovak dialogues were translated by amoebadam and all the subtitling was don
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -184,13 +198,20 @@ The Slovak dialogues were translated by amoebadam and all the subtitling was don
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
@@ -217,7 +238,7 @@ Self-reflection comes through even more clearly often with the help of others. W
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -233,13 +254,20 @@ Self-reflection comes through even more clearly often with the help of others. W
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
@@ -281,7 +309,7 @@ I was asked to create a video using curated archive footage by Matyaš Dlab (dra
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -297,13 +325,20 @@ I was asked to create a video using curated archive footage by Matyaš Dlab (dra
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
@@ -356,7 +391,7 @@ While interning at Teren in 2020, I filmed and edited a series of videos for a s
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -372,13 +407,20 @@ While interning at Teren in 2020, I filmed and edited a series of videos for a s
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
@@ -414,7 +456,7 @@ Edward Said interviewed by Salman Rushdie (1986)&lt;/p&gt;</description>
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -430,13 +472,20 @@ Edward Said interviewed by Salman Rushdie (1986)&lt;/p&gt;</description>
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
@@ -463,7 +512,7 @@ A (hyper)realistic representation of what it would be like to party with myself 
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -479,13 +528,20 @@ A (hyper)realistic representation of what it would be like to party with myself 
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
@@ -512,7 +568,7 @@ A (hyper)realistic representation of what it would be like to party with myself 
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -528,13 +584,20 @@ A (hyper)realistic representation of what it would be like to party with myself 
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
@@ -571,7 +634,7 @@ A (hyper)realistic representation of what it would be like to party with myself 
 &lt;style&gt;
 .vimeo-responsive {
   position: relative;
-  padding-bottom: 56.25%;  
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 1067px;
@@ -587,13 +650,20 @@ A (hyper)realistic representation of what it would be like to party with myself 
 }
 
 .vimeo-responsive.portrait {
-  padding-bottom: 177.78%;  
+  padding-bottom: 177.78%;
   max-width: 450px;
   margin: 2rem auto;
 }
 
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
 @media (max-width: 768px) {
-  .vimeo-responsive.portrait {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
     max-width: 90%;
   }
 }
