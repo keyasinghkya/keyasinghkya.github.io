@@ -149,6 +149,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Build TOC for project pages
   const tocList = document.getElementById('toc-list');
+
   if (tocList) {
     const contentArea = document.querySelector('.project-content, article, main');
     if (!contentArea) return;
@@ -223,6 +224,34 @@ document.addEventListener('DOMContentLoaded', function() {
       });
 
       documentationItem.appendChild(submenu);
+    }
+  } else {
+    // For blog posts - add gallery-blog titles to existing TOC
+    const tocNav = document.querySelector('#toc-nav');
+    if (tocNav) {
+      const blogGalleries = document.querySelectorAll('.blog-gallery-box h3');
+
+      if (blogGalleries.length > 0) {
+        let blogTocList = tocNav.querySelector('ul');
+        if (!blogTocList) {
+          blogTocList = document.createElement('ul');
+          tocNav.appendChild(blogTocList);
+        }
+
+        blogGalleries.forEach(function(gallery, index) {
+          const title = gallery.textContent;
+          if (!gallery.id) {
+            gallery.id = 'blog-gallery-' + index;
+          }
+
+          const li = document.createElement('li');
+          const link = document.createElement('a');
+          link.href = '#' + gallery.id;
+          link.textContent = title;
+          li.appendChild(link);
+          blogTocList.appendChild(li);
+        });
+      }
     }
   }
 });

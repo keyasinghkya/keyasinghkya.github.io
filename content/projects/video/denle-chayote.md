@@ -15,8 +15,9 @@ tags:
   - media theory
   - personal archiving
   - exchange
-  - reflection
+  - reflective
   - video essay
+  - bad-chroma-keying
 draft: false
 ---
 
@@ -29,8 +30,9 @@ This work is an attempt to delve into the complexities of identity, culture, and
   images="/images/denle-avu-1.JPG,/images/denle-avu-2.JPG,/images/denle-avu-3.JPG,/images/denle-avu-4.JPG,/images/denle-avu-5.JPG">}}
 
 {{< gallery
-  title="at \"hey look what's staring back at you\" at Galerie Provoz, Ostrava"
-  description="during my solo show"
+  title="at \"hey look what's staring back at you\""
+  date="11/02 - 25/02 2025, a solo show at Galerie Provoz in Ostrava"
+  credits="Photo documentation by Jana Macečková."
   images="/images/denle-ostrava-1.jpeg,/images/denle-ostrava-2.jpeg,/images/denle-ostrava-3.jpeg,/images/denle-ostrava-4.jpeg">}}
 
 **Starring:**  
@@ -48,3 +50,7 @@ Spanish translation: Rigo
 Czech subtitles: Lamija Čehajić  
 MUA: Bára Wünscher  
 Chayote prop: Omar El Sadek
+
+{{< related-links >}}
+  - [hey look what's staring back at you](/posts/ostrava-solo)
+{{< /related-links >}}

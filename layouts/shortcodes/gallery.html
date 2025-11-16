@@ -54,7 +54,7 @@
 
       <div class="gallery-item">
         {{ if ne $vimeoID "" }}
-          <div class="video-embed{{ if eq $orientation "portrait" }} portrait{{ end }}">
+          <div class="video-embed{{ if eq $orientation "portrait" }} portrait{{ else if eq $orientation "square" }} square{{ end }}">
             <iframe src="https://player.vimeo.com/video/{{ $vimeoID }}"
                     frameborder="0"
                     allow="autoplay; fullscreen; picture-in-picture"
@@ -62,7 +62,7 @@
             </iframe>
           </div>
         {{ else if ne $youtubeID "" }}
-          <div class="video-embed{{ if eq $orientation "portrait" }} portrait{{ end }}">
+          <div class="video-embed{{ if eq $orientation "portrait" }} portrait{{ else if eq $orientation "square" }} square{{ end }}">
             <iframe src="https://www.youtube.com/embed/{{ $youtubeID }}"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -71,7 +71,7 @@
           </div>
         {{ else if ne $image "" }}
           {{ if or (strings.HasSuffix $image ".mp4") (strings.HasSuffix $image ".mov") }}
-            <div class="video-embed{{ if eq $orientation "portrait" }} portrait{{ end }}">
+            <div class="video-embed{{ if eq $orientation "portrait" }} portrait{{ else if eq $orientation "square" }} square{{ end }}">
               <video controls preload="metadata">
                 <source src="{{ $image }}" type="video/mp4">
               </video>
@@ -195,11 +195,16 @@
     aspect-ratio: 9/16;
   }
 
+  /* Square videos (1:1) */
+  .video-embed.square {
+    width: 600px;
+    aspect-ratio: 1/1;
+  }
+
   .image-caption {
     margin-top: 0.5rem;
-    font-size: 0.875rem;
+    font-size: 1rem;
     color: rgb(var(--color-neutral-600));
-    max-width: 450px;
   }
 
   .video-embed ~ .image-caption {
@@ -208,6 +213,10 @@
 
   .video-embed.portrait ~ .image-caption {
     max-width: 338px;
+  }
+
+  .video-embed.square ~ .image-caption {
+    max-width: 600px;
   }
 
   .dark .image-caption {
@@ -232,6 +241,11 @@
       aspect-ratio: 9/16;
     }
 
+    .video-embed.square {
+      width: 85vw;
+      aspect-ratio: 1/1;
+    }
+
     .image-caption {
       max-width: 85vw;
     }
@@ -249,6 +263,10 @@
 
     .video-embed.portrait {
       width: 65vw;
+    }
+
+    .video-embed.square {
+      width: 90vw;
     }
 
     .image-caption {

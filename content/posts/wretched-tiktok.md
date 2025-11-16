@@ -30,8 +30,7 @@ draft: false
 - disassembling existing films and videos to conform to alternative, artificial political bodies
 - moments created by editing, in editing
 - physical intimacy is seen by her as a condenser of this notion of reproduction: redistributing affects, desire and creating bodies via movement and love
-
-{{< vimeo id="1137027038">}}
+  {{<vimeo id="1137027038">}}
 
 ## 2. In Defense of the Poor Image (pp 31-45)
 - the poor image is copy that deteriorates as it accelerates into circulation/motion
@@ -47,8 +46,7 @@ draft: false
 - the poor image constructs global networks of translations or mistranslations along with new publics and debates
 - the poor image creates saturation and confusion along with moments of thought and affect
 - the poor image is no longer about the original or the real; it is about reality
-
-{{< vimeo id="1137027007">}}
+{{< vimeo id="1137027007" >}}
 
 ## 3. The Spam of the Earth: Withdrawal from Representation (pp 160-175)
 - a reserve army of digitally enhanced creatures who resemble the minor demons and angels of mystic speculation, luring, pushing, and blackmailing people into the profane rapture of consumption
@@ -65,6 +63,7 @@ draft: false
 - image spam people are double agents; they are continuously smiling but not saying anything !!!
   {{< vimeo id="1137026959" portrait="true" >}}
 
+
 ## 4. A Thing Like You and Me (pp 46-59)
 - 1977 brings the end of the New Left (refers to RAF’s descent into political sectarianism) + the Strangers declare that “heroism is over”
 - 1977 also brings David Bowie’s “heroes” = packaged Bowie’s post-gender that is no longer an icon just an image (nothing but an image)
@@ -79,6 +78,7 @@ draft: false
 - (referring to benjamin’s notion of history as a pile of rubble as seen from the pov of an angel): we are not the angel, we are the rubble
 - “Because they (actors) love the pixel, not the hero. The hero is dead. Long live the thing.”
   {{< vimeo id="1137026915" portrait="true" >}}
+
 
 ## 5. Politics of Art: Contemporary Art and the Transition to Post-Democracy (pp 92-101)
 - politics of art = viewing the field of art as a place of work

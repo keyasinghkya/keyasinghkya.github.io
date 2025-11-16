@@ -1,0 +1,71 @@
+<div class="two-column-layout">
+  <div class="two-column-text">
+    {{ .Inner | markdownify }}
+  </div>
+  <div class="two-column-images">
+    {{ if .Get "caption" }}
+    <p class="images-caption">{{ .Get "caption" }}</p>
+    {{ end }}
+
+    {{ $imagesParam := .Get "images" | default "" }}
+    {{ $images := split $imagesParam "," }}
+    {{ range $images }}
+      {{ $image := trim . " " }}
+      {{ if ne $image "" }}
+        <p><img src="{{ $image }}" alt="" loading="lazy"></p>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
+
+<style>
+.two-column-layout {
+  width: 100vw;
+  max-width: 1400px;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 2rem;
+}
+
+.two-column-text {
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.two-column-images {
+  position: sticky;
+  top: 120px;
+  height: fit-content;
+  max-height: calc(100vh - 140px);
+  overflow-y: auto;
+}
+
+.two-column-images img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.75rem;
+  border-radius: 4px;
+}
+
+.images-caption {
+  font-size: 0.875rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
+  .two-column-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .two-column-images {
+    position: static;
+    max-height: none;
+  }
+}
+</style>

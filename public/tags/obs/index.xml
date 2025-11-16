@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OBS on keya singh 𓂃 ⌂ ོ☼ 𓂃</title>
+    <link>http://localhost:1313/tags/obs/</link>
+    <description>Recent content in OBS on keya singh 𓂃 ⌂ ོ☼ 𓂃</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Wed, 12 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/obs/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>everyone can create live visuals</title>
+      <link>http://localhost:1313/projects/teaching/ostrava-workshop25/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/teaching/ostrava-workshop25/</guid>
+      <description>&lt;p&gt;ok&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Światłodźwięki Festival 2024 with Petr Vrba</title>
+      <link>http://localhost:1313/projects/live/with-petr-vrba/</link>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/live/with-petr-vrba/</guid>
+      <description>&lt;div class=&#34;gallery-box border-4 border-neutral-300 dark:border-neutral-600 rounded-lg p-6 my-4&#34;&gt;
+  
+  &lt;h3 class=&#34;gallery-title text-xl font-bold mb-1&#34;&gt;Poznán edition&lt;/h3&gt;
+  
+
+  
+  &lt;p class=&#34;gallery-location text-sm mb-2&#34;&gt;
+    on 29.11. at CK Zamek
+    
+    
+  &lt;/p&gt;
+  
+
+  
+
+  
+
+  &lt;div class=&#34;image-gallery&#34;&gt;
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      &lt;div class=&#34;gallery-item&#34;&gt;
+        
+          
+            &lt;img src=&#34;http://localhost:1313/images/wVrba_Poznan_1.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;
+          
+        
+
+        
+        &lt;p class=&#34;image-caption&#34;&gt;performance &amp;gt;&amp;gt;&amp;gt; &lt;/p&gt;
+        
+      &lt;/div&gt;
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      &lt;div class=&#34;gallery-item&#34;&gt;
+        
+          
+            &lt;img src=&#34;http://localhost:1313/images/wVrba_Poznan_2.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;
+          
+        
+
+        
+      &lt;/div&gt;
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      &lt;div class=&#34;gallery-item&#34;&gt;
+        
+          
+            &lt;img src=&#34;http://localhost:1313/images/wVrba_Poznan_3.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;
+          
+        
+
+        
+      &lt;/div&gt;
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      &lt;div class=&#34;gallery-item&#34;&gt;
+        
+          
+            &lt;img src=&#34;http://localhost:1313/images/wVrba_Poznan_4.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;
+          
+        
+
+        
+      &lt;/div&gt;
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      &lt;div class=&#34;gallery-item&#34;&gt;
+        
+          
+            &lt;img src=&#34;http://localhost:1313/images/wVrba_Poznan_5.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;
+          
+        
+
+        
+      &lt;/div&gt;
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      &lt;div class=&#34;gallery-item&#34;&gt;
+        
+          
+            &lt;img src=&#34;http://localhost:1313/images/wVrba_Poznan_6.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;
+          
+        
+
+        
+      &lt;/div&gt;
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      &lt;div class=&#34;gallery-item&#34;&gt;
+        
+          
+            &lt;img src=&#34;http://localhost:1313/images/wVrba_Poznan_7.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;
+          
+        
+
+        
+      &lt;/div&gt;
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+  .gallery-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+
+  .gallery-location {
+    color: rgb(var(--color-primary-600));
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .dark .gallery-location {
+    color: rgb(var(--color-primary-400));
+  }
+
+  .gallery-description {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .gallery-credits {
+    font-size: 0.75rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+    opacity: 0.7;
+  }
+
+  .dark .gallery-title,
+  .dark .gallery-description,
+  .dark .gallery-credits {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+    color: rgba(255, 255, 255, 0.95);
+  }
+
+  .dark .gallery-location {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+  }
+
+  body:has(.project-bg-overlay) .gallery-title,
+  body:has(.project-bg-overlay) .gallery-description,
+  body:has(.project-bg-overlay) .gallery-credits {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+    color: white;
+  }
+
+  body:has(.project-bg-overlay) .gallery-location {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+    color: rgb(var(--color-primary-400));
+  }
+
+  .image-gallery {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 0rem 0 1rem 0;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .gallery-item {
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .image-gallery img {
+    height: 600px;
+    min-width: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    align-self: flex-start;
+  }
+
+   
+  .video-embed {
+    position: relative;
+    width: 1067px;
+    aspect-ratio: 16/9;
+    border-radius: 8px;
+    overflow: hidden;
+    background: black;
+    display: block;
+    flex-shrink: 0;
+  }
+
+  .video-embed iframe,
+  .video-embed video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+   
+  .video-embed.portrait {
+    width: 338px;
+    aspect-ratio: 9/16;
+  }
+
+   
+  .video-embed.square {
+    width: 600px;
+    aspect-ratio: 1/1;
+  }
+
+  .image-caption {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: rgb(var(--color-neutral-600));
+  }
+
+  .video-embed ~ .image-caption {
+    max-width: 1067px;
+  }
+
+  .video-embed.portrait ~ .image-caption {
+    max-width: 338px;
+  }
+
+  .video-embed.square ~ .image-caption {
+    max-width: 600px;
+  }
+
+  .dark .image-caption {
+    color: rgb(var(--color-neutral-400));
+  }
+
+   
+  @media (max-width: 768px) {
+    .image-gallery img {
+      height: auto;
+      min-width: 85vw;
+      max-width: 85vw;
+    }
+
+    .video-embed {
+      width: 85vw;
+      aspect-ratio: 16/9;
+    }
+
+    .video-embed.portrait {
+      width: 60vw;
+      aspect-ratio: 9/16;
+    }
+
+    .video-embed.square {
+      width: 85vw;
+      aspect-ratio: 1/1;
+    }
+
+    .image-caption {
+      max-width: 85vw;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .image-gallery img {
+      min-width: 90vw;
+      max-width: 90vw;
+    }
+
+    .video-embed {
+      width: 90vw;
+    }
+
+    .video-embed.portrait {
+      width: 65vw;
+    }
+
+    .video-embed.square {
+      width: 90vw;
+    }
+
+    .image-caption {
+      max-width: 90vw;
+    }
+  }
+
+  .image-gallery::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  .image-gallery::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+
+  .image-gallery::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.3);
+    border-radius: 10px;
+  }
+&lt;/style&gt;
+
+&lt;div class=&#34;gallery-box border-4 border-neutral-300 dark:border-neutral-600 rounded-lg p-6 my-4&#34;&gt;
+  
+  &lt;h3 class=&#34;gallery-title text-xl font-bold mb-1&#34;&gt;Bratislava edition&lt;/h3&gt;
+  
+
+  
+  &lt;p class=&#34;gallery-location text-sm mb-2&#34;&gt;
+    on 08.11 at A4 - Priestor súčasnej kultúry
+    
+    
+  &lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>tommy needs a haircut</title>
+      <link>http://localhost:1313/projects/live/tommy-needs-a-haircut/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/live/tommy-needs-a-haircut/</guid>
+      <description>&lt;p&gt;A series of ongoing live works centred on the world of Grand Theft Auto: Vice City. This work began in March 2024 as a playful revisitation of a nostalgic game from my childhood. I employ the protagonist, Tommy, as the actor on my stage who performs in ways that are often more sensual than originally written in the game. By doing so, I amplify the complexities of human behaviour and social dynamics within the game environment as they reflect real-world ethical dilemmas fuelled with existentialism. Inspired by Lev Manovich&amp;rsquo;s notions of media remixability, I am interested in remixing not just aesthetics but also techniques, methods, and languages of different media. For the future of this project, I want to get into subtle alterations of the game world itself.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>that&#39;s you in the spotlight</title>
+      <link>http://localhost:1313/projects/neither/spotlight/</link>
+      <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/neither/spotlight/</guid>
+      <description>&lt;p&gt;&lt;div style=&#34;position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; overflow: hidden;&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/backgrounds/spotlight-bg.jpeg&#34; style=&#34;width: 100%; height: 100%; object-fit: cover; object-position: center top;&#34;&gt;
+  &lt;div class=&#34;project-bg-overlay&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.project-bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.dark .project-bg-overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+&lt;/style&gt;
+
+This work plays with the precarious nature of being seen (or even consumed) by the media we consume. It further layers an aspect of an alt-Hindu guru/diva figure whose virtual presence provides the audience with flimsy guidance and support as they find their image absorbed by the work. While you reminisce the inherent nostalgia of R.E.M’s Losing My Religion, she will help you either find or lose your faith.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>LyrArkestra&#43;</title>
+      <link>http://localhost:1313/projects/live/lyra/</link>
+      <pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/live/lyra/</guid>
+      <description>&lt;p&gt;LyrArkestra+ was a collaborative project within which I created visuals along with &lt;a
+  href=&#34;https://cristinamaldonado.com&#34;
+    target=&#34;_blank&#34;
+  &gt;Cristina&lt;/a&gt; and &lt;a
+  href=&#34;https://isajuchniewicz.com&#34;
+    target=&#34;_blank&#34;
+  &gt;Isa&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The project focused on performing graphic scores primarily by Czech and Slovak composers in unconventional audiovisual renditions. The international ensemble of this essentially fluid project does not have a permanent team. The audio composition were developed and performed by Tomáš Knoflíček (Gurun Gurun) from Ostrava, Michal Zbořil (IQ+1, B4) from Přerov, Daniel Jakeš (Jasnovidec, Koroze) from High Tatras, Ken Ganfield (PIO, The MoND) from Ames, Martin Nábělek (Boyse) from Banská Bystrica, and Petr Vrba (Poisonous Frequencies, Banausoi) from Prague. All sounds originated in the Lyra synthesizer, which is described as &amp;ldquo;organismic&amp;rdquo;, i.e. close to living organisms in its internal interactions and functioning on the basis of imaginary &amp;ldquo;conversations&amp;rdquo; between the individual modules&amp;hellip;The musical component is complemented by the visuals of Cristina Maldonado, Keya Singh and Isa Juchniewicz, who has created a structured digital environment that both responds directly to the music and allows for an additional layer of improvisation.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Rickey Mouse saga</title>
+      <link>http://localhost:1313/projects/live/rickey-mouse/</link>
+      <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/live/rickey-mouse/</guid>
+      <description>&lt;p&gt;Rickey Mouse Fun House was a project led by Finnish artist, Pasi Mäkelä. I initially joined this constellation in the role of support camera and video editor during their first performance which was &lt;a
+  href=&#34;https://youtu.be/3J7kacIyDzE&#34;
+    target=&#34;_blank&#34;
+  &gt;live streamed from Punctum&lt;/a&gt; (Prague, CZ) in December 2020. From the following year, I began creating the live-visuals we would use in the show. Spiritually and formally rooted in experiment and play, this project was genuinely &lt;em&gt;fun&lt;/em&gt; to be a part of. I was able to come in and develop all the live-camera things I wanted to play with, while also learning how these phenomenal musicians improvised together using specific counting systems and timing to enhance the audience&amp;rsquo;s listening experience as well as their own experiences of playing live music. I developed my practise of working with the simplicity of OBS Studio and pushing its limits by building visuals using chroma/luma keying, layering, collaging, screen inputs, source repetition, multiple camera inputs and multiple projections.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

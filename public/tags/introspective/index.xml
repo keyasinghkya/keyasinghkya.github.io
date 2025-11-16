@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>introspective on keya singh 𓂃 ⌂ ོ☼ 𓂃</title>
+    <link>http://localhost:1313/tags/introspective/</link>
+    <description>Recent content in introspective on keya singh 𓂃 ⌂ ོ☼ 𓂃</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/introspective/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Intimate Immensity</title>
+      <link>http://localhost:1313/projects/neither/intimate-immensity/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/neither/intimate-immensity/</guid>
+      <description>&lt;p&gt;&lt;div style=&#34;position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; overflow: hidden;&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/backgrounds/intimate-bg.jpeg&#34; style=&#34;width: 100%; height: 100%; object-fit: cover; object-position: center top;&#34;&gt;
+  &lt;div class=&#34;project-bg-overlay&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.project-bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.dark .project-bg-overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+&lt;/style&gt;
+
+In 2019, as part of a collective, I explored overlapping presences in a mixed reality performance with the use of immersive video in &lt;a
+  href=&#34;http://localhost:1313/projects/live/insider&#34;&gt;Insider&lt;/a&gt;. I decided to expand the technical challenge towards virtual reality and started imagining an XR installation. This led to my conceptual research on Char Davies, embodiment in VR and the dialogue between virtual-real stimuli. The title Intimate Immensity was taken from The Poetics of Space by Gaston Bachelard. While reading this text, I found myself strongly moved by the poetic images of introspection as affected by different spaces and isolation. My experiences during the pandemic elevated my need to connect with the outside world. However, these times also showed me the importance of self-awareness and reflection. And while VR may often be used as an escape from reality, it can very well ground us in the present.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -19,7 +19,7 @@ feat. Bajza, Jullie, Alžbeta and Lia<br>
 
 Each of them has a story to tell through their affection and passion for plants. This work is about memory, connections, recognition and reflection. We can always learn something from each other.The seemingly ordinary always has something special in it because of how specific each of us are.<br>
 
-Its suuuper exciting (!!) to see people love so deeply that it nourishes them and people around them.
+Its suuuper exciting (!!) to see people love so deeply that it nourishes them and people around them.  
 The Slovak dialogues were translated by amoebadam and all the subtitling was done by Lamija Čehajić + me.
 
 {{< vimeo id="679439321" >}}

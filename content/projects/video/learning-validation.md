@@ -12,7 +12,7 @@ tags:
   - india
   - self-image
   - identity
-  - reflection
+  - reflective
   - portrait
   - personal archiving
 draft: false
