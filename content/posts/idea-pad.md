@@ -1,6 +1,5 @@
 ---
 title: "idea pad lol"
-subtitle: "*somehow, partially consumed in text, video and podcast formats"
 date: 2022-01-01
 type: "posts"
 layout: "single"

@@ -1,18 +1,18 @@
 ---
-title: "mark fisher / ghosts of my life  / zagreb (21/05/2014)"
+title: "Ghosts of My Life lecture / Mark Fisher"
 date: 2025-10-06
 type: "posts"
 layout: "single"
 featureimage: "/images/fisher.png"
 categories:
   - notes-to-self
+  - learning
 tags:
   - media theory
   - mark fisher
   - hauntology
   - internet culture
   - consumption
-  - learning
   - music theory
 draft: false
 ---

@@ -1,6 +1,5 @@
 ---
 title: "Oceanic Feeling and Communist Affect / Jackie Wang"
-subtitle: "*somehow, partially consumed in text, video and podcast formats"
 date: 2024-06-01
 type: "posts"
 layout: "single"

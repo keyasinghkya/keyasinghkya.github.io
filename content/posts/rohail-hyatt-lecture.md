@@ -1,6 +1,5 @@
 ---
-title: "rohail hyatt / sound / coke studio"
-subtitle: "*somehow, partially consumed in text, video and podcast formats"
+title: "A Conversation with Rohail Hyatt"
 date: 2022-04-01
 type: "posts"
 layout: "single"

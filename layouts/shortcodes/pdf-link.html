@@ -1,0 +1,22 @@
+<a href="{{ .Get "src" }}"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="pdf-link"
+   style="display: inline-block; padding: 0rem 1rem; margin: 0.5rem 0 1rem 0; background: rgb(var(--color-primary-600)); color: white; text-decoration: none; border-radius: 4px; transition: all 0.2s;">
+  {{ if .Get "text" }}
+    {{ .Get "text" }}
+  {{ else }}
+    📄 view PDF
+  {{ end }}
+</a>
+
+<style>
+.pdf-link:hover {
+  background: rgb(var(--color-primary-700));
+  transform: translateY(-2px);
+}
+
+.dark .pdf-link {
+  background: rgb(var(--color-primary-500));
+}
+</style>

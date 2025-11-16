@@ -201,3 +201,16 @@ ul + .vimeo-responsive,
 ol + .vimeo-responsive {
   margin-top: 0 !important;
 }
+
+/* Tags page - mobile optimization */
+@media (max-width: 768px) {
+  .terms-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+
+  .terms-list a {
+    font-size: 0.875rem;
+  }
+}

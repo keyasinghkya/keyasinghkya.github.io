@@ -2,9 +2,9 @@
 title: "Non-Residential Kin"
 date: 2023-02-01
 year: 02/23 - ?
+featureimage: "/images/nriicon.png"
 categories:
   - independent
-  - wip
   - neither
   - notes-to-self
   - 2023
@@ -15,6 +15,7 @@ tags:
   - tech
   - anthropocentrism
   - immigration
+  - wip
 draft: false
 ---
 {{< youtube mHn6jVxsB5U >}}

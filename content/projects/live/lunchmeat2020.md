@@ -1,23 +1,26 @@
 ---
 title: "Lunchmeat Festival 2020"
-duration: 50:00
-year: October 2020
-subtitle: live a/v set w/ Evil Medvěd
+duration: "50:00"
+year: "October 2020"
+featureimage: "/images/lunchicon.jpeg"
 date: 2020-10-01
 type: "projects"
 categories:
   - "live"
   - commissioned
-  - visuals
   - 2020
 tags:
   - identity
-  - performance
+  - live visuals
+  - music
   - self-image
   - "#jpeg2dicom"
   - czech republic
+  - Resolume Arena
+  - MIDI controller
 draft: false
 ---
+
 {{<toc>}}
 ## About
 I made live visuals for Evil Medvěd's modular set at Lunchmeat Festival 2020. The visuals came from my visual language around self, identity and social action - reacting to what Evil Medvěd was doing live. With live manipulation of the visuals using a MIDI keyboard, I was able to react in realtime, creating a sequence of images that occurred only once within the confines of this set.
@@ -41,7 +44,8 @@ back to MRI imagery of a brain + ribs
 
 ## Documentation
 {{< gallery
-  images="/images/lunch20-1.jpg,/images/lunch20-4.jpg,/images/lunch20-3.jpg,/images/lunch20-2.jpg,/images/lunch20-6.jpg">}}
+  description="Photo documentation by Jakub Dolezal, Dita Havrankova and Filip Palác."
+  images="/images/lunch20-1.jpg,/images/lunch20-4.jpg,/images/lunch20-3.jpg,/images/lunch20-2.jpg,/images/lunch20-5.jpg">}}
 
 ## Press
 {{< link-preview

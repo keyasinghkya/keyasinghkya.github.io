@@ -3,17 +3,20 @@ title: "Rickey Mouse saga"
 year: 2020 - 2023
 date: 2020-12-19
 type: "projects"
+featureimage: "/images/rickeyicon.JPG"
 categories:
   - "live"
   - commissioned
-  - visuals
   - 2020
   - 2021
   - 2022
   - 2023
 tags:
-  - performance
+  - live visuals
+  - theatre
   - documentation
+  - visual feedback
+  - screen inputs
   - live-camera
   - czech republic
   - improvisation
@@ -28,9 +31,9 @@ Rickey Mouse Fun House was a project led by Finnish artist, Pasi Mäkelä. I ini
   title="Rickey Mouse Fun House: Mousephonic Mayhem"
   location="Divadlo29 in Pardubice on 11th October"
   description="Performers: Pasi Mäkelä, Petr Vrba, Tomas Vtipil, Klara Pudlakova, Elia Morretti, Keya Singh etc. The final edition has more behind-the-scenes documentation than the show itself, which is very cute and apt."
-  images="/images/rickey23-1.JPG,,/images/rickey23-2.JPG,,,/images/rickey23-5.JPG,/images/rickey23-6.JPG,,/images/rickey23-7.JPG,/images/rickey23-3.JPG,/images/rickey23-4.JPG"
-  vimeos=",1137067791,,1137067774,1137067933,,,"
-  orientations="landscape, landscape, landscape, portrait,landscape,landscape, portrait,landscape,portrait,portrait,portrait,portrait">}}
+  images="/images/rickey23-1.JPG,v,/images/rickey23-2.JPG,v,v,/images/rickey23-5.JPG,/images/rickey23-6.JPG,/images/rickey23-7.JPG,/images/rickey23-3.JPG,/images/rickey23-4.JPG"
+  vimeos=",1137067791,,1137067774,1137067933,,,,,"
+  orientations="landscape,landscape,landscape,portrait,landscape,landscape, portrait,landscape,portrait,portrait">}}
 
 
 ### 2022

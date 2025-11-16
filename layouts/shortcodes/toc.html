@@ -6,15 +6,8 @@
     <h3 class="text-sm font-bold mb-3 text-neutral-900 dark:text-neutral">On this page</h3>
     <nav id="toc-nav">
       {{ if eq .Page.Type "projects" }}
-      <!-- Custom sections for projects -->
-      <ul id="toc-list">
-        <li><a href="#about">About</a></li>
-        <li><a href="#process">Process</a></li>
-        <li id="documentation-item"><a href="#documentation">Documentation</a></li>
-        <li><a href="#press">Press</a></li>
-        <li><a href="#credits">Credits</a></li>
-        <li><a href="#related">Related</a></li>
-      </ul>
+      <!-- Placeholder - will be populated by JavaScript -->
+      <ul id="toc-list"></ul>
       {{ else }}
       <!-- Auto-generated TOC for blog posts -->
       {{ .Page.TableOfContents }}
@@ -154,52 +147,82 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Hide TOC items that don't have corresponding content on the page
+  // Build TOC for project pages
   const tocList = document.getElementById('toc-list');
   if (tocList) {
-    const tocItems = tocList.querySelectorAll('li');
-    tocItems.forEach(function(item) {
-      const link = item.querySelector('a');
-      if (link) {
-        const href = link.getAttribute('href');
-        const targetId = href.substring(1); // Remove the #
-        const target = document.getElementById(targetId);
+    const contentArea = document.querySelector('.project-content, article, main');
+    if (!contentArea) return;
 
-        // If target doesn't exist, hide the TOC item (unless it's documentation-item which gets galleries)
-        if (!target && item.id !== 'documentation-item') {
-          item.style.display = 'none';
-        }
+    // Define predefined sections to look for
+    const predefinedSections = [
+      { id: 'about', label: 'About' },
+      { id: 'process', label: 'Process' },
+      { id: 'documentation', label: 'Documentation' },
+      { id: 'press', label: 'Press' },
+      { id: 'credits', label: 'Credits' },
+      { id: 'related', label: 'Related' }
+    ];
+
+    // First, add predefined sections if they exist
+    predefinedSections.forEach(function(section) {
+      const element = document.getElementById(section.id);
+      if (element) {
+        const li = document.createElement('li');
+        li.id = section.id + '-item';
+        const link = document.createElement('a');
+        link.href = '#' + section.id;
+        link.textContent = section.label;
+        li.appendChild(link);
+        tocList.appendChild(li);
       }
     });
-  }
 
-  // Auto-generate TOC from gallery titles (only for project pages)
-  const galleries = document.querySelectorAll('.gallery-box h3');
-  const documentationItem = document.getElementById('documentation-item');
+    // Then, find all other h2 headings that aren't already in predefined sections
+    const headings = contentArea.querySelectorAll('h2');
+    const predefinedIds = predefinedSections.map(s => s.id);
 
-  if (galleries.length > 0 && documentationItem) {
-    const submenu = document.createElement('ul');
-    galleries.forEach(function(gallery, index) {
-      const title = gallery.textContent;
-      const anchor = 'gallery-' + index;
-      gallery.id = anchor;
+    headings.forEach(function(heading) {
+      // Create or get ID for the heading
+      if (!heading.id) {
+        heading.id = heading.textContent.toLowerCase()
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/(^-|-$)/g, '');
+      }
 
+      // Skip if this heading is already in predefined sections
+      if (predefinedIds.includes(heading.id)) {
+        return;
+      }
+
+      // Add this heading to TOC
       const li = document.createElement('li');
       const link = document.createElement('a');
-      link.href = '#' + anchor;
-      link.textContent = title;
+      link.href = '#' + heading.id;
+      link.textContent = heading.textContent;
       li.appendChild(link);
-      submenu.appendChild(li);
+      tocList.appendChild(li);
     });
 
-    documentationItem.appendChild(submenu);
-    // Show the documentation item since it has gallery content
-    documentationItem.style.display = '';
-  } else if (documentationItem) {
-    // If no galleries, check if #documentation section exists
-    const docSection = document.getElementById('documentation');
-    if (!docSection) {
-      documentationItem.style.display = 'none';
+    // Handle galleries under Documentation
+    const galleries = document.querySelectorAll('.gallery-box h3');
+    const documentationItem = document.getElementById('documentation-item');
+
+    if (galleries.length > 0 && documentationItem) {
+      const submenu = document.createElement('ul');
+      galleries.forEach(function(gallery, index) {
+        const title = gallery.textContent;
+        const anchor = 'gallery-' + index;
+        gallery.id = anchor;
+
+        const li = document.createElement('li');
+        const link = document.createElement('a');
+        link.href = '#' + anchor;
+        link.textContent = title;
+        li.appendChild(link);
+        submenu.appendChild(li);
+      });
+
+      documentationItem.appendChild(submenu);
     }
   }
 });

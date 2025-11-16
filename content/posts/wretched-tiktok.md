@@ -1,9 +1,7 @@
 ---
 title: "The Wretched of the Screen / Hito Steyerl"
-subtitle: "*in the order of my reading (summarised + seen via tiktoks)"
 date: 2024-06-01
 type: "posts"
-layout: "single"
 featureimage: "/images/wretched.jpeg"
 categories:
   - notes-to-self

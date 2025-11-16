@@ -1,8 +1,8 @@
 ---
 title: "Insider"
-year: (2019 - ongoing)
-duration: 70:00
-subtitle: mixed reality performance, one-on-one
+year: "2019 - ongoing"
+duration: mixed-reality performance, 70:00
+featureimage: "/images/insider.jpeg"
 date: 2019-11-30
 type: "projects"
 categories:
@@ -10,6 +10,7 @@ categories:
   - independent
   - collaboration
   - 2019
+  - ongoing
 tags:
   - XR
   - performance
@@ -46,19 +47,22 @@ I was one of the devisers of the piece along with working on technical solutions
   title="Casa Tranzit, 2022"
   date= "Cluj-Napoca, RO (06/22)"
   credits="images by tamas markos"
-  images="/images/insider/cluj-perf-1.jpg,/images/insider/cluj-perf-2.jpg,/images/insider/cluj-perf-3.jpg,/images/insider/cluj-perf-4.jpg,/images/insider/cluj-perf-5.jpg,/images/insider/cluj-talk-1.jpg,/images/insider/cluj-talk-2.jpg,/images/insider/cluj-talk-3.jpg, /images/insider/cluj-talk-4.jpg, /images/insider/cluj-work-1.jpg, /images/insider/cluj-work-2.jpg,/images/insider/cluj-work-3.jpg, /images/insider/cluj-work-4.jpg, /images/insider/cluj-work-5.jpg" >}}
+  images="/images/insider/cluj-perf-1.jpg,/images/insider/cluj-perf-2.jpg,/images/insider/cluj-perf-3.jpg,/images/insider/cluj-perf-4.jpg,/images/insider/cluj-perf-5.jpg,/images/insider/cluj-talk-1.jpg,/images/insider/cluj-talk-2.jpg,/images/insider/cluj-talk-3.jpg, /images/insider/cluj-talk-4.jpg, /images/insider/cluj-work-1.jpg, /images/insider/cluj-work-2.jpg,/images/insider/cluj-work-3.jpg, /images/insider/cluj-work-4.jpg, /images/insider/cluj-work-5.jpg"
+  captions="performance >>> ||||| artist talk >>>|||| workshop >>>">}}
 
 {{< gallery
   title="Kiezkapelle with Tatwerk, 2022"
   location= "Berlin, DE (05/22)"
   credits="images by oliver look"
-  images="/images/insider/berlin-perf-1.jpg,/images/insider/berlin-perf-2.jpg,/images/insider/berlin-perf-3.jpg,/images/insider/berlin-perf-4.jpg,/images/insider/berlin-perf-5.jpg,/images/insider/berlin-walk-1.jpg,/images/insider/berlin-walk-2.jpg,/images/insider/berlin-walk-3.jpg,/images/insider/berlin-walk-4.jpg,/images/insider/berlin-walk-5.jpg" >}}
+  images="/images/insider/berlin-perf-1.jpg,/images/insider/berlin-perf-2.jpg,/images/insider/berlin-perf-3.jpg,/images/insider/berlin-perf-4.jpg,/images/insider/berlin-perf-5.jpg,/images/insider/berlin-walk-1.jpg,/images/insider/berlin-walk-2.jpg,/images/insider/berlin-walk-3.jpg,/images/insider/berlin-walk-4.jpg,/images/insider/berlin-walk-5.jpg"
+  captions="performance >>>|||||audio walk >>>">}}
 
 {{< gallery
   title="apartment stage, 2022"
   location= "Brno, CZ (03-04/22)"
   credits="images by adam holubovsky, polina davydenko"
-  images="/images/insider/brno22-perf-1.jpg,/images/insider/brno22-perf-2.jpg,/images/insider/brno22-perf-3.jpg,/images/insider/brno22-perf-4.jpg,/images/insider/brno22-perf-5.jpg,/images/insider/brno22-perf-6.jpg,/images/insider/brno22-talk-1.jpg,/images/insider/brno22-talk-2.jpg,/images/insider/brno22-talk-3.jpg,/images/insider/brno22-talk-4.jpg,/images/insider/brno22-talk-5.jpg,/images/insider/brno22-lab-1.jpg,/images/insider/brno22-lab-2.jpg,/images/insider/brno22-lab-3.jpg,/images/insider/brno22-lab-4.jpg,/images/insider/brno22-lab-5.jpg,/images/insider/brno22-lab-6.jpg" >}}
+  images="/images/insider/brno22-perf-1.jpg,/images/insider/brno22-perf-2.jpg,/images/insider/brno22-perf-3.jpg,/images/insider/brno22-perf-4.jpg,/images/insider/brno22-perf-5.jpg,/images/insider/brno22-perf-6.jpg,/images/insider/brno22-talk-1.jpg,/images/insider/brno22-talk-2.jpg,/images/insider/brno22-talk-3.jpg,/images/insider/brno22-talk-4.jpg,/images/insider/brno22-talk-5.jpg,/images/insider/brno22-lab-1.jpg,/images/insider/brno22-lab-2.jpg,/images/insider/brno22-lab-3.jpg,/images/insider/brno22-lab-4.jpg,/images/insider/brno22-lab-5.jpg,/images/insider/brno22-lab-6.jpg"
+  captions="performance >>>|||||| artist talk >>> ||||| lab/workshop >>>">}}
 
 {{< gallery
   title="Alfred ve dvoře, 2021"

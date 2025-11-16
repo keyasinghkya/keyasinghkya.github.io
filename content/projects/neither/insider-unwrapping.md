@@ -1,7 +1,7 @@
 ---
-title: "insider: unwrapping reality/opening"
+title: "Insider: unwrapping reality/opening"
 year: (2019 - ongoing)
-subtitle: mixed reality performance, one-on-one
+featureimage: "/images/insider-premiere.jpeg"
 date: 2019-11-30
 type: "projects"
 categories:
