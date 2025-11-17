@@ -6,6 +6,7 @@ categories:
   - visuals
   - neither
   - 2020
+  - ongoing
 featureimage: "/images/jpegicon.png"
 tags:
   - "#jpeg2dicom"

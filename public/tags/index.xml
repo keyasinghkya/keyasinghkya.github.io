@@ -310,6 +310,16 @@
     </item>
     
     <item>
+      <title>what-to-do-with-things-you-love</title>
+      <link>http://localhost:1313/tags/what-to-do-with-things-you-love/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/what-to-do-with-things-you-love/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>affect theory</title>
       <link>http://localhost:1313/tags/affect-theory/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
@@ -375,16 +385,6 @@
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/india/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>what-to-do-with-things-you-love</title>
-      <link>http://localhost:1313/tags/what-to-do-with-things-you-love/</link>
-      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/what-to-do-with-things-you-love/</guid>
       <description></description>
       
     </item>
@@ -500,11 +500,31 @@
     </item>
     
     <item>
+      <title>#jpeg2dicom</title>
+      <link>http://localhost:1313/tags/%23jpeg2dicom/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/%23jpeg2dicom/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>anthropocentrism</title>
       <link>http://localhost:1313/tags/anthropocentrism/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/anthropocentrism/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>existence</title>
+      <link>http://localhost:1313/tags/existence/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/existence/</guid>
       <description></description>
       
     </item>
@@ -540,11 +560,21 @@
     </item>
     
     <item>
-      <title>#jpeg2dicom</title>
-      <link>http://localhost:1313/tags/%23jpeg2dicom/</link>
-      <pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate>
+      <title>artificial intelligence</title>
+      <link>http://localhost:1313/tags/artificial-intelligence/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/%23jpeg2dicom/</guid>
+      <guid>http://localhost:1313/tags/artificial-intelligence/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>mind stuff</title>
+      <link>http://localhost:1313/tags/mind-stuff/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/mind-stuff/</guid>
       <description></description>
       
     </item>
@@ -555,6 +585,26 @@
       <pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/spatial-projections/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>art history</title>
+      <link>http://localhost:1313/tags/art-history/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/art-history/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>art-related feelings</title>
+      <link>http://localhost:1313/tags/art-related-feelings/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/art-related-feelings/</guid>
       <description></description>
       
     </item>
@@ -715,16 +765,6 @@
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/glitch/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>art history</title>
-      <link>http://localhost:1313/tags/art-history/</link>
-      <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/art-history/</guid>
       <description></description>
       
     </item>

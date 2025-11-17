@@ -621,6 +621,16 @@ the body provides us a sensual experience of itself, others and the world. in re
     </item>
     
     <item>
+      <title>(㇏(•̀ᵥᵥ•́)ノ)</title>
+      <link>http://localhost:1313/posts/iwtv-life/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/iwtv-life/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Oceanic Feeling and Communist Affect / Jackie Wang</title>
       <link>http://localhost:1313/posts/oceanic-feels/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
@@ -2118,6 +2128,141 @@ affordances = the quality or property of an object that defines its possible use
     </item>
     
     <item>
+      <title>zebrafish are apparently so cool</title>
+      <link>http://localhost:1313/posts/zebrafish/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/zebrafish/</guid>
+      <description>&lt;a href=&#34;https://www.facebase.org/chaise/record/#1/isa:dataset/RID=1-517M&#34; target=&#34;_blank&#34; class=&#34;link-preview-card&#34;&gt;
+  
+  &lt;div class=&#34;preview-content&#34;&gt;
+    &lt;h4 class=&#34;preview-title&#34;&gt;Dataset: Interactive Zebrafish Craniofacial Atlases&lt;/h4&gt;
+    
+    &lt;p class=&#34;preview-description&#34;&gt;&amp;#34;Multiple facets of morphology must be considered to decipher a craniofacial phenotype. Our objective was to create a resource for functional, anatomical, and developmental information that could be applied to normal and mutant contexts. To this end, we generated interactive, three-dimensional atlases of craniofacial anatomy in wild-type, adult zebrafish.&amp;#34;&lt;/p&gt;
+    
+  &lt;/div&gt;
+&lt;/a&gt;
+
+&lt;style&gt;
+.link-preview-card {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  border: 2px solid rgb(var(--color-neutral-300));
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: all 0.2s;
+  margin: 1.5rem 0;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.dark .link-preview-card {
+  border-color: rgb(var(--color-neutral-700));
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.link-preview-card:hover {
+  border-color: rgb(var(--color-primary-600));
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.preview-image {
+  flex-shrink: 0;
+  width: 200px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 0.25rem;
+}
+
+.preview-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.preview-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.preview-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgb(var(--color-neutral-900));
+}
+
+.dark .preview-title {
+  color: rgb(var(--color-neutral-100));
+}
+
+.preview-description {
+  margin: 0;
+  font-size: 0.875rem;
+  color: rgb(var(--color-neutral-600));
+  line-height: 1.4;
+  flex: 1;
+}
+
+.dark .preview-description {
+  color: rgb(var(--color-neutral-400));
+}
+
+.preview-url {
+  font-size: 0.75rem;
+  color: rgb(var(--color-primary-600));
+}
+
+.dark .preview-url {
+  color: rgb(var(--color-primary-400));
+}
+
+@media (max-width: 640px) {
+  .link-preview-card {
+    flex-direction: column;
+  }
+
+  .preview-image {
+    width: 100%;
+    height: 150px;
+  }
+}
+&lt;/style&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img
+    class=&#34;my-0 rounded-md&#34;
+    loading=&#34;lazy&#34;
+    decoding=&#34;async&#34;
+    fetchpriority=&#34;low&#34;
+    alt=&#34;&#34;
+    src=&#34;http://localhost:1313/images/spiderfish-1.png&#34;
+    &gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img
+    class=&#34;my-0 rounded-md&#34;
+    loading=&#34;lazy&#34;
+    decoding=&#34;async&#34;
+    fetchpriority=&#34;low&#34;
+    alt=&#34;&#34;
+    src=&#34;http://localhost:1313/images/spiderfish-2.png&#34;
+    &gt;&lt;/figure&gt;
+&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>depression subroutines</title>
+      <link>http://localhost:1313/posts/subroutines/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/subroutines/</guid>
+      <description>&lt;p&gt;&lt;em&gt;thinking of how to apply a programming term to the functions inside a human being. That&amp;rsquo;s where this curiosity about the term &amp;ldquo;subroutine&amp;rdquo; started. I haven&amp;rsquo;t yet read extensively about it but as far as I have read, it sounds like something we could say to describe the fundamental &amp;ldquo;wiring&amp;rdquo; of a person too. As was my exploration in Intimate Immensity, this one too wants to deal with what makes us who we are - often without us consciously processing these functions ourselves.&lt;/em&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>LyrArkestra&#43;</title>
       <link>http://localhost:1313/projects/live/lyra/</link>
       <pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate>
@@ -2131,6 +2276,32 @@ affordances = the quality or property of an object that defines its possible use
     target=&#34;_blank&#34;
   &gt;Isa&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The project focused on performing graphic scores primarily by Czech and Slovak composers in unconventional audiovisual renditions. The international ensemble of this essentially fluid project does not have a permanent team. The audio composition were developed and performed by Tomáš Knoflíček (Gurun Gurun) from Ostrava, Michal Zbořil (IQ+1, B4) from Přerov, Daniel Jakeš (Jasnovidec, Koroze) from High Tatras, Ken Ganfield (PIO, The MoND) from Ames, Martin Nábělek (Boyse) from Banská Bystrica, and Petr Vrba (Poisonous Frequencies, Banausoi) from Prague. All sounds originated in the Lyra synthesizer, which is described as &amp;ldquo;organismic&amp;rdquo;, i.e. close to living organisms in its internal interactions and functioning on the basis of imaginary &amp;ldquo;conversations&amp;rdquo; between the individual modules&amp;hellip;The musical component is complemented by the visuals of Cristina Maldonado, Keya Singh and Isa Juchniewicz, who has created a structured digital environment that both responds directly to the music and allows for an additional layer of improvisation.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Julião Sarmento: Abstracto, Branco, Tóxico e Volátil</title>
+      <link>http://localhost:1313/posts/sarmento/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/sarmento/</guid>
+      <description>&lt;blockquote&gt;During my two visits to the Berardo Colecao, I happened to see this huge, retrospective of Sarmento&#39;s work and it was too iconic to not leave some traces...&lt;/blockquote&gt;
+&lt;p&gt;&lt;i&gt;&amp;ldquo;Julião Sarmento was born in Lisbon on 4 May 1948. He attended the Architecture and Painting courses at ESBAL (Lisbon&amp;rsquo;s School of Fine Arts) between 1967 and 1974. He was one of the most internationally recognised Portuguese artists, having developed an artistic career that was immensely coherent, rich, and intense. Constantly renewing himself and closely connected with the artistic practices of his day, from post-pop to the present, he employed a diverse range of methods and techniques, including photography, painting, collage, drawing, sculpture, performance, and film, to establish a concise vocabulary of ambiguous images.&lt;br&gt;
+The artist was strongly influenced by the culture of English-speaking countries and the themes and images of literature and film, which frequently appear in his works in the form of quotes and montages. His work has a performative and theatrical dimension, which accumulates through the constant evocation of timeless themes and representations-such as women, sexuality, transgression, memory, duality, home, the word — which operate as structural axes of his work&amp;hellip;Bringing together a significant set of works that marked his career and whose selection is the fruit of a close collaboration between the artist and the exhibition curator Catherine David, Abstracto, Branco, Tóxico e Volatil (also the title of one of his works from 1997) is the first major exhibition of Julião Sarmento since his death.&lt;br&gt;
+This was a project which Sarmento fought to realise with extraordinary commitment, with the exhibition layout and the arrangement of the works in the rooms finalised a mere two months prior to his passing. For Julião, the installation of his works in space was an integral part of what he exhibited, since he considered the relationship established between the work, the space that surrounds it, and the spectator to be of vital importance.&lt;br&gt;
+Abstracto, Branco, Tóxico e Volatil is an exhibition in which Julião feels very present and in which we are moved not only by the sensuality of his textures and the complexity of his compositions, but also by the enormous plastic and theoretical sophistication of these enigmatic, delicate, perverse images.
+His works present no conclusions, theses, or hypotheses. They do not ask questions nor give answers; rather, they propose that we enter into their game between concealment and revelation, and that we construct our own stories.&amp;quot;&lt;/i&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>muse berardo coleção</title>
+      <link>http://localhost:1313/posts/berardo-visit/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/berardo-visit/</guid>
+      <description>&lt;blockquote&gt;I visited this collection twice during a family trip to Lisboa in 08/22. I was fully obsessed, lol.&lt;/blockquote&gt;
+&lt;p&gt;&lt;i&gt;&amp;ldquo;The Berardo Collection draws a path through 20th-century art to the art of today via its most significant movements and protagonists. On this floor, a walk through modern art, beginning at the outset of the 20th century with the work of &lt;span style=&#34;background: black; color: transparent;&#34;&gt;Picasso&lt;/span&gt; and the invention of Cubism on the one hand, and Duchamp and the questions posed by the ready-made on the other. The rapid and vertiginous succession of vanguards that introduced new concepts of space may be followed in the sections devoted to Dadaism, Constructivism, Neo-Plasticism, Surrealism and Abstraction-Création. Here we see a proliferation of different positions that brought about a radical change in the way we think about a work of art and its nature and function.&lt;/p&gt;</description>
       
     </item>
     

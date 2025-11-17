@@ -140,6 +140,26 @@
     </item>
     
     <item>
+      <title>ongoing</title>
+      <link>http://localhost:1313/categories/ongoing/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/ongoing/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>watching</title>
+      <link>http://localhost:1313/categories/watching/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/watching/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>reading</title>
       <link>http://localhost:1313/categories/reading/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
@@ -170,31 +190,11 @@
     </item>
     
     <item>
-      <title>ongoing</title>
-      <link>http://localhost:1313/categories/ongoing/</link>
-      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/categories/ongoing/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>2017</title>
       <link>http://localhost:1313/categories/2017/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/categories/2017/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>watching</title>
-      <link>http://localhost:1313/categories/watching/</link>
-      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/categories/watching/</guid>
       <description></description>
       
     </item>
@@ -225,6 +225,16 @@
       <pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/categories/2022/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>exhibition report</title>
+      <link>http://localhost:1313/categories/exhibition-report/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/exhibition-report/</guid>
       <description></description>
       
     </item>

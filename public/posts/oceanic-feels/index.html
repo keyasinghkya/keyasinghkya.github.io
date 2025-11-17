@@ -234,6 +234,16 @@
 
 <script>const colorSchemes=["terminal","avocado","fire","ocean","forest","princess","neon","autumn","slate"],randomScheme=colorSchemes[Math.floor(Math.random()*colorSchemes.length)];console.log("Switching to color scheme:",randomScheme);const html=document.documentElement;colorSchemes.forEach(e=>html.classList.remove(e)),html.classList.add(randomScheme),html.setAttribute("data-color-scheme",randomScheme),setTimeout(()=>{html.classList.remove(...colorSchemes),html.classList.add(randomScheme),html.setAttribute("data-color-scheme",randomScheme),console.log("Color scheme applied:",randomScheme),console.log("Current classes:",html.className)},50),document.addEventListener("DOMContentLoaded",function(){const e=document.querySelector('[id*="appearance"]');e&&e.addEventListener("click",function(){setTimeout(()=>{html.classList.add(randomScheme),html.setAttribute("data-color-scheme",randomScheme)},100)})})</script>
 
+<style>
+blockquote {
+  border-left: 4px solid rgb(var(--color-primary-600));
+}
+
+.dark blockquote {
+  border-left-color: rgb(var(--color-primary-400));
+}
+</style>
+
   
 
   
@@ -338,7 +348,7 @@
       
       aria-label="projects ⋆.𐙚˚"
       class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400"
-      title="Projects">
+      title="projects">
       <p>
         projects ⋆.𐙚˚
       </p>
@@ -568,7 +578,7 @@
     aria-label="projects ⋆.𐙚˚"
     class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-bg font-bg" title="Projects">
+    <p class="text-bg font-bg" title="projects">
       projects ⋆.𐙚˚
     </p>
     <span>
@@ -1371,14 +1381,14 @@ document.addEventListener('DOMContentLoaded', function() {
           
             <a
               class="flex text-right text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-              href="/posts/ostrava-solo/">
+              href="/posts/iwtv-life/">
               <span class="leading-6">
-                hey look what's staring back at you&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
+                (㇏(•̀ᵥᵥ•́)ノ)&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
               </span>
             </a>
             
               <span class="me-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
-                <time datetime="2025-02-11T00:00:00&#43;00:00">11/02/2025</time>
+                <time datetime="2024-08-01T00:00:00&#43;00:00">01/08/2024</time>
               </span>
             
           

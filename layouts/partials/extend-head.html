@@ -1,3 +1,13 @@
 {{ $randomColor := resources.Get "js/random-color.js" }}
 {{ $randomColor = $randomColor | resources.Minify }}
 <script>{{ $randomColor.Content | safeJS }}</script>
+
+<style>
+blockquote {
+  border-left: 4px solid rgb(var(--color-primary-600));
+}
+
+.dark blockquote {
+  border-left-color: rgb(var(--color-primary-400));
+}
+</style>

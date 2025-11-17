@@ -200,6 +200,16 @@
 
 <script>const colorSchemes=["terminal","avocado","fire","ocean","forest","princess","neon","autumn","slate"],randomScheme=colorSchemes[Math.floor(Math.random()*colorSchemes.length)];console.log("Switching to color scheme:",randomScheme);const html=document.documentElement;colorSchemes.forEach(e=>html.classList.remove(e)),html.classList.add(randomScheme),html.setAttribute("data-color-scheme",randomScheme),setTimeout(()=>{html.classList.remove(...colorSchemes),html.classList.add(randomScheme),html.setAttribute("data-color-scheme",randomScheme),console.log("Color scheme applied:",randomScheme),console.log("Current classes:",html.className)},50),document.addEventListener("DOMContentLoaded",function(){const e=document.querySelector('[id*="appearance"]');e&&e.addEventListener("click",function(){setTimeout(()=>{html.classList.add(randomScheme),html.setAttribute("data-color-scheme",randomScheme)},100)})})</script>
 
+<style>
+blockquote {
+  border-left: 4px solid rgb(var(--color-primary-600));
+}
+
+.dark blockquote {
+  border-left-color: rgb(var(--color-primary-400));
+}
+</style>
+
   
 
   
@@ -304,7 +314,7 @@
       
       aria-label="projects ⋆.𐙚˚"
       class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400"
-      title="Projects">
+      title="projects">
       <p>
         projects ⋆.𐙚˚
       </p>
@@ -534,7 +544,7 @@
     aria-label="projects ⋆.𐙚˚"
     class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-bg font-bg" title="Projects">
+    <p class="text-bg font-bg" title="projects">
       projects ⋆.𐙚˚
     </p>
     <span>
@@ -671,22 +681,27 @@
     
   </section>
 
-  
   <div class="flex justify-between items-center mb-6 mt-8">
     <div class="filter-section">
       <button id="tagFilterToggle" class="text-sm font-bold flex items-center gap-1 cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
-        <span>Filter by tags</span>
+        <span>filter by tags</span>
         <span id="tagToggleIcon">▼</span>
       </button>
     </div>
 
-    <div>
-      <label class="text-sm">sort: </label>
-      <select id="sortSelect" class="text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-800">
-        <option value="date-desc">newest first</option>
-        <option value="date-asc">oldest first</option>
-        <option value="title">title (a-z)</option>
-      </select>
+    <div class="flex gap-3 items-center">
+      <button id="clearFilters" class="text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800" style="display: none;">
+        clear filters
+      </button>
+
+      <div>
+        <label class="text-sm">sort: </label>
+        <select id="sortSelect" class="text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-800">
+          <option value="date-desc">newest first</option>
+          <option value="date-asc">oldest first</option>
+          <option value="title">title (a-z)</option>
+        </select>
+      </div>
     </div>
   </div>
 
@@ -747,11 +762,51 @@
         
           
         
+      
+        
+          
+        
           
         
           
         
           
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+      
         
           
         
@@ -795,15 +850,25 @@
       
 
       
+      <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="#jpeg2dicom">#jpeg2dicom</button>
+      
       <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="affect-theory">affect theory</button>
       
       <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="art-history">art history</button>
+      
+      <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="art-related-feelings">art-related feelings</button>
+      
+      <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="artificial-intelligence">artificial intelligence</button>
+      
+      <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="body-stuff">body stuff</button>
       
       <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="consumption">consumption</button>
       
       <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="czech-republic">czech republic</button>
       
       <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="edward-said">edward said</button>
+      
+      <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="existence">existence</button>
       
       <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="gta">GTA</button>
       
@@ -818,6 +883,8 @@
       <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="mark-fisher">mark fisher</button>
       
       <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="media-theory">media theory</button>
+      
+      <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="mind-stuff">mind stuff</button>
       
       <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="music">music</button>
       
@@ -838,7 +905,10 @@
       <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="wip">wip</button>
       
     </div>
-    <p class="text-xs text-neutral-500">Click multiple tags (AND logic)</p>
+  </div>
+
+  <div id="result-count" class="text-sm text-neutral-600 dark:text-neutral-400 mb-5">
+    showing <span id="visible-count">0</span> of <span id="total-count">0</span> posts
   </div>
 
   <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3" id="article-container">
@@ -1247,6 +1317,231 @@
   <span
     class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     video essay
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+    </div>
+  
+
+  
+  
+
+
+
+    </div>
+    
+  </div>
+  <div class="px-6 pt-4 pb-2"></div>
+</article>
+
+      </article>
+    
+      <article data-tags="media-theory,what-to-do-with-things-you-love,consumption">
+        
+
+
+
+
+
+
+  
+  
+    
+      
+        
+      
+    
+
+    
+    
+
+    
+    
+
+    
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+<article
+  class="relative min-h-full min-w-full overflow-hidden rounded border border-2 border-neutral-200 shadow-2xl dark:border-neutral-700">
+  
+    <div class="flex-none relative overflow-hidden thumbnail_card">
+      <img
+        src="/images/vampicon_hu_b8b81bcb33973a2e.png"
+        alt="(㇏(•̀ᵥᵥ•́)ノ)"
+        loading="lazy"
+        decoding="async"
+        class="not-prose absolute inset-0 w-full h-full object-cover">
+    </div>
+  
+  
+  <div class="px-6 py-4">
+    <header>
+      <a
+        
+          href="https://keyasingh.notion.site/efc52769a56c4582b9a18a9ccc3a8f94?v=80053e32e1e34b3392963e7dbc1b6a4c" target="_blank" rel="external"
+        
+        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
+        <h2>
+          (㇏(•̀ᵥᵥ•́)ノ)
+          
+            <span class="cursor-default align-top text-xs text-neutral-400 dark:text-neutral-500">
+              <span class="rtl:hidden">&#8599;</span>
+              <span class="ltr:hidden">&#8598;</span>
+            </span>
+          
+        </h2>
+      </a>
+    </header>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+
+  
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2024-08-01T00:00:00&#43;00:00">01/08/2024</time>
+    
+
+    
+    
+  </div>
+
+  
+
+  
+  
+    <div class="flex flex-row flex-wrap items-center">
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/notes-to-self/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    notes-to-self
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/watching/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    watching
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/2024/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    2024
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/ongoing/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    ongoing
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/media-theory/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    media theory
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/what-to-do-with-things-you-love/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    what-to-do-with-things-you-love
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/consumption/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    consumption
   </span>
 </span>
 
@@ -2214,6 +2509,862 @@
   <span
     class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     wip
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+    </div>
+  
+
+  
+  
+
+
+
+    </div>
+    
+  </div>
+  <div class="px-6 pt-4 pb-2"></div>
+</article>
+
+      </article>
+    
+      <article data-tags="wip,body-stuff,#jpeg2dicom,existence">
+        
+
+
+
+
+
+
+  
+  
+    
+      
+        
+      
+    
+
+    
+    
+
+    
+    
+
+    
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+<article
+  class="relative min-h-full min-w-full overflow-hidden rounded border border-2 border-neutral-200 shadow-2xl dark:border-neutral-700">
+  
+    <div class="flex-none relative overflow-hidden thumbnail_card">
+      <img
+        src="/images/oceanic_hu_849b89d45ac21e22.jpeg"
+        alt="zebrafish are apparently so cool"
+        loading="lazy"
+        decoding="async"
+        class="not-prose absolute inset-0 w-full h-full object-cover">
+    </div>
+  
+  
+  <div class="px-6 py-4">
+    <header>
+      <a
+        
+          href="/posts/zebrafish/"
+        
+        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
+        <h2>
+          zebrafish are apparently so cool
+          
+        </h2>
+      </a>
+    </header>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+
+  
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2023-02-01T00:00:00&#43;00:00">01/02/2023</time><span class="px-2 text-primary-500">&middot;</span><span>136 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+    
+
+    
+    
+  </div>
+
+  
+
+  
+  
+    <div class="flex flex-row flex-wrap items-center">
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/notes-to-self/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    notes-to-self
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/reading/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    reading
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/learning/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    learning
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/wip/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    wip
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/body-stuff/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    body stuff
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/%23jpeg2dicom/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    #jpeg2dicom
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/existence/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    existence
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+    </div>
+  
+
+  
+  
+
+
+
+    </div>
+    
+  </div>
+  <div class="px-6 pt-4 pb-2"></div>
+</article>
+
+      </article>
+    
+      <article data-tags="wip,mind-stuff,artificial-intelligence,existence">
+        
+
+
+
+
+
+
+  
+  
+    
+      
+        
+      
+    
+
+    
+    
+
+    
+    
+
+    
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+<article
+  class="relative min-h-full min-w-full overflow-hidden rounded border border-2 border-neutral-200 shadow-2xl dark:border-neutral-700">
+  
+    <div class="flex-none relative overflow-hidden thumbnail_card">
+      <img
+        src="/images/subroutineicon_hu_8e63d7e81d11868e.png"
+        alt="depression subroutines"
+        loading="lazy"
+        decoding="async"
+        class="not-prose absolute inset-0 w-full h-full object-cover">
+    </div>
+  
+  
+  <div class="px-6 py-4">
+    <header>
+      <a
+        
+          href="/posts/subroutines/"
+        
+        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
+        <h2>
+          depression subroutines
+          
+        </h2>
+      </a>
+    </header>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+
+  
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2022-11-29T00:00:00&#43;00:00">29/11/2022</time><span class="px-2 text-primary-500">&middot;</span><span>938 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+
+  
+  
+    <div class="flex flex-row flex-wrap items-center">
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/notes-to-self/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    notes-to-self
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/reading/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    reading
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/learning/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    learning
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/wip/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    wip
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/mind-stuff/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    mind stuff
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/artificial-intelligence/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    artificial intelligence
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/existence/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    existence
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+    </div>
+  
+
+  
+  
+
+
+
+    </div>
+    
+  </div>
+  <div class="px-6 pt-4 pb-2"></div>
+</article>
+
+      </article>
+    
+      <article data-tags="art-related-feelings,art-history">
+        
+
+
+
+
+
+
+  
+  
+    
+      
+        
+      
+    
+
+    
+    
+
+    
+    
+
+    
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+<article
+  class="relative min-h-full min-w-full overflow-hidden rounded border border-2 border-neutral-200 shadow-2xl dark:border-neutral-700">
+  
+    <div class="flex-none relative overflow-hidden thumbnail_card">
+      <img
+        src="/images/berardoicon_hu_d3021f104b8238ba.jpeg"
+        alt="Julião Sarmento: Abstracto, Branco, Tóxico e Volátil"
+        loading="lazy"
+        decoding="async"
+        class="not-prose absolute inset-0 w-full h-full object-cover">
+    </div>
+  
+  
+  <div class="px-6 py-4">
+    <header>
+      <a
+        
+          href="/posts/sarmento/"
+        
+        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
+        <h2>
+          Julião Sarmento: Abstracto, Branco, Tóxico e Volátil
+          
+        </h2>
+      </a>
+    </header>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+
+  
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2022-08-15T00:00:00&#43;00:00">15/08/2022</time><span class="px-2 text-primary-500">&middot;</span><span>865 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+
+  
+  
+    <div class="flex flex-row flex-wrap items-center">
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/writing/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    writing
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/exhibition-report/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    exhibition report
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/2022/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    2022
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/art-related-feelings/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    art-related feelings
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/art-history/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    art history
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+    </div>
+  
+
+  
+  
+
+
+
+    </div>
+    
+  </div>
+  <div class="px-6 pt-4 pb-2"></div>
+</article>
+
+      </article>
+    
+      <article data-tags="art-related-feelings,art-history">
+        
+
+
+
+
+
+
+  
+  
+    
+      
+        
+      
+    
+
+    
+    
+
+    
+    
+
+    
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+<article
+  class="relative min-h-full min-w-full overflow-hidden rounded border border-2 border-neutral-200 shadow-2xl dark:border-neutral-700">
+  
+    <div class="flex-none relative overflow-hidden thumbnail_card">
+      <img
+        src="/images/berardoicon_hu_d3021f104b8238ba.jpeg"
+        alt="muse berardo coleção"
+        loading="lazy"
+        decoding="async"
+        class="not-prose absolute inset-0 w-full h-full object-cover">
+    </div>
+  
+  
+  <div class="px-6 py-4">
+    <header>
+      <a
+        
+          href="/posts/berardo-visit/"
+        
+        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
+        <h2>
+          muse berardo coleção
+          
+        </h2>
+      </a>
+    </header>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+
+  
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2022-08-15T00:00:00&#43;00:00">15/08/2022</time><span class="px-2 text-primary-500">&middot;</span><span>669 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+
+  
+  
+    <div class="flex flex-row flex-wrap items-center">
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/writing/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    writing
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/exhibition-report/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    exhibition report
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/2022/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    2022
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/art-related-feelings/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    art-related feelings
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/art-history/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    art history
   </span>
 </span>
 
@@ -3296,7 +4447,13 @@
   document.addEventListener('DOMContentLoaded', function() {
     const filterBtns = document.querySelectorAll('.filter-btn');
     const articles = document.querySelectorAll('#article-container > article');
+    const clearBtn = document.getElementById('clearFilters');
+    const container = document.getElementById('article-container');
     let activeFilters = new Set(['all']);
+
+    
+    document.getElementById('total-count').textContent = articles.length;
+    document.getElementById('visible-count').textContent = articles.length;
 
     articles.forEach(article => article.style.display = '');
 
@@ -3308,6 +4465,51 @@
       tagContent.classList.toggle('hidden');
       tagIcon.textContent = tagContent.classList.contains('hidden') ? '▼' : '▲';
     });
+
+    function updateClearButton() {
+      if (!activeFilters.has('all') && activeFilters.size > 0) {
+        clearBtn.style.display = 'inline-block';
+      } else {
+        clearBtn.style.display = 'none';
+      }
+    }
+
+    function applyFilters() {
+      articles.forEach(article => {
+        const tags = article.dataset.tags.split(',');
+
+        if (activeFilters.has('all')) {
+          article.style.display = '';
+        } else {
+          const hasAnyTag = [...activeFilters].some(filter => tags.includes(filter));  
+          article.style.display = hasAnyTag ? '' : 'none';
+        }
+      });
+
+      const visibleCount = [...articles].filter(a => a.style.display !== 'none').length;
+
+      
+      document.getElementById('visible-count').textContent = visibleCount;
+
+      let noResultsMsg = document.getElementById('no-results-message');
+
+      if (visibleCount === 0) {
+        if (!noResultsMsg) {
+          noResultsMsg = document.createElement('div');
+          noResultsMsg.id = 'no-results-message';
+          noResultsMsg.className = 'col-span-full text-center py-12 text-neutral-600 dark:text-neutral-400';
+          noResultsMsg.innerHTML = '<p class="text-lg">No posts match these filters</p><p class="text-sm mt-2">Try selecting different tags</p>';
+          container.appendChild(noResultsMsg);
+        }
+        noResultsMsg.style.display = 'block';
+      } else {
+        if (noResultsMsg) {
+          noResultsMsg.style.display = 'none';
+        }
+      }
+
+      updateClearButton();
+    }
 
     filterBtns.forEach(btn => {
       btn.addEventListener('click', function() {
@@ -3336,21 +4538,19 @@
           }
         }
 
-        articles.forEach(article => {
-          const tags = article.dataset.tags.split(',');
-
-          if (activeFilters.has('all')) {
-            article.style.display = '';
-          } else {
-            const hasAllTags = [...activeFilters].every(filter => tags.includes(filter));
-            article.style.display = hasAllTags ? '' : 'none';
-          }
-        });
+        applyFilters();
       });
     });
 
+    clearBtn.addEventListener('click', function() {
+      activeFilters.clear();
+      activeFilters.add('all');
+      filterBtns.forEach(b => b.classList.remove('active'));
+      document.querySelector('[data-filter="all"]').classList.add('active');
+      applyFilters();
+    });
+
     const select = document.getElementById('sortSelect');
-    const container = document.getElementById('article-container');
 
     select.addEventListener('change', function() {
       const sorted = Array.from(articles).sort((a, b) => {

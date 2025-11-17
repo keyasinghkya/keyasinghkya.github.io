@@ -202,7 +202,7 @@
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Projects",
+    "articleSection": "projects",
     "name": "PRTY FR 1",
     "headline": "PRTY FR 1",
     
@@ -236,6 +236,16 @@
     
 
 <script>const colorSchemes=["terminal","avocado","fire","ocean","forest","princess","neon","autumn","slate"],randomScheme=colorSchemes[Math.floor(Math.random()*colorSchemes.length)];console.log("Switching to color scheme:",randomScheme);const html=document.documentElement;colorSchemes.forEach(e=>html.classList.remove(e)),html.classList.add(randomScheme),html.setAttribute("data-color-scheme",randomScheme),setTimeout(()=>{html.classList.remove(...colorSchemes),html.classList.add(randomScheme),html.setAttribute("data-color-scheme",randomScheme),console.log("Color scheme applied:",randomScheme),console.log("Current classes:",html.className)},50),document.addEventListener("DOMContentLoaded",function(){const e=document.querySelector('[id*="appearance"]');e&&e.addEventListener("click",function(){setTimeout(()=>{html.classList.add(randomScheme),html.setAttribute("data-color-scheme",randomScheme)},100)})})</script>
+
+<style>
+blockquote {
+  border-left: 4px solid rgb(var(--color-primary-600));
+}
+
+.dark blockquote {
+  border-left-color: rgb(var(--color-primary-400));
+}
+</style>
 
   
 
@@ -341,7 +351,7 @@
       
       aria-label="projects ⋆.𐙚˚"
       class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400"
-      title="Projects">
+      title="projects">
       <p>
         projects ⋆.𐙚˚
       </p>
@@ -571,7 +581,7 @@
     aria-label="projects ⋆.𐙚˚"
     class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-bg font-bg" title="Projects">
+    <p class="text-bg font-bg" title="projects">
       projects ⋆.𐙚˚
     </p>
     <span>

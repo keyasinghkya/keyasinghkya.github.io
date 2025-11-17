@@ -8,7 +8,7 @@
   </section>
 
   <div class="filter-section mb-4 mt-8">
-    <h3 class="text-sm font-bold mb-2">Filter by category:</h3>
+    <h3 class="text-sm font-bold mb-2">filter by category:</h3>
     <div class="category-buttons flex gap-2 flex-wrap mb-6">
       <button class="category-btn active text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-category="all">all</button>
       <button class="category-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-category="video">video</button>
@@ -22,18 +22,24 @@
   <div class="flex justify-between items-center mb-6">
     <div class="filter-section">
       <button id="tagFilterToggle" class="text-sm font-bold flex items-center gap-1 cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
-        <span>Filter by tags</span>
+        <span>filter by tags</span>
         <span id="tagToggleIcon">▼</span>
       </button>
     </div>
 
-    <div>
-      <label class="text-sm">sort: </label>
-      <select id="sortSelect" class="text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-800">
-        <option value="date-desc">newest first</option>
-        <option value="date-asc">oldest first</option>
-        <option value="title">title (a-z)</option>
-      </select>
+    <div class="flex gap-3 items-center">
+      <button id="clearFilters" class="text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800" style="display: none;">
+        clear filters
+      </button>
+
+      <div>
+        <label class="text-sm">sort: </label>
+        <select id="sortSelect" class="text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-800">
+          <option value="date-desc">newest first</option>
+          <option value="date-asc">oldest first</option>
+          <option value="title">title (a-z)</option>
+        </select>
+      </div>
     </div>
   </div>
 
@@ -51,7 +57,10 @@
       <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="{{ . | urlize }}">{{ . }}</button>
       {{ end }}
     </div>
-    <p class="text-xs text-neutral-500">Click multiple tags (AND logic)</p>
+  </div>
+
+  <div id="result-count" class="text-sm text-neutral-600 dark:text-neutral-400 mb-5">
+    showing <span id="visible-count">0</span> of <span id="total-count">0</span> projects
   </div>
 
   <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3" id="article-container">
@@ -80,9 +89,15 @@
     const categoryBtns = document.querySelectorAll('.category-btn');
     const tagBtns = document.querySelectorAll('.tag-btn');
     const articles = document.querySelectorAll('#article-container > article');
+    const clearBtn = document.getElementById('clearFilters');
+    const container = document.getElementById('article-container');
 
     let activeCategory = 'all';
     let activeTags = new Set();
+
+    // Initialize counts
+    document.getElementById('total-count').textContent = articles.length;
+    document.getElementById('visible-count').textContent = articles.length;
 
     articles.forEach(article => article.style.display = '');
 
@@ -94,6 +109,51 @@
       tagContent.classList.toggle('hidden');
       tagIcon.textContent = tagContent.classList.contains('hidden') ? '▼' : '▲';
     });
+
+    function updateClearButton() {
+      if (activeCategory !== 'all' || activeTags.size > 0) {
+        clearBtn.style.display = 'inline-block';
+      } else {
+        clearBtn.style.display = 'none';
+      }
+    }
+
+    function applyFilters() {
+      articles.forEach(article => {
+        const categories = article.dataset.categories.split(',');
+        const tags = article.dataset.tags.split(',');
+
+        const categoryMatch = activeCategory === 'all' || categories.includes(activeCategory);
+        const tagMatch = activeTags.size === 0 ||
+                        [...activeTags].some(tag => tags.includes(tag));  // OR LOGIC
+
+        article.style.display = (categoryMatch && tagMatch) ? '' : 'none';
+      });
+
+      const visibleCount = [...articles].filter(a => a.style.display !== 'none').length;
+
+      // Update count display
+      document.getElementById('visible-count').textContent = visibleCount;
+
+      let noResultsMsg = document.getElementById('no-results-message');
+
+      if (visibleCount === 0) {
+        if (!noResultsMsg) {
+          noResultsMsg = document.createElement('div');
+          noResultsMsg.id = 'no-results-message';
+          noResultsMsg.className = 'col-span-full text-center py-12 text-neutral-600 dark:text-neutral-400';
+          noResultsMsg.innerHTML = '<p class="text-lg">No projects match these filters</p><p class="text-sm mt-2">Try selecting different categories or tags</p>';
+          container.appendChild(noResultsMsg);
+        }
+        noResultsMsg.style.display = 'block';
+      } else {
+        if (noResultsMsg) {
+          noResultsMsg.style.display = 'none';
+        }
+      }
+
+      updateClearButton();
+    }
 
     categoryBtns.forEach(btn => {
       btn.addEventListener('click', function() {
@@ -107,7 +167,6 @@
     tagBtns.forEach(btn => {
       btn.addEventListener('click', function() {
         const tag = this.dataset.tag;
-
         if (activeTags.has(tag)) {
           activeTags.delete(tag);
           this.classList.remove('active');
@@ -115,26 +174,22 @@
           activeTags.add(tag);
           this.classList.add('active');
         }
-
         applyFilters();
       });
     });
 
-    function applyFilters() {
-      articles.forEach(article => {
-        const categories = article.dataset.categories.split(',');
-        const tags = article.dataset.tags.split(',');
+    clearBtn.addEventListener('click', function() {
+      activeCategory = 'all';
+      categoryBtns.forEach(b => b.classList.remove('active'));
+      document.querySelector('[data-category="all"]').classList.add('active');
 
-        const categoryMatch = activeCategory === 'all' || categories.includes(activeCategory);
-        const tagMatch = activeTags.size === 0 ||
-                        [...activeTags].every(tag => tags.includes(tag));
+      activeTags.clear();
+      tagBtns.forEach(b => b.classList.remove('active'));
 
-        article.style.display = (categoryMatch && tagMatch) ? '' : 'none';
-      });
-    }
+      applyFilters();
+    });
 
     const select = document.getElementById('sortSelect');
-    const container = document.getElementById('article-container');
 
     select.addEventListener('change', function() {
       const sorted = Array.from(articles).sort((a, b) => {

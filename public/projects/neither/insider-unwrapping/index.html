@@ -226,7 +226,7 @@ Premiere at CED with Terén 28/11/19, Brno, CZ">
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Projects",
+    "articleSection": "projects",
     "name": "Insider: unwrapping reality\/opening",
     "headline": "Insider: unwrapping reality\/opening",
     
@@ -246,7 +246,7 @@ Premiere at CED with Terén 28/11/19, Brno, CZ">
     "keywords": ["XR","installation","opening","czech republic"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "98"
+    "wordCount": "100"
   }]
   </script>
 
@@ -260,6 +260,16 @@ Premiere at CED with Terén 28/11/19, Brno, CZ">
     
 
 <script>const colorSchemes=["terminal","avocado","fire","ocean","forest","princess","neon","autumn","slate"],randomScheme=colorSchemes[Math.floor(Math.random()*colorSchemes.length)];console.log("Switching to color scheme:",randomScheme);const html=document.documentElement;colorSchemes.forEach(e=>html.classList.remove(e)),html.classList.add(randomScheme),html.setAttribute("data-color-scheme",randomScheme),setTimeout(()=>{html.classList.remove(...colorSchemes),html.classList.add(randomScheme),html.setAttribute("data-color-scheme",randomScheme),console.log("Color scheme applied:",randomScheme),console.log("Current classes:",html.className)},50),document.addEventListener("DOMContentLoaded",function(){const e=document.querySelector('[id*="appearance"]');e&&e.addEventListener("click",function(){setTimeout(()=>{html.classList.add(randomScheme),html.setAttribute("data-color-scheme",randomScheme)},100)})})</script>
+
+<style>
+blockquote {
+  border-left: 4px solid rgb(var(--color-primary-600));
+}
+
+.dark blockquote {
+  border-left-color: rgb(var(--color-primary-400));
+}
+</style>
 
   
 
@@ -365,7 +375,7 @@ Premiere at CED with Terén 28/11/19, Brno, CZ">
       
       aria-label="projects ⋆.𐙚˚"
       class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400"
-      title="Projects">
+      title="projects">
       <p>
         projects ⋆.𐙚˚
       </p>
@@ -595,7 +605,7 @@ Premiere at CED with Terén 28/11/19, Brno, CZ">
     aria-label="projects ⋆.𐙚˚"
     class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-bg font-bg" title="Projects">
+    <p class="text-bg font-bg" title="projects">
       projects ⋆.𐙚˚
     </p>
     <span>
@@ -730,7 +740,7 @@ Premiere at CED with Terén 28/11/19, Brno, CZ">
 
     <div class="project-meta text-sm flex flex-wrap items-center gap-2 mb-3">
       
-      <span>(2019 - ongoing)</span>
+      <span>2019 - ongoing</span>
       
 
       
@@ -2081,6 +2091,85 @@ Premiere at CED with Terén 28/11/19, Brno, CZ">
     background: rgba(0,0,0,0.3);
     border-radius: 10px;
   }
+</style>
+
+<div class="related-links-box">
+  <ul>
+<li><a
+  href="https://soundcloud.com/evilmedved"
+    target="_blank"
+  >Evil Medvěd</a></li>
+</ul>
+
+</div>
+
+<style>
+.related-links-box {
+  background: rgba(var(--color-neutral-200), 0.3);
+  border-left: 4px solid rgb(var(--color-primary-600));
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0.25rem;
+}
+
+.dark .related-links-box {
+  background: rgba(var(--color-neutral-800), 0.5);
+  border-left-color: rgb(var(--color-primary-400));
+}
+
+.related-links-box ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.related-links-box li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.related-links-box li:last-child {
+  margin-bottom: 0;
+}
+
+.related-links-box li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: rgb(var(--color-primary-600));
+  font-weight: bold;
+}
+
+.dark .related-links-box li::before {
+  color: rgb(var(--color-primary-400));
+}
+
+.related-links-box a {
+  color: rgb(var(--color-neutral-800));
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.related-links-box a:hover {
+  color: rgb(var(--color-primary-600));
+  text-decoration: underline;
+}
+
+.dark .related-links-box a {
+  color: rgb(var(--color-neutral-200));
+}
+
+.dark .related-links-box a:hover {
+  color: rgb(var(--color-primary-400));
+}
+
+ 
+.related-links-box a[href^="http"]::after {
+  content: " ↗";
+  font-size: 0.8em;
+  opacity: 0.6;
+}
 </style>
 
 
