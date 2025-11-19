@@ -7,6 +7,30 @@ select#sortSelect {
   padding-right: 2rem;
 }
 
+.masonry-wall {
+  column-count: 3;
+  column-gap: 1.5rem;
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .masonry-wall {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .masonry-wall {
+    column-count: 1;
+  }
+}
+
 /* Increase tag spacing on project single pages to match list pages */
 article header .flex-wrap {
   gap: 0.05rem !important;

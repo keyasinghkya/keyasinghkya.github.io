@@ -3,7 +3,7 @@ title: "Julião Sarmento: Abstracto, Branco, Tóxico e Volátil"
 date: 2022-08-15
 type: "posts"
 layout: "single"
-featureimage: "/images/berardoicon.jpeg"
+featureimage: "/images/sarmentoicon.jpeg"
 categories:
   - writing
   - exhibition report

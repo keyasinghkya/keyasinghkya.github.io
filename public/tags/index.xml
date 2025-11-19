@@ -70,6 +70,16 @@
     </item>
     
     <item>
+      <title>art-related feelings</title>
+      <link>http://localhost:1313/tags/art-related-feelings/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/art-related-feelings/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>body stuff</title>
       <link>http://localhost:1313/tags/body-stuff/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
@@ -595,16 +605,6 @@
       <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/art-history/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>art-related feelings</title>
-      <link>http://localhost:1313/tags/art-related-feelings/</link>
-      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/art-related-feelings/</guid>
       <description></description>
       
     </item>
