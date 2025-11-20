@@ -90,8 +90,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.9fa76472b70f2213750300239e6baf09a3e2d8186a63348951412718145539bf8f6f35c12728d603c8b965402d4cefce6aab4f0a4cfb6be1ba5114f39a97e71d.css"
-    integrity="sha512-n6dkcrcPIhN1AwAjnmuvCaPi2BhqYzSJUUEnGBRVOb&#43;PbzXBJyjWA8i5ZUAtTO/OaqtPCkz7a&#43;G6URTzmpfnHQ==">
+    href="/css/main.bundle.min.6d31889e190d4b3657c7ccbde0419f9749d4488ca3ce960f9e298a74362f9b5623a48c01ff3dd6857bf3b1e5afdc767de76ac72427a8a49a554d057b9c86ac19.css"
+    integrity="sha512-bTGInhkNSzZXx8y94EGfl0nUSIyjzpYPnimKdDYvm1YjpIwB/z3WhXvzseWv3HZ952rHJCeopJpVTQV7nIasGQ==">
 
   
   
@@ -319,21 +319,7 @@ blockquote {
         projects ⋆.𐙚˚
       </p>
     </a>
-    <span>
-      <span class="relative block icon"><svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 20 20"
-  fill="currentColor"
-  aria-hidden="true"
->
-  <path
-    fill-rule="evenodd"
-    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-    clip-rule="evenodd"
-  />
-</svg>
-</span>
-    </span>
+    <span>↓</span>
   </div>
   <div class="absolute menuhide">
     <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
@@ -695,9 +681,9 @@ blockquote {
 
   <div class="flex justify-between items-center mb-6">
     <div class="filter-section">
-      <button id="tagFilterToggle" class="text-sm font-bold flex items-center gap-1 cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+      <button id="tagFilterToggle" class="text-sm font-bold flex items-center gap-3 cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
         <span>filter by tags</span>
-        <span id="tagToggleIcon">▼</span>
+        <span id="tagToggleIcon">↓</span>
       </button>
     </div>
 
@@ -706,13 +692,14 @@ blockquote {
         clear filters
       </button>
 
-      <div>
+      <div style="position: relative; display: inline-block;">
         <label class="text-sm">sort: </label>
-        <select id="sortSelect" class="text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-800">
+        <select id="sortSelect" class="text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-800" style="appearance: none; padding-right: 2.5rem;">
           <option value="date-desc">newest first</option>
           <option value="date-asc">oldest first</option>
           <option value="title">title (a-z)</option>
         </select>
+        <span style="position: absolute; right: 0.75rem; top: 50%; transform: translateY(-50%); pointer-events: none;">↓</span>
       </div>
     </div>
   </div>
@@ -829,22 +816,6 @@ blockquote {
           
         
           
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
         
           
         
@@ -1168,8 +1139,6 @@ blockquote {
       
       <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="#jpeg2dicom">#jpeg2dicom</button>
       
-      <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="anthropocentrism">anthropocentrism</button>
-      
       <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="appearance">appearance</button>
       
       <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="archival-material">archival material</button>
@@ -1206,8 +1175,6 @@ blockquote {
       
       <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="exchange">exchange</button>
       
-      <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="feminist-theory">feminist theory</button>
-      
       <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="film">film</button>
       
       <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="film-marketing">film marketing</button>
@@ -1227,8 +1194,6 @@ blockquote {
       <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="gta">GTA</button>
       
       <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="identity">identity</button>
-      
-      <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="immigration">immigration</button>
       
       <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="improvisation">improvisation</button>
       
@@ -1304,8 +1269,6 @@ blockquote {
       
       <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="spatial-projections">spatial projections</button>
       
-      <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="tech">tech</button>
-      
       <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="the-eerie">the eerie</button>
       
       <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="theatre">theatre</button>
@@ -1320,8 +1283,6 @@ blockquote {
       
       <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="what-to-do-with-things-you-love">what-to-do-with-things-you-love</button>
       
-      <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="wip">wip</button>
-      
       <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="writing">writing</button>
       
       <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="xr">XR</button>
@@ -1334,10 +1295,10 @@ blockquote {
   </div>
 
   <section class="masonry-wall" id="article-container">
-  
-    <article class="masonry-item" data-categories="independent,collaboration,video,2025"
-             data-tags="germany,film,narrative,body-stuff,reality,mark-fisher,the-eerie">
-      
+    
+      <article class="masonry-item" data-categories="independent,collaboration,video,2025"
+               data-tags="germany,film,narrative,body-stuff,reality,mark-fisher,the-eerie">
+        
 
 
 
@@ -1598,11 +1559,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="workshop,teaching,video,visuals,2025"
-             data-tags="czech-republic,creative-faciliation,obs">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="workshop,teaching,video,visuals,2025"
+               data-tags="czech-republic,creative-faciliation,obs">
+        
 
 
 
@@ -1833,11 +1794,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="live,commissioned,2024"
-             data-tags="artist-talk,live-visuals,music,graphic-score-interpretation,found-material,visual-feedback,screen-inputs,live-camera,czech-republic,poland,slovakia,improvisation,obs,resolume-arena,midi-controller">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="live,commissioned,2024"
+               data-tags="artist-talk,live-visuals,music,graphic-score-interpretation,found-material,visual-feedback,screen-inputs,live-camera,czech-republic,poland,slovakia,improvisation,obs,resolume-arena,midi-controller">
+        
 
 
 
@@ -2168,11 +2129,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="live,independent,collaboration,narrative,2024,ongoing"
-             data-tags="performance,live-visuals,remix,live-gaming,gta,obs">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="live,independent,collaboration,narrative,2024,ongoing"
+               data-tags="performance,live-visuals,remix,live-gaming,gta,obs">
+        
 
 
 
@@ -2443,11 +2404,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="video,2017,ongoing"
-             data-tags="editing,czech-republic,india,what-to-do-with-things-you-love,consumption,music">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="video,2017,ongoing"
+               data-tags="editing,czech-republic,india,what-to-do-with-things-you-love,consumption,music">
+        
 
 
 
@@ -2689,11 +2650,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="independent,video,2023,2024"
-             data-tags="czech-republic,mexico,postcolonial-theory,media-theory,personal-archiving,exchange,reflective,video-essay,bad-chroma-keying">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="independent,video,2023,2024"
+               data-tags="czech-republic,mexico,postcolonial-theory,media-theory,personal-archiving,exchange,reflective,video-essay,bad-chroma-keying">
+        
 
 
 
@@ -2974,11 +2935,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="neither,independent,2023"
-             data-tags="installation,webcam,karaoke,bad-chroma-keying,obs,pop-culture,music,quasi-religion,czech-republic">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="neither,independent,2023"
+               data-tags="installation,webcam,karaoke,bad-chroma-keying,obs,pop-culture,music,quasi-religion,czech-republic">
+        
 
 
 
@@ -3249,276 +3210,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="independent,neither,notes-to-self,2023"
-             data-tags="media-theory,postcolonial-theory,feminist-theory,tech,anthropocentrism,immigration,wip">
-      
-
-
-
-
-
-
-  
-  
+      </article>
     
-      
+      <article class="masonry-item" data-categories="live,commissioned,collaboration,2022,2023,2024"
+               data-tags="performance,graphic-score-interpretation,#jpeg2dicom,spatial-projections,found-material,music,czech-republic,improvisation,obs,resolume-arena">
         
-      
-    
-
-    
-    
-
-    
-    
-
-    
-    
-      
-        
-        
-          
-        
-      
-    
-  
-
-
-
-<article
-  class="relative min-h-full min-w-full overflow-hidden rounded border border-2 border-neutral-200 shadow-2xl dark:border-neutral-700">
-  
-    <div class="flex-none relative overflow-hidden thumbnail_card">
-      <img
-        src="/images/nriicon_hu_6dbe575be2158583.png"
-        alt="Non-Residential Kin"
-        loading="lazy"
-        decoding="async"
-        class="not-prose absolute inset-0 w-full h-full object-cover">
-    </div>
-  
-  
-  <div class="px-6 py-4">
-    <header>
-      <a
-        
-          href="/projects/neither/non-residential-kin/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          Non-Residential Kin
-          
-        </h2>
-      </a>
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-
-  
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2023-02-01T00:00:00&#43;00:00">01/02/2023</time><span class="px-2 text-primary-500">&middot;</span><span>651 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
-    
-
-    
-    
-  </div>
-
-  
-
-  
-  
-    <div class="flex flex-row flex-wrap items-center">
-      
-        
-      
-        
-          
-            
-              <a class="relative mt-[0.5rem] me-2" href="/categories/independent/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    independent
-  </span>
-</span>
-
-              </a>
-            
-              <a class="relative mt-[0.5rem] me-2" href="/categories/neither/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    neither
-  </span>
-</span>
-
-              </a>
-            
-              <a class="relative mt-[0.5rem] me-2" href="/categories/notes-to-self/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    notes-to-self
-  </span>
-</span>
-
-              </a>
-            
-              <a class="relative mt-[0.5rem] me-2" href="/categories/2023/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    2023
-  </span>
-</span>
-
-              </a>
-            
-          
-        
-      
-        
-      
-        
-          
-            
-              <a class="relative mt-[0.5rem] me-2" href="/tags/media-theory/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    media theory
-  </span>
-</span>
-
-              </a>
-            
-              <a class="relative mt-[0.5rem] me-2" href="/tags/postcolonial-theory/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    postcolonial theory
-  </span>
-</span>
-
-              </a>
-            
-              <a class="relative mt-[0.5rem] me-2" href="/tags/feminist-theory/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    feminist theory
-  </span>
-</span>
-
-              </a>
-            
-              <a class="relative mt-[0.5rem] me-2" href="/tags/tech/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    tech
-  </span>
-</span>
-
-              </a>
-            
-              <a class="relative mt-[0.5rem] me-2" href="/tags/anthropocentrism/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    anthropocentrism
-  </span>
-</span>
-
-              </a>
-            
-              <a class="relative mt-[0.5rem] me-2" href="/tags/immigration/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    immigration
-  </span>
-</span>
-
-              </a>
-            
-              <a class="relative mt-[0.5rem] me-2" href="/tags/wip/">
-                <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    wip
-  </span>
-</span>
-
-              </a>
-            
-          
-        
-      
-    </div>
-  
-
-  
-  
-
-
-
-    </div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
-    </article>
-  
-    <article class="masonry-item" data-categories="live,commissioned,collaboration,2022,2023,2024"
-             data-tags="performance,graphic-score-interpretation,#jpeg2dicom,spatial-projections,found-material,music,czech-republic,improvisation,obs,resolume-arena">
-      
 
 
 
@@ -3829,11 +3525,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="independent,video,2022"
-             data-tags="czech-republic,norway,what-to-do-with-things-you-love,film,portrait">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="independent,video,2022"
+               data-tags="czech-republic,norway,what-to-do-with-things-you-love,film,portrait">
+        
 
 
 
@@ -4064,11 +3760,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="live,commissioned,collaboration,2021"
-             data-tags="live-visuals,music,visual-feedback,live-camera,screen-inputs,czech-republic,improvisation">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="live,commissioned,collaboration,2021"
+               data-tags="live-visuals,music,visual-feedback,live-camera,screen-inputs,czech-republic,improvisation">
+        
 
 
 
@@ -4329,11 +4025,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="workshop,teaching,video,visuals,2021"
-             data-tags="norway,creative-faciliation">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="workshop,teaching,video,visuals,2021"
+               data-tags="norway,creative-faciliation">
+        
 
 
 
@@ -4550,11 +4246,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="live,commissioned,2021"
-             data-tags="performance,music,live-visuals,found-material,archival-material,body-stuff,self-image,norway,improvisation">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="live,commissioned,2021"
+               data-tags="performance,music,live-visuals,found-material,archival-material,body-stuff,self-image,norway,improvisation">
+        
 
 
 
@@ -4825,11 +4521,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="neither,independent,2020,2021"
-             data-tags="xr,installation,czech-republic,ba-thesis,gaston-bachelard,char-davies,covid19,introspective,reflective">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="neither,independent,2020,2021"
+               data-tags="xr,installation,czech-republic,ba-thesis,gaston-bachelard,char-davies,covid19,introspective,reflective">
+        
 
 
 
@@ -5110,11 +4806,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="independent,video,2021"
-             data-tags="czech-republic,india,self-image,identity,reflective,portrait,personal-archiving">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="independent,video,2021"
+               data-tags="czech-republic,india,self-image,identity,reflective,portrait,personal-archiving">
+        
 
 
 
@@ -5365,11 +5061,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="independent,video,2020"
-             data-tags="czech-republic,india,grief,pop-culture,audio-manipulation,#jpeg2dicom,resolume-arena">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="independent,video,2020"
+               data-tags="czech-republic,india,grief,pop-culture,audio-manipulation,#jpeg2dicom,resolume-arena">
+        
 
 
 
@@ -5620,11 +5316,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="live,commissioned,2020,2021,2022,2023"
-             data-tags="live-visuals,theatre,documentation,visual-feedback,screen-inputs,live-camera,czech-republic,improvisation,obs">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="live,commissioned,2020,2021,2022,2023"
+               data-tags="live-visuals,theatre,documentation,visual-feedback,screen-inputs,live-camera,czech-republic,improvisation,obs">
+        
 
 
 
@@ -5925,11 +5621,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="commissioned,collaboration,video,2020"
-             data-tags="czech-republic,music,theatre,found-material">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="commissioned,collaboration,video,2020"
+               data-tags="czech-republic,music,theatre,found-material">
+        
 
 
 
@@ -6160,11 +5856,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="live,commissioned,2020"
-             data-tags="identity,live-visuals,music,self-image,#jpeg2dicom,czech-republic,resolume-arena,midi-controller">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="live,commissioned,2020"
+               data-tags="identity,live-visuals,music,self-image,#jpeg2dicom,czech-republic,resolume-arena,midi-controller">
+        
 
 
 
@@ -6272,7 +5968,7 @@ blockquote {
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2020-10-01T00:00:00&#43;00:00">01/10/2020</time><span class="px-2 text-primary-500">&middot;</span><span>179 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+      <time datetime="2020-10-01T00:00:00&#43;00:00">01/10/2020</time><span class="px-2 text-primary-500">&middot;</span><span>176 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
     
 
     
@@ -6425,11 +6121,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="commissioned,video,2020"
-             data-tags="czech-republic,performance,documentation,music">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="commissioned,video,2020"
+               data-tags="czech-republic,performance,documentation,music">
+        
 
 
 
@@ -6650,11 +6346,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="independent,visuals,neither,2020,ongoing"
-             data-tags="#jpeg2dicom,czech-republic,body-stuff,glitch,found-material,personal-archiving">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="independent,visuals,neither,2020,ongoing"
+               data-tags="#jpeg2dicom,czech-republic,body-stuff,glitch,found-material,personal-archiving">
+        
 
 
 
@@ -6915,11 +6611,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="independent,video,2020"
-             data-tags="czech-republic,learning,writing,video-essay">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="independent,video,2020"
+               data-tags="czech-republic,learning,writing,video-essay">
+        
 
 
 
@@ -7140,11 +6836,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="live,independent,collaboration,2019,ongoing"
-             data-tags="xr,performance,czech-republic,mexico,germany,romania">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="live,independent,collaboration,2019,ongoing"
+               data-tags="xr,performance,czech-republic,mexico,germany,romania">
+        
 
 
 
@@ -7252,7 +6948,7 @@ blockquote {
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2019-11-30T00:00:00&#43;00:00">30/11/2019</time><span class="px-2 text-primary-500">&middot;</span><span>359 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+      <time datetime="2019-11-30T00:00:00&#43;00:00">30/11/2019</time><span class="px-2 text-primary-500">&middot;</span><span>356 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
     
 
     
@@ -7405,11 +7101,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="neither,independent,collaboration,2019,ongoing"
-             data-tags="xr,installation,opening,czech-republic">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="neither,independent,collaboration,2019,ongoing"
+               data-tags="xr,installation,opening,czech-republic">
+        
 
 
 
@@ -7650,11 +7346,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="independent,video,2019"
-             data-tags="czech-republic,india,self-image,identity,pop-culture,bad-chroma-keying,live-coded-audio,sonicpi">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="independent,video,2019"
+               data-tags="czech-republic,india,self-image,identity,pop-culture,bad-chroma-keying,live-coded-audio,sonicpi">
+        
 
 
 
@@ -7915,11 +7611,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="independent,video,2019"
-             data-tags="czech-republic,india,self-image,audio-manipulation,identity,reflective">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="independent,video,2019"
+               data-tags="czech-republic,india,self-image,audio-manipulation,identity,reflective">
+        
 
 
 
@@ -8160,11 +7856,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="independent,video,2019"
-             data-tags="czech-republic,video-essay,nam-june-paik,video-art,art-history">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="independent,video,2019"
+               data-tags="czech-republic,video-essay,nam-june-paik,video-art,art-history">
+        
 
 
 
@@ -8395,11 +8091,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="independent,video,2018"
-             data-tags="czech-republic,india,self-image,identity,reflective,appearance">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="independent,video,2018"
+               data-tags="czech-republic,india,self-image,identity,reflective,appearance">
+        
 
 
 
@@ -8640,11 +8336,11 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-    <article class="masonry-item" data-categories="social-media-work,video-editing,content-creation,2015"
-             data-tags="india,digital-marketing,film-marketing,audience-engagement">
-      
+      </article>
+    
+      <article class="masonry-item" data-categories="social-media-work,video-editing,content-creation,2015"
+               data-tags="india,digital-marketing,film-marketing,audience-engagement">
+        
 
 
 
@@ -8865,9 +8561,9 @@ blockquote {
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-    </article>
-  
-</section>
+      </article>
+    
+  </section>
 
   <style>
     .category-btn.active, .tag-btn.active {
@@ -8880,31 +8576,30 @@ blockquote {
       color: white;
     }
 
-    .masonry-container {
-  column-count: 3;
-  column-gap: 2rem;
-  padding: 2rem 0;
-}
+    .masonry-wall {
+      column-count: 3;
+      column-gap: 2rem;
+      padding: 2rem 0;
+    }
 
-.masonry-card {
-  break-inside: avoid;
-  margin-bottom: 2rem;
-  display: inline-block;
-  width: 100%;
-}
+    .masonry-item {
+      break-inside: avoid;
+      margin-bottom: 2rem;
+      display: inline-block;
+      width: 100%;
+    }
 
-@media (max-width: 1024px) {
-  .masonry-container {
-    column-count: 2;
-  }
-}
+    @media (max-width: 1024px) {
+      .masonry-wall {
+        column-count: 2;
+      }
+    }
 
-@media (max-width: 768px) {
-  .masonry-container {
-    column-count: 1;
-  }
-}
-
+    @media (max-width: 768px) {
+      .masonry-wall {
+        column-count: 1;
+      }
+    }
   </style>
 
   <script>
@@ -8919,8 +8614,6 @@ blockquote {
     let activeTags = new Set();
 
     
-
-    
     document.getElementById('total-count').textContent = articles.length;
     document.getElementById('visible-count').textContent = articles.length;
 
@@ -8932,7 +8625,7 @@ blockquote {
 
     tagToggle.addEventListener('click', function() {
       tagContent.classList.toggle('hidden');
-      tagIcon.textContent = tagContent.classList.contains('hidden') ? '▼' : '▲';
+      tagIcon.textContent = tagContent.classList.contains('hidden') ? '↓' : '↑';
     });
 
     function updateClearButton() {

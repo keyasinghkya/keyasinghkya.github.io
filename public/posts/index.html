@@ -90,8 +90,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.9fa76472b70f2213750300239e6baf09a3e2d8186a63348951412718145539bf8f6f35c12728d603c8b965402d4cefce6aab4f0a4cfb6be1ba5114f39a97e71d.css"
-    integrity="sha512-n6dkcrcPIhN1AwAjnmuvCaPi2BhqYzSJUUEnGBRVOb&#43;PbzXBJyjWA8i5ZUAtTO/OaqtPCkz7a&#43;G6URTzmpfnHQ==">
+    href="/css/main.bundle.min.6d31889e190d4b3657c7ccbde0419f9749d4488ca3ce960f9e298a74362f9b5623a48c01ff3dd6857bf3b1e5afdc767de76ac72427a8a49a554d057b9c86ac19.css"
+    integrity="sha512-bTGInhkNSzZXx8y94EGfl0nUSIyjzpYPnimKdDYvm1YjpIwB/z3WhXvzseWv3HZ952rHJCeopJpVTQV7nIasGQ==">
 
   
   
@@ -319,21 +319,7 @@ blockquote {
         projects ⋆.𐙚˚
       </p>
     </a>
-    <span>
-      <span class="relative block icon"><svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 20 20"
-  fill="currentColor"
-  aria-hidden="true"
->
-  <path
-    fill-rule="evenodd"
-    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-    clip-rule="evenodd"
-  />
-</svg>
-</span>
-    </span>
+    <span>↓</span>
   </div>
   <div class="absolute menuhide">
     <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
@@ -683,9 +669,9 @@ blockquote {
 
   <div class="flex justify-between items-center mb-6 mt-8">
     <div class="filter-section">
-      <button id="tagFilterToggle" class="text-sm font-bold flex items-center gap-1 cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+      <button id="tagFilterToggle" class="text-sm font-bold flex items-center gap-10 cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
         <span>filter by tags</span>
-        <span id="tagToggleIcon">▼</span>
+        <span id="tagToggleIcon">↓</span>
       </button>
     </div>
 
@@ -694,13 +680,14 @@ blockquote {
         clear filters
       </button>
 
-      <div>
+      <div style="position: relative; display: inline-block;">
         <label class="text-sm">sort: </label>
-        <select id="sortSelect" class="text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-800">
+        <select id="sortSelect" class="text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-800" style="appearance: none; padding-right: 2.5rem;">
           <option value="date-desc">newest first</option>
           <option value="date-asc">oldest first</option>
           <option value="title">title (a-z)</option>
         </select>
+        <span style="position: absolute; right: 0.75rem; top: 50%; transform: translateY(-50%); pointer-events: none;">↓</span>
       </div>
     </div>
   </div>
@@ -794,6 +781,22 @@ blockquote {
         
           
         
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
       
         
           
@@ -858,6 +861,8 @@ blockquote {
       
       <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="affect-theory">affect theory</button>
       
+      <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="anthropocentrism">anthropocentrism</button>
+      
       <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="art-history">art history</button>
       
       <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="art-related-feelings">art-related feelings</button>
@@ -874,9 +879,13 @@ blockquote {
       
       <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="existence">existence</button>
       
+      <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="feminist-theory">feminist theory</button>
+      
       <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="gta">GTA</button>
       
       <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="hauntology">hauntology</button>
+      
+      <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="immigration">immigration</button>
       
       <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="installation">installation</button>
       
@@ -898,7 +907,11 @@ blockquote {
       
       <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="pop-culture">pop culture</button>
       
+      <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="postcolonial-theory">postcolonial theory</button>
+      
       <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="remix">remix</button>
+      
+      <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="tech">tech</button>
       
       <button class="filter-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-filter="video-art">video art</button>
       
@@ -1260,7 +1273,7 @@ blockquote {
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-09-15T00:00:00&#43;00:00">15/09/2025</time><span class="px-2 text-primary-500">&middot;</span><span>389 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+      <time datetime="2025-09-15T00:00:00&#43;00:00">15/09/2025</time><span class="px-2 text-primary-500">&middot;</span><span>386 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
     
 
     
@@ -1873,7 +1886,7 @@ blockquote {
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-06-01T00:00:00&#43;00:00">01/06/2024</time><span class="px-2 text-primary-500">&middot;</span><span>1459 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">7 mins</span>
+      <time datetime="2024-06-01T00:00:00&#43;00:00">01/06/2024</time><span class="px-2 text-primary-500">&middot;</span><span>1456 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">7 mins</span>
     
 
     
@@ -2107,7 +2120,7 @@ blockquote {
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-06-01T00:00:00&#43;00:00">01/06/2024</time><span class="px-2 text-primary-500">&middot;</span><span>5418 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">26 mins</span>
+      <time datetime="2024-06-01T00:00:00&#43;00:00">01/06/2024</time><span class="px-2 text-primary-500">&middot;</span><span>5415 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">26 mins</span>
     
 
     
@@ -2566,7 +2579,7 @@ blockquote {
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2023-03-10T00:00:00&#43;00:00">10/03/2023</time><span class="px-2 text-primary-500">&middot;</span><span>1665 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">8 mins</span>
+      <time datetime="2023-03-10T00:00:00&#43;00:00">10/03/2023</time><span class="px-2 text-primary-500">&middot;</span><span>1662 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">8 mins</span>
     
 
     
@@ -2731,6 +2744,250 @@ blockquote {
 
       </article>
     
+      <article data-tags="media-theory,postcolonial-theory,feminist-theory,tech,anthropocentrism,immigration,wip">
+        
+
+
+
+
+
+
+  
+  
+    
+      
+        
+      
+    
+
+    
+    
+
+    
+    
+
+    
+    
+      
+        
+        
+          
+        
+      
+    
+  
+
+
+
+<article
+  class="relative min-h-full min-w-full overflow-hidden rounded border border-2 border-neutral-200 shadow-2xl dark:border-neutral-700">
+  
+    <div class="flex-none relative overflow-hidden thumbnail_card">
+      <img
+        src="/images/nriicon_hu_6dbe575be2158583.png"
+        alt="Non-Residential Kin"
+        loading="lazy"
+        decoding="async"
+        class="not-prose absolute inset-0 w-full h-full object-cover">
+    </div>
+  
+  
+  <div class="px-6 py-4">
+    <header>
+      <a
+        
+          href="/posts/non-residential-kin/"
+        
+        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
+        <h2>
+          Non-Residential Kin
+          
+        </h2>
+      </a>
+    </header>
+    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+      
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+
+  
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2023-02-01T00:00:00&#43;00:00">01/02/2023</time><span class="px-2 text-primary-500">&middot;</span><span>651 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+
+  
+  
+    <div class="flex flex-row flex-wrap items-center">
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/notes-to-self/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    notes-to-self
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/2023/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    2023
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/media-theory/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    media theory
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/postcolonial-theory/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    postcolonial theory
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/feminist-theory/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    feminist theory
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/tech/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    tech
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/anthropocentrism/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    anthropocentrism
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/immigration/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    immigration
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/wip/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    wip
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+    </div>
+  
+
+  
+  
+
+
+
+    </div>
+    
+  </div>
+  <div class="px-6 pt-4 pb-2"></div>
+</article>
+
+      </article>
+    
       <article data-tags="wip,body-stuff,#jpeg2dicom,existence">
         
 
@@ -2771,7 +3028,7 @@ blockquote {
   
     <div class="flex-none relative overflow-hidden thumbnail_card">
       <img
-        src="/images/oceanic_hu_849b89d45ac21e22.jpeg"
+        src="/images/zebra-icon_hu_19d5f0dd1767927d.jpg"
         alt="zebrafish are apparently so cool"
         loading="lazy"
         decoding="async"
@@ -4661,7 +4918,7 @@ blockquote {
 
     tagToggle.addEventListener('click', function() {
       tagContent.classList.toggle('hidden');
-      tagIcon.textContent = tagContent.classList.contains('hidden') ? '▼' : '▲';
+      tagIcon.textContent = tagContent.classList.contains('hidden') ? '↓' : '↑';
     });
 
     function updateClearButton() {
@@ -4679,14 +4936,13 @@ blockquote {
         if (activeFilters.has('all')) {
           article.style.display = '';
         } else {
-          const hasAnyTag = [...activeFilters].some(filter => tags.includes(filter));  
+          const hasAnyTag = [...activeFilters].some(filter => tags.includes(filter));
           article.style.display = hasAnyTag ? '' : 'none';
         }
       });
 
       const visibleCount = [...articles].filter(a => a.style.display !== 'none').length;
 
-      
       document.getElementById('visible-count').textContent = visibleCount;
 
       let noResultsMsg = document.getElementById('no-results-message');

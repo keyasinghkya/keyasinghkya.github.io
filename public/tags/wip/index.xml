@@ -17,10 +17,9 @@
       <guid>http://localhost:1313/posts/gta-reading/</guid>
       <description>&lt;p&gt;&lt;div id=&#34;floating-toc&#34; class=&#34;floating-toc&#34;&gt;
   &lt;button id=&#34;toc-toggle&#34; class=&#34;toc-toggle&#34;&gt;
-    &lt;span id=&#34;toc-icon&#34;&gt;☰&lt;/span&gt; Contents
+    &lt;span id=&#34;toc-icon&#34;&gt;☰&lt;/span&gt; contents
   &lt;/button&gt;
   &lt;div id=&#34;toc-content&#34; class=&#34;toc-content&#34;&gt;
-    &lt;h3 class=&#34;text-sm font-bold mb-3 text-neutral-900 dark:text-neutral&#34;&gt;On this page&lt;/h3&gt;
     &lt;nav id=&#34;toc-nav&#34;&gt;
       
       
@@ -359,10 +358,10 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Non-Residential Kin</title>
-      <link>http://localhost:1313/projects/neither/non-residential-kin/</link>
+      <link>http://localhost:1313/posts/non-residential-kin/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/neither/non-residential-kin/</guid>
+      <guid>http://localhost:1313/posts/non-residential-kin/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/mHn6jVxsB5U?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;

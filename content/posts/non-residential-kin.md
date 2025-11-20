@@ -4,8 +4,6 @@ date: 2023-02-01
 year: 02/23 - ?
 featureimage: "/images/nriicon.png"
 categories:
-  - independent
-  - neither
   - notes-to-self
   - 2023
 tags:

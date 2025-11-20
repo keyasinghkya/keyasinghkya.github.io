@@ -21,9 +21,9 @@
 
   <div class="flex justify-between items-center mb-6">
     <div class="filter-section">
-      <button id="tagFilterToggle" class="text-sm font-bold flex items-center gap-1 cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+      <button id="tagFilterToggle" class="text-sm font-bold flex items-center gap-3 cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
         <span>filter by tags</span>
-        <span id="tagToggleIcon">▼</span>
+        <span id="tagToggleIcon">↓</span>
       </button>
     </div>
 
@@ -32,13 +32,14 @@
         clear filters
       </button>
 
-      <div>
+      <div style="position: relative; display: inline-block;">
         <label class="text-sm">sort: </label>
-        <select id="sortSelect" class="text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-800">
+        <select id="sortSelect" class="text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-800" style="appearance: none; padding-right: 2.5rem;">
           <option value="date-desc">newest first</option>
           <option value="date-asc">oldest first</option>
           <option value="title">title (a-z)</option>
         </select>
+        <span style="position: absolute; right: 0.75rem; top: 50%; transform: translateY(-50%); pointer-events: none;">↓</span>
       </div>
     </div>
   </div>
@@ -64,13 +65,13 @@
   </div>
 
   <section class="masonry-wall" id="article-container">
-  {{ range where .Site.RegularPages "Type" "projects" }}
-    <article class="masonry-item" data-categories="{{ delimit (apply .Params.categories "urlize" ".") "," }}"
-             data-tags="{{ delimit (apply .Params.tags "urlize" ".") "," }}">
-      {{ partial "article-link/card.html" . }}
-    </article>
-  {{ end }}
-</section>
+    {{ range where .Site.RegularPages "Type" "projects" }}
+      <article class="masonry-item" data-categories="{{ delimit (apply .Params.categories "urlize" ".") "," }}"
+               data-tags="{{ delimit (apply .Params.tags "urlize" ".") "," }}">
+        {{ partial "article-link/card.html" . }}
+      </article>
+    {{ end }}
+  </section>
 
   <style>
     .category-btn.active, .tag-btn.active {
@@ -83,31 +84,30 @@
       color: white;
     }
 
-    .masonry-container {
-  column-count: 3;
-  column-gap: 2rem;
-  padding: 2rem 0;
-}
+    .masonry-wall {
+      column-count: 3;
+      column-gap: 2rem;
+      padding: 2rem 0;
+    }
 
-.masonry-card {
-  break-inside: avoid;
-  margin-bottom: 2rem;
-  display: inline-block;
-  width: 100%;
-}
+    .masonry-item {
+      break-inside: avoid;
+      margin-bottom: 2rem;
+      display: inline-block;
+      width: 100%;
+    }
 
-@media (max-width: 1024px) {
-  .masonry-container {
-    column-count: 2;
-  }
-}
+    @media (max-width: 1024px) {
+      .masonry-wall {
+        column-count: 2;
+      }
+    }
 
-@media (max-width: 768px) {
-  .masonry-container {
-    column-count: 1;
-  }
-}
-
+    @media (max-width: 768px) {
+      .masonry-wall {
+        column-count: 1;
+      }
+    }
   </style>
 
   <script>
@@ -121,8 +121,6 @@
     let activeCategory = 'all';
     let activeTags = new Set();
 
-    
-
     // Initialize counts
     document.getElementById('total-count').textContent = articles.length;
     document.getElementById('visible-count').textContent = articles.length;
@@ -135,7 +133,7 @@
 
     tagToggle.addEventListener('click', function() {
       tagContent.classList.toggle('hidden');
-      tagIcon.textContent = tagContent.classList.contains('hidden') ? '▼' : '▲';
+      tagIcon.textContent = tagContent.classList.contains('hidden') ? '↓' : '↑';
     });
 
     function updateClearButton() {

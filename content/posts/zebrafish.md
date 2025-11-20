@@ -3,7 +3,7 @@ title: "zebrafish are apparently so cool"
 date: 2023-02-01
 type: "posts"
 layout: "single"
-featureimage: "/images/oceanic.jpeg"
+featureimage: "/images/zebra-icon.jpg"
 categories:
   - notes-to-self
   - reading

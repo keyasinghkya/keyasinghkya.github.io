@@ -61,10 +61,9 @@
       <guid>http://localhost:1313/projects/live/insider/</guid>
       <description>&lt;div id=&#34;floating-toc&#34; class=&#34;floating-toc&#34;&gt;
   &lt;button id=&#34;toc-toggle&#34; class=&#34;toc-toggle&#34;&gt;
-    &lt;span id=&#34;toc-icon&#34;&gt;☰&lt;/span&gt; Contents
+    &lt;span id=&#34;toc-icon&#34;&gt;☰&lt;/span&gt; contents
   &lt;/button&gt;
   &lt;div id=&#34;toc-content&#34; class=&#34;toc-content&#34;&gt;
-    &lt;h3 class=&#34;text-sm font-bold mb-3 text-neutral-900 dark:text-neutral&#34;&gt;On this page&lt;/h3&gt;
     &lt;nav id=&#34;toc-nav&#34;&gt;
       
       
