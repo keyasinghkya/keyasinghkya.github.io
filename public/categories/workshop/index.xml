@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 </copyright>
-    <lastBuildDate>Wed, 12 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/workshop/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/workshop/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>co-creating live a/v at Seeds Residency 2025</title>
+      <link>http://localhost:1313/projects/teaching/seeds-workshop/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/teaching/seeds-workshop/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>everyone can create live visuals</title>
@@ -21,10 +31,10 @@
     
     <item>
       <title>collaborative video workshop at Insomnia Festival 2021</title>
-      <link>http://localhost:1313/projects/teaching/insomnia2020-workshop/</link>
+      <link>http://localhost:1313/projects/teaching/insomnia2021-workshop/</link>
       <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/teaching/insomnia2020-workshop/</guid>
+      <guid>http://localhost:1313/projects/teaching/insomnia2021-workshop/</guid>
       <description></description>
       
     </item>

@@ -83,6 +83,11 @@
         &lt;li&gt;&lt;a href=&#34;#james-turrell&#34;&gt;&lt;strong&gt;James Turrell: &lt;em&gt;Aftershock&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#den-frie&#34;&gt;@Den Frie&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#maybe-we-could-both-belong&#34;&gt;Maybe we could both belong&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#related&#34;&gt;Related&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
@@ -358,8 +363,8 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     &lt;/span&gt;
     
 &lt;/h3&gt;
-&lt;div style=&#34;display: grid; grid-template-columns: 1&#34;&gt;
-  &lt;p style=&#34;grid-column: 1 / -1;&#34;&gt;v interesting to see a shorter + visual version of the exhibition text. i have never seen this before and i think its a good thing, even tho i feel people are generally getting less and less interested in reading but this way any possibility of inaccess can probably be dealt with 🤔&lt;/p&gt;</description>
+&lt;div style=&#34;display: grid; grid-template-columns: 1fr; gap: 1rem; margin: 2rem 0;&#34;&gt;
+  &lt;p style=&#34;grid-column: 1 / -1; margin-bottom: 0.25rem;&#34;&gt;v interesting to see a shorter + visual version of the exhibition text. i have never seen this before and i think its a good thing, even tho i feel people are generally getting less and less interested in reading but this way any possibility of inaccess can probably be dealt with 🤔&lt;/p&gt;</description>
       
     </item>
     

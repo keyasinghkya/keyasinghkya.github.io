@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 </copyright>
-    <lastBuildDate>Mon, 15 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/2025/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/2025/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>co-creating live a/v at Seeds Residency 2025</title>
+      <link>http://localhost:1313/projects/teaching/seeds-workshop/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/teaching/seeds-workshop/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>cph art consumption</title>
@@ -30,6 +40,11 @@
         &lt;li&gt;&lt;a href=&#34;#soft-robots-the-art-of-digital-breathing&#34;&gt;Soft Robots: The Art of Digital Breathing&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;#cc-create-x-monster-chetwynd-a-feather-in-your-hat&#34;&gt;CC Create x Monster Chetwynd: A Feather in your Hat!&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;#james-turrell&#34;&gt;&lt;strong&gt;James Turrell: &lt;em&gt;Aftershock&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#den-frie&#34;&gt;@Den Frie&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#maybe-we-could-both-belong&#34;&gt;Maybe we could both belong&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#related&#34;&gt;Related&lt;/a&gt;&lt;/li&gt;
@@ -307,8 +322,8 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     &lt;/span&gt;
     
 &lt;/h3&gt;
-&lt;div style=&#34;display: grid; grid-template-columns: 1&#34;&gt;
-  &lt;p style=&#34;grid-column: 1 / -1;&#34;&gt;v interesting to see a shorter + visual version of the exhibition text. i have never seen this before and i think its a good thing, even tho i feel people are generally getting less and less interested in reading but this way any possibility of inaccess can probably be dealt with 🤔&lt;/p&gt;</description>
+&lt;div style=&#34;display: grid; grid-template-columns: 1fr; gap: 1rem; margin: 2rem 0;&#34;&gt;
+  &lt;p style=&#34;grid-column: 1 / -1; margin-bottom: 0.25rem;&#34;&gt;v interesting to see a shorter + visual version of the exhibition text. i have never seen this before and i think its a good thing, even tho i feel people are generally getting less and less interested in reading but this way any possibility of inaccess can probably be dealt with 🤔&lt;/p&gt;</description>
       
     </item>
     

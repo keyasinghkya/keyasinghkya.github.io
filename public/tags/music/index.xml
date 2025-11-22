@@ -460,27 +460,10 @@
       <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/projects/neither/spotlight/</guid>
-      <description>&lt;p&gt;&lt;div style=&#34;position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; overflow: hidden;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/backgrounds/spotlight-bg.jpeg&#34; style=&#34;width: 100%; height: 100%; object-fit: cover; object-position: center top;&#34;&gt;
-  &lt;div class=&#34;project-bg-overlay&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;style&gt;
-.project-bg-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.5);
-}
-
-.dark .project-bg-overlay {
-  background: rgba(0, 0, 0, 0.6);
-}
-&lt;/style&gt;
-
-This work plays with the precarious nature of being seen (or even consumed) by the media we consume. It further layers an aspect of an alt-Hindu guru/diva figure whose virtual presence provides the audience with flimsy guidance and support as they find their image absorbed by the work. While you reminisce the inherent nostalgia of R.E.M’s Losing My Religion, she will help you either find or lose your faith.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This work plays with the precarious nature of being seen (or even consumed) by the media we consume. It further layers an aspect of an alt-Hindu guru/diva figure whose virtual presence provides the audience with flimsy guidance and support as they find their image absorbed by the work. While you reminisce the inherent nostalgia of R.E.M’s Losing My Religion, she will help you either find or lose your faith.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;love and thanks to:&lt;/strong&gt;&lt;br&gt;
+Inna Kuzminova for the beautiful 3D backgrounds&lt;br&gt;
+Martina Svobodová for the lovely introductory vocals&lt;/p&gt;</description>
       
     </item>
     

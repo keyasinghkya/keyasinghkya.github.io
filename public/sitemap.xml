@@ -63,6 +63,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/projects/teaching/seeds-workshop/</loc>
+    <lastmod>2025-09-18T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/posts/cph-art-consumption/</loc>
     <lastmod>2025-09-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -189,7 +195,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/teaching/insomnia2020-workshop/</loc>
+    <loc>http://localhost:1313/projects/teaching/insomnia2021-workshop/</loc>
     <lastmod>2021-10-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

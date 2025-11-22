@@ -1,7 +1,7 @@
 ---
 title: "everyone can create live visuals"
 date: 2025-02-12
-featureimage: "/images/norway-wrkshp.png"
+featureimage: "/images/ostravawrkshp.png"
 categories:
   - workshop
   - teaching

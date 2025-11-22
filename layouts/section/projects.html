@@ -84,28 +84,28 @@
       color: white;
     }
 
+    /* Changed from CSS columns to CSS Grid */
     .masonry-wall {
-      column-count: 3;
-      column-gap: 2rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
       padding: 2rem 0;
     }
 
     .masonry-item {
-      break-inside: avoid;
-      margin-bottom: 2rem;
-      display: inline-block;
-      width: 100%;
+      /* Grid items automatically position themselves */
+      /* No need for break-inside, margin-bottom, display, or width */
     }
 
     @media (max-width: 1024px) {
       .masonry-wall {
-        column-count: 2;
+        grid-template-columns: repeat(2, 1fr);
       }
     }
 
     @media (max-width: 768px) {
       .masonry-wall {
-        column-count: 1;
+        grid-template-columns: 1fr;
       }
     }
   </style>
