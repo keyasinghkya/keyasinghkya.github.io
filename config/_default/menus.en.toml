@@ -47,9 +47,9 @@
   weight = 3
 
 [[main]]
-  name = "teaching ˶ᵔ ᵕ ᵔ˶"
+  name = "workshop ˶ᵔ ᵕ ᵔ˶"
   parent = "projects ⋆.𐙚˚"
-  pageRef = "categories/teaching"
+  pageRef = "categories/workshop"
   weight = 4
 
 [[main]]

@@ -3,7 +3,6 @@ title: "#jpeg2dicom"
 date: 2020-04-01
 categories:
   - independent
-  - visuals
   - neither
   - 2020
   - ongoing

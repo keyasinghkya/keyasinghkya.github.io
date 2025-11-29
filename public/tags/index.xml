@@ -70,11 +70,21 @@
     </item>
     
     <item>
-      <title>creative faciliation</title>
-      <link>http://localhost:1313/tags/creative-faciliation/</link>
+      <title>collaboration</title>
+      <link>http://localhost:1313/tags/collaboration/</link>
       <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/creative-faciliation/</guid>
+      <guid>http://localhost:1313/tags/collaboration/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>creative facilitation</title>
+      <link>http://localhost:1313/tags/creative-facilitation/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/creative-facilitation/</guid>
       <description></description>
       
     </item>
@@ -165,6 +175,16 @@
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/the-eerie/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Resolume Arena</title>
+      <link>http://localhost:1313/tags/resolume-arena/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/resolume-arena/</guid>
       <description></description>
       
     </item>
@@ -275,16 +295,6 @@
       <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/poland/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Resolume Arena</title>
-      <link>http://localhost:1313/tags/resolume-arena/</link>
-      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/resolume-arena/</guid>
       <description></description>
       
     </item>
