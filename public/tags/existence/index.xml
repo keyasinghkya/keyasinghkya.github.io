@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>existence on keya singh 𓂃 ⌂ ོ☼ 𓂃 🚧 under construction</title>
+    <link>http://localhost:1313/tags/existence/</link>
+    <description>Recent content in existence on keya singh 𓂃 ⌂ ོ☼ 𓂃 🚧 under construction</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/existence/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>zebrafish are apparently so cool</title>
+      <link>http://localhost:1313/posts/zebrafish/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/zebrafish/</guid>
+      <description>&lt;a href=&#34;https://www.facebase.org/chaise/record/#1/isa:dataset/RID=1-517M&#34; target=&#34;_blank&#34; class=&#34;link-preview-card&#34;&gt;
+  
+  &lt;div class=&#34;preview-content&#34;&gt;
+    &lt;h4 class=&#34;preview-title&#34;&gt;Dataset: Interactive Zebrafish Craniofacial Atlases&lt;/h4&gt;
+    
+    &lt;p class=&#34;preview-description&#34;&gt;&amp;#34;Multiple facets of morphology must be considered to decipher a craniofacial phenotype. Our objective was to create a resource for functional, anatomical, and developmental information that could be applied to normal and mutant contexts. To this end, we generated interactive, three-dimensional atlases of craniofacial anatomy in wild-type, adult zebrafish.&amp;#34;&lt;/p&gt;
+    
+  &lt;/div&gt;
+&lt;/a&gt;
+
+&lt;style&gt;
+.link-preview-card {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  border: 2px solid rgb(var(--color-neutral-300));
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: all 0.2s;
+  margin: 1.5rem 0;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.dark .link-preview-card {
+  border-color: rgb(var(--color-neutral-700));
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.link-preview-card:hover {
+  border-color: rgb(var(--color-primary-600));
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.preview-image {
+  flex-shrink: 0;
+  width: 200px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 0.25rem;
+}
+
+.preview-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.preview-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.preview-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgb(var(--color-neutral-900));
+}
+
+.dark .preview-title {
+  color: rgb(var(--color-neutral-100));
+}
+
+.preview-description {
+  margin: 0;
+  font-size: 0.875rem;
+  color: rgb(var(--color-neutral-600));
+  line-height: 1.4;
+  flex: 1;
+}
+
+.dark .preview-description {
+  color: rgb(var(--color-neutral-400));
+}
+
+.preview-url {
+  font-size: 0.75rem;
+  color: rgb(var(--color-primary-600));
+}
+
+.dark .preview-url {
+  color: rgb(var(--color-primary-400));
+}
+
+@media (max-width: 640px) {
+  .link-preview-card {
+    flex-direction: column;
+  }
+
+  .preview-image {
+    width: 100%;
+    height: 150px;
+  }
+}
+&lt;/style&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img
+    class=&#34;my-0 rounded-md&#34;
+    loading=&#34;lazy&#34;
+    decoding=&#34;async&#34;
+    fetchpriority=&#34;low&#34;
+    alt=&#34;&#34;
+    src=&#34;http://localhost:1313/images/spiderfish-1.png&#34;
+    &gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img
+    class=&#34;my-0 rounded-md&#34;
+    loading=&#34;lazy&#34;
+    decoding=&#34;async&#34;
+    fetchpriority=&#34;low&#34;
+    alt=&#34;&#34;
+    src=&#34;http://localhost:1313/images/spiderfish-2.png&#34;
+    &gt;&lt;/figure&gt;
+&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>depression subroutines</title>
+      <link>http://localhost:1313/posts/subroutines/</link>
+      <pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/subroutines/</guid>
+      <description>&lt;p&gt;&lt;em&gt;thinking of how to apply a programming term to the functions inside a human being. That&amp;rsquo;s where this curiosity about the term &amp;ldquo;subroutine&amp;rdquo; started. I haven&amp;rsquo;t yet read extensively about it but as far as I have read, it sounds like something we could say to describe the fundamental &amp;ldquo;wiring&amp;rdquo; of a person too. As was my exploration in Intimate Immensity, this one too wants to deal with what makes us who we are - often without us consciously processing these functions ourselves.&lt;/em&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

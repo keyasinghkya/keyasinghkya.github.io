@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2019 on keya singh 𓂃 ⌂ ོ☼ 𓂃 🚧 under construction</title>
+    <link>http://localhost:1313/categories/2019/</link>
+    <description>Recent content in 2019 on keya singh 𓂃 ⌂ ོ☼ 𓂃 🚧 under construction</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Wed, 08 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/2019/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Orientalism(not) feat. Edward Said</title>
+      <link>http://localhost:1313/posts/said/</link>
+      <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/said/</guid>
+      <description>&lt;h3 class=&#34;relative group&#34;&gt;supporting text for the &lt;a
+  href=&#34;http://localhost:1313/projects/video/orientalism-not/&#34;&gt;video essay&lt;/a&gt;
+    &lt;div id=&#34;supporting-text-for-the-video-essay&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#supporting-text-for-the-video-essay&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h3&gt;
+&lt;p&gt;I first came across the term &amp;lsquo;Orientalism&amp;rsquo; while reading about a controversial photograph that won an award by National Geographic in 2016. I learnt about rampant racism and stereotyping that has been taking place not just in photojournalism but in every quarter of media and culture. This led to me finding out about Edward Said and his work.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Insider</title>
+      <link>http://localhost:1313/projects/live/insider/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/live/insider/</guid>
+      <description>&lt;div id=&#34;floating-toc&#34; class=&#34;floating-toc&#34;&gt;
+  &lt;button id=&#34;toc-toggle&#34; class=&#34;toc-toggle&#34;&gt;
+    &lt;span id=&#34;toc-icon&#34;&gt;☰&lt;/span&gt; contents
+  &lt;/button&gt;
+  &lt;div id=&#34;toc-content&#34; class=&#34;toc-content&#34;&gt;
+    &lt;nav id=&#34;toc-nav&#34;&gt;
+      
+      
+      &lt;ul id=&#34;toc-list&#34;&gt;&lt;/ul&gt;
+      
+    &lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.floating-toc {
+  position: fixed;
+  right: 2rem;
+  top: 120px;
+  width: 280px;
+  z-index: 0;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  border: 2px solid rgb(var(--color-primary-400));
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.dark .floating-toc {
+  background: rgb(var(--color-neutral-800));
+  border-color: rgb(var(--color-primary-600));
+}
+
+.toc-toggle {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: rgba(var(--color-primary-600), 0.3);
+  color: white;
+  border: none;
+  border-radius: 0.5rem 0.5rem 0 0;
+  cursor: pointer;
+  font-weight: 600;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background 0.2s;
+}
+
+.toc-toggle:hover {
+  background: rgb(var(--color-primary-700));
+}
+
+.toc-content {
+  max-height: 70vh;
+  overflow-y: auto;
+  padding: 1rem;
+  display: block;
+}
+
+.toc-content.hidden {
+  display: none;
+}
+
+.floating-toc nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.floating-toc nav ul ul {
+  padding-left: 1rem;
+  margin-top: 0.25rem;
+}
+
+.floating-toc nav li {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.floating-toc nav a {
+  color: rgb(var(--color-neutral-700));
+  text-decoration: none;
+  transition: color 0.2s;
+  display: block;
+}
+
+.floating-toc nav a:hover {
+  color: rgb(var(--color-primary-600));
+}
+
+.dark .floating-toc nav a {
+  color: rgb(var(--color-neutral-300));
+}
+
+.dark .floating-toc nav a:hover {
+  color: rgb(var(--color-primary-400));
+}
+
+@media (min-width: 1280px) and (max-width: 1600px) {
+  .floating-toc {
+    right: 1rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .floating-toc {
+    right: calc((100vw - 1200px) / 2 - 320px);
+  }
+}
+
+@media (max-width: 1280px) {
+  .floating-toc {
+    display: none;
+  }
+}
+
+.toc-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.toc-content::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.05);
+}
+
+.toc-content::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.4);
+  border-radius: 10px;
+}
+&lt;/style&gt;
+
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+  
+  const toggle = document.getElementById(&#39;toc-toggle&#39;);
+  const content = document.getElementById(&#39;toc-content&#39;);
+  const icon = document.getElementById(&#39;toc-icon&#39;);
+
+  if (toggle &amp;&amp; content &amp;&amp; icon) {
+    toggle.addEventListener(&#39;click&#39;, function() {
+      content.classList.toggle(&#39;hidden&#39;);
+      icon.textContent = content.classList.contains(&#39;hidden&#39;) ? &#39;☰&#39; : &#39;✕&#39;;
+    });
+  }
+
+  
+  const tocList = document.getElementById(&#39;toc-list&#39;);
+
+  if (tocList) {
+    const contentArea = document.querySelector(&#39;.project-content, article, main&#39;);
+    if (!contentArea) return;
+
+    
+    const predefinedSections = [
+      { id: &#39;about&#39;, label: &#39;About&#39; },
+      { id: &#39;process&#39;, label: &#39;Process&#39; },
+      { id: &#39;documentation&#39;, label: &#39;Documentation&#39; },
+      { id: &#39;press&#39;, label: &#39;Press&#39; },
+      { id: &#39;credits&#39;, label: &#39;Credits&#39; },
+      { id: &#39;related&#39;, label: &#39;Related&#39; }
+    ];
+
+    
+    predefinedSections.forEach(function(section) {
+      const element = document.getElementById(section.id);
+      if (element) {
+        const li = document.createElement(&#39;li&#39;);
+        li.id = section.id + &#39;-item&#39;;
+        const link = document.createElement(&#39;a&#39;);
+        link.href = &#39;#&#39; + section.id;
+        link.textContent = section.label;
+        li.appendChild(link);
+        tocList.appendChild(li);
+      }
+    });
+
+    
+    const headings = contentArea.querySelectorAll(&#39;h2&#39;);
+    const predefinedIds = predefinedSections.map(s =&gt; s.id);
+
+    headings.forEach(function(heading) {
+      
+      if (!heading.id) {
+        heading.id = heading.textContent.toLowerCase()
+          .replace(/[^a-z0-9]+/g, &#39;-&#39;)
+          .replace(/(^-|-$)/g, &#39;&#39;);
+      }
+
+      
+      if (predefinedIds.includes(heading.id)) {
+        return;
+      }
+
+      
+      const li = document.createElement(&#39;li&#39;);
+      const link = document.createElement(&#39;a&#39;);
+      link.href = &#39;#&#39; + heading.id;
+      link.textContent = heading.textContent;
+      li.appendChild(link);
+      tocList.appendChild(li);
+    });
+
+    
+    const galleries = document.querySelectorAll(&#39;.gallery-box h3&#39;);
+    const documentationItem = document.getElementById(&#39;documentation-item&#39;);
+
+    if (galleries.length &gt; 0 &amp;&amp; documentationItem) {
+      const submenu = document.createElement(&#39;ul&#39;);
+      galleries.forEach(function(gallery, index) {
+        const title = gallery.textContent;
+        const anchor = &#39;gallery-&#39; + index;
+        gallery.id = anchor;
+
+        const li = document.createElement(&#39;li&#39;);
+        const link = document.createElement(&#39;a&#39;);
+        link.href = &#39;#&#39; + anchor;
+        link.textContent = title;
+        li.appendChild(link);
+        submenu.appendChild(li);
+      });
+
+      documentationItem.appendChild(submenu);
+    }
+  } else {
+    
+    const tocNav = document.querySelector(&#39;#toc-nav&#39;);
+    if (tocNav) {
+      const blogGalleries = document.querySelectorAll(&#39;.blog-gallery-box h3&#39;);
+
+      if (blogGalleries.length &gt; 0) {
+        let blogTocList = tocNav.querySelector(&#39;ul&#39;);
+        if (!blogTocList) {
+          blogTocList = document.createElement(&#39;ul&#39;);
+          tocNav.appendChild(blogTocList);
+        }
+
+        blogGalleries.forEach(function(gallery, index) {
+          const title = gallery.textContent;
+          if (!gallery.id) {
+            gallery.id = &#39;blog-gallery-&#39; + index;
+          }
+
+          const li = document.createElement(&#39;li&#39;);
+          const link = document.createElement(&#39;a&#39;);
+          link.href = &#39;#&#39; + gallery.id;
+          link.textContent = title;
+          li.appendChild(link);
+          blogTocList.appendChild(li);
+        });
+      }
+    }
+  }
+});
+&lt;/script&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;About
+    &lt;div id=&#34;about&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#about&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;Insider is a mixed reality performative exploration of the senses focusing on notions of embodiment and body ownership. It&amp;rsquo;s a performance for 1 audience member at a time. Each audience member is accompanied by a performer who facilitates the experience. Choices made by the audience members can create unique experiences for each person who sees this work.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Insider: unwrapping reality/opening</title>
+      <link>http://localhost:1313/projects/neither/insider-unwrapping/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/neither/insider-unwrapping/</guid>
+      <description>&lt;p&gt;We have adapted &lt;a
+  href=&#34;http://localhost:1313/projects/live/insider&#34;&gt;Insider&lt;/a&gt; into installations for opening events to reach audiences outside the performance schedules. Each installation explores various elements of the work while adapting to the theme of the hosting event.&lt;/p&gt;
+&lt;p&gt;These installations were created by a collective of artists - Cristina Maldonado, Keya Singh, Eva Rosemarijn, Lea Kukovičič, Isa Juchniewicz, Lamija Čehajić. Our individual participation at each event changes as needed.&lt;/p&gt;
+&lt;div class=&#34;gallery-box border-4 border-neutral-300 dark:border-neutral-600 rounded-lg p-6 my-4&#34;&gt;
+  
+  &lt;h3 class=&#34;gallery-title text-xl font-bold mb-1&#34;&gt;Premiere at CED with Terén&lt;/h3&gt;
+  
+
+  
+  &lt;p class=&#34;gallery-location text-sm mb-2&#34;&gt;
+    
+    
+    28/11/19, Brno, CZ
+  &lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>PRTY FR 1</title>
+      <link>http://localhost:1313/projects/video/prtyfr1/</link>
+      <pubDate>Tue, 29 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/video/prtyfr1/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;vimeo-responsive &#34; style=&#34;margin: 2rem 0;&#34;&gt;
+  &lt;iframe src=&#34;https://player.vimeo.com/video/316278798?responsive=1&#34;
+          frameborder=&#34;0&#34;
+          allow=&#34;autoplay; fullscreen; picture-in-picture&#34;
+          allowfullscreen&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.vimeo-responsive {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 1067px;
+  margin: 2rem auto;
+}
+
+.vimeo-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.vimeo-responsive.portrait {
+  padding-bottom: 177.78%;
+  max-width: 450px;
+  margin: 2rem auto;
+}
+
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+@media (max-width: 768px) {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
+    max-width: 90%;
+  }
+}
+&lt;/style&gt;
+
+A (hyper)realistic representation of what it would be like to party with myself with an audiovisual performance by me for me. This work was inspired by strong, vibrant female pop musicians I witnessed while growing up who imbibed a need in me to find a self-image.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>أنا ناقص مني جوا Naqes Meni Juwa</title>
+      <link>http://localhost:1313/projects/video/naqes-meni-juwa/</link>
+      <pubDate>Tue, 29 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/video/naqes-meni-juwa/</guid>
+      <description>&lt;div class=&#34;vimeo-responsive &#34; style=&#34;margin: 2rem 0;&#34;&gt;
+  &lt;iframe src=&#34;https://player.vimeo.com/video/369556190?responsive=1&#34;
+          frameborder=&#34;0&#34;
+          allow=&#34;autoplay; fullscreen; picture-in-picture&#34;
+          allowfullscreen&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.vimeo-responsive {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 1067px;
+  margin: 2rem auto;
+}
+
+.vimeo-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.vimeo-responsive.portrait {
+  padding-bottom: 177.78%;
+  max-width: 450px;
+  margin: 2rem auto;
+}
+
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+@media (max-width: 768px) {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
+    max-width: 90%;
+  }
+}
+&lt;/style&gt;
+
+&lt;p&gt;All my life, I have been hearing others (and myself) constantly comment on my appearance. This work is about being stuck in a loop of choreographed movements that are mainly done to observe my own image while contemplating the hollowness of my actions and being.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>About Global Groove</title>
+      <link>http://localhost:1313/projects/video/about-global-groove/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/video/about-global-groove/</guid>
+      <description>&lt;div class=&#34;vimeo-responsive &#34; style=&#34;margin: 2rem 0;&#34;&gt;
+  &lt;iframe src=&#34;https://player.vimeo.com/video/311553223?responsive=1&#34;
+          frameborder=&#34;0&#34;
+          allow=&#34;autoplay; fullscreen; picture-in-picture&#34;
+          allowfullscreen&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.vimeo-responsive {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 1067px;
+  margin: 2rem auto;
+}
+
+.vimeo-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.vimeo-responsive.portrait {
+  padding-bottom: 177.78%;
+  max-width: 450px;
+  margin: 2rem auto;
+}
+
+.vimeo-responsive.square {
+  padding-bottom: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+@media (max-width: 768px) {
+  .vimeo-responsive.portrait,
+  .vimeo-responsive.square {
+    max-width: 90%;
+  }
+}
+&lt;/style&gt;
+
+&lt;p&gt;An audiovisual presentation of research I did while writing an essay about Global Groove (1973) by Nam June Paik. At that moment in time, this was the most extensively researched and planned video project I had worked on. The writing and planning process prepared me for future projects. The audiovisual language of this video was inspired by Nam June Paik&amp;rsquo;s work – specifically his editing patterns and vibrant use of colours reflecting the contemporary trends in broadcast television and advertisements.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Learning to Groove (on Global Groove by Nam June Paik)</title>
+      <link>http://localhost:1313/posts/learning-to-groove/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/learning-to-groove/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
