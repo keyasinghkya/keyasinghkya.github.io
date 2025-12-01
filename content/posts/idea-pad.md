@@ -6,7 +6,6 @@ layout: "single"
 featureimage: "/images/lynch.png"
 categories:
   - notes-to-self
-  - 2022
 draft: false
 ---
 

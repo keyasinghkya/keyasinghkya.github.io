@@ -5,7 +5,6 @@ featureimage: "/images/radioicon.jpg"
 externalUrl: "https://www.internetpublicradio.live/episodes/evil-medved-31st-may-2022"
 type: "projects"
 categories:
-  - 2022
   - "neither"
 tags:
   - music

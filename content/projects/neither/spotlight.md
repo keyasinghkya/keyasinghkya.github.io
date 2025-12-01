@@ -8,17 +8,14 @@ type: "projects"
 categories:
   - "neither"
   - independent
-  - 2023
-tags:
   - installation
-  - webcam
+tags:
+  - live camera
   - karaoke
   - bad-chroma-keying
   - OBS
   - pop culture
   - music
-  - quasi-religion
-  - czech republic
 draft: false
 ---
 This work plays with the precarious nature of being seen (or even consumed) by the media we consume. It further layers an aspect of an alt-Hindu guru/diva figure whose virtual presence provides the audience with flimsy guidance and support as they find their image absorbed by the work. While you reminisce the inherent nostalgia of R.E.M’s Losing My Religion, she will help you either find or lose your faith.

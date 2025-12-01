@@ -8,17 +8,14 @@ type: "projects"
 categories:
   - "live"
   - commissioned
-  - 2021
-tags:
   - performance
+tags:
   - music
   - live visuals
   - found material
   - archival material
   - body stuff
   - self-image
-  - norway
-  - improvisation
 draft: false
 ---
 I was invited to create visuals for 3 sets back-to-back for Insomnia Festival's kick-off event at Storgata Camping (Tromsø, Norway). The first two sets lasted about 1 hour each while the last one was 3 hours long.

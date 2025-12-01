@@ -5,10 +5,8 @@ type: "posts"
 layout: "single"
 featureimage: "/images/ostravaicon.png"
 categories:
-  - solo exhibition
-  - 2025
-tags:
   - installation
+tags:
   - video essay
 draft: false
 ---

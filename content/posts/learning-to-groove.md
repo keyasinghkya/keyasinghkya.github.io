@@ -8,10 +8,7 @@ categories:
   - video
   - learning
   - writing
-  - 2019
 tags:
-  - czech republic
-  - nam june paik
   - video art
   - art history
 draft: false

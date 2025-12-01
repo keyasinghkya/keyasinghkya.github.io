@@ -8,11 +8,8 @@ categories:
   - "live"
   - independent
   - collaboration
-  - narrative
-  - 2024
-  - ongoing
-tags:
   - performance
+tags:
   - live visuals
   - remix
   - live gaming

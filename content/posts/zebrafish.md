@@ -9,10 +9,8 @@ categories:
   - reading
   - learning
 tags:
-  - wip
   - body stuff
   - "#jpeg2dicom"
-  - existence
 draft: false
 ---
 

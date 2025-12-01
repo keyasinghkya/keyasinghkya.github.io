@@ -6,9 +6,7 @@ featureimage: "/images/orientalism-not.png"
 categories:
   - independent
   - video
-  - 2020
 tags:
-  - czech republic
   - learning
   - writing
   - video essay

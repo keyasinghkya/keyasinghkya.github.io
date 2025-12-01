@@ -6,14 +6,10 @@ featureimage: "/images/youdontknow.png"
 categories:
   - independent
   - video
-  - 2018
 tags:
-  - czech republic
-  - india
   - self-image
   - identity
   - reflective
-  - appearance
 draft: false
 ---
 

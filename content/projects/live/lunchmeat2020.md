@@ -8,14 +8,12 @@ type: "projects"
 categories:
   - "live"
   - commissioned
-  - 2020
 tags:
   - identity
   - live visuals
   - music
   - self-image
   - "#jpeg2dicom"
-  - czech republic
   - Resolume Arena
   - MIDI controller
 draft: false

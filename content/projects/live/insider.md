@@ -9,15 +9,9 @@ categories:
   - "live"
   - independent
   - collaboration
-  - 2019
-  - ongoing
+  - performance
 tags:
   - XR
-  - performance
-  - czech republic
-  - mexico
-  - germany
-  - romania
 draft: false
 ---
 {{< toc >}}

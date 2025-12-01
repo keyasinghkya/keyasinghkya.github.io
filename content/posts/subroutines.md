@@ -9,10 +9,8 @@ categories:
   - reading
   - learning
 tags:
-  - wip
   - mind stuff
   - artificial intelligence
-  - existence
 draft: false
 ---
 *thinking of how to apply a programming term to the functions inside a human being. That's where this curiosity about the term "subroutine" started. I haven't yet read extensively about it but as far as I have read, it sounds like something we could say to describe the fundamental "wiring" of a person too. As was my exploration in Intimate Immensity, this one too wants to deal with what makes us who we are - often without us consciously processing these functions ourselves.*

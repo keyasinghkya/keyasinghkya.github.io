@@ -8,15 +8,12 @@ categories:
   - "live"
   - commissioned
   - collaboration
-  - 2021
 tags:
   - live visuals
   - music
   - visual feedback
   - live-camera
   - screen inputs
-  - czech republic
-  - improvisation
 draft: false
 ---
 "Zangezi is a sextet accompanied by a “visual artist" and a "sound designer" that strives for an artificial but organic sound production aesthetic." As the visual artist in this sextet, I composed the live-visuals in this piece along with camera support from Hoi Man. Much of the visuals were created with live-camera input along with elements made using footage filmed the day before during our rehearsals. In this work, the visuals mainly played with temporality and multiplicity of the image.

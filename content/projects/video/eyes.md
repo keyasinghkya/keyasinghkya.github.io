@@ -7,15 +7,10 @@ categories:
   - independent
   - collaboration
   - "video"
-  - 2025
 tags:
-  - germany
   - film
-  - narrative
   - body stuff
   - reality
-  - mark fisher
-  - the eerie
 draft: false
 ---
 {{< vimeo id="1104709788" >}}

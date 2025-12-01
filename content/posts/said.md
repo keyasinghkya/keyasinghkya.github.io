@@ -7,9 +7,7 @@ categories:
   - video
   - learning
   - writing
-  - 2019
 tags:
-  - edward said
   - video essay
   - art history
 draft: false

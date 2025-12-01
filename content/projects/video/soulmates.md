@@ -8,12 +8,7 @@ type: "projects"
 layout: "single"
 categories:
   - video
-  - 2017
-  - ongoing
 tags:
-  - editing
-  - czech republic
-  - india
   - what-to-do-with-things-you-love
   - consumption
   - music

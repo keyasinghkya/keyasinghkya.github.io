@@ -8,17 +8,12 @@ categories:
   - "live"
   - commissioned
   - collaboration
-  - 2022
-  - 2023
-  - 2024
-tags:
   - performance
+tags:
   - graphic score interpretation
   - "#jpeg2dicom"
-  - spatial projections
   - found material
   - music
-  - czech republic
   - improvisation
   - OBS
   - Resolume Arena

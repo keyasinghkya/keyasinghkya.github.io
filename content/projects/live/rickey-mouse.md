@@ -7,18 +7,12 @@ featureimage: "/images/rickeyicon.JPG"
 categories:
   - "live"
   - commissioned
-  - 2020
-  - 2021
-  - 2022
-  - 2023
+  - documentation
+  - performance
 tags:
   - live visuals
   - theatre
-  - documentation
-  - visual feedback
-  - screen inputs
-  - live-camera
-  - czech republic
+  - live camera
   - improvisation
   - OBS
 draft: false

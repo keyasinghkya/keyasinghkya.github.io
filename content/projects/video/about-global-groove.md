@@ -6,11 +6,8 @@ featureimage: "/images/globalicon.png"
 categories:
   - independent
   - video
-  - 2019
 tags:
-  - czech republic
   - video essay
-  - nam june paik
   - video art
   - art history
 draft: false

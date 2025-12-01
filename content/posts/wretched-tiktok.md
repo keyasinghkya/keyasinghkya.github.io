@@ -8,11 +8,9 @@ categories:
   - reading
   - writing
   - learning
-  - 2024
 tags:
   - media theory
   - internet culture
-  - consumption
 draft: false
 ---
 {{< toc >}}

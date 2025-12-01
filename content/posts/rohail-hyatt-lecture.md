@@ -7,11 +7,9 @@ featureimage: "/images/rohail.png"
 categories:
   - notes-to-self
   - learning
-  - 2022
 tags:
   - media theory
   - music theory
-  - consumption
 draft: false
 ---
 {{< youtube DKfy01zedX4 >}}

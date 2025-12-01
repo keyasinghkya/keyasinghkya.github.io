@@ -9,11 +9,9 @@ categories:
   - reading
   - learning
   - writing
-  - 2024
 tags:
   - media theory
   - affect theory
-  - consumption
 draft: false
 ---
 

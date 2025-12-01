@@ -7,7 +7,6 @@ featureimage: "/images/berardoicon.jpeg"
 categories:
   - writing
   - exhibition report
-  - 2022
 tags:
   - art-related feelings
   - art history

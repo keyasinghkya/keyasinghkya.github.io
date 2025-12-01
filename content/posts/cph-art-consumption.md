@@ -6,7 +6,6 @@ featureimage: "/images/cph-blogicon.JPG"
 categories:
   - writing
   - exhibition report
-  - 2025
 tags:
   - art-related feelings
 draft: false

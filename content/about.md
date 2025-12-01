@@ -10,11 +10,12 @@ showWordCount: false
 
 ![](/images/about3.png)
 <div style="text-align: center; margin-bottom: 2em;">
-Based in Prague, Czech Republic<br>
 <strong>identity, culture, reality, found</strong>
 </div>
 
-i'm a prague-based visual artist working with video, installation, and performance. currently studying at the academy of fine arts prague, my practice navigates audiovisual manipulation, blending cultural and personal elements to create hybrid narratives that feel simultaneously intimate and borrowed. i'm interested in how identity and popular culture shape our sense of reality, using humor and emotional resonance to question these constructions. my work has been exhibited and performed across europe, india, and mexico in both solo and collaborative contexts. i often wish i were a rock.
+I am a Prague-based video artist working with film, installation, and performance. Currently pursuing a MA at the New Media studio in the Academy of Fine Arts Prague, my practice uses pop culture formats—cooking shows, YouTube tutorials, reality TV—to explore how cultural scripts shape identity and belonging. My work seems to land between documentation and fiction, often performing roles that reveal the gap between who we are told to be and who we actually are.
+
+Recent work includes [*as long as you promise not to make me do anything about the result*](/projects/video/eyes/), which explores professional interventions on the body with a focus on ophthalmology, rooted in Mark Fisher's concept of *"the eerie"* (the failure of presence and the failure of absence).[*Denle Chayote*](/projects/video/denle-chayote), which uses the humanised character of a chayote to explore themes of postcolonialism and the enduring legacy of cultural exchange, drawing inspiration from the narrative styles of TV and YouTube shows. [*Caring to Grow*](/projects/video/caring/) perceives people through their attachment to nature, telling stories of reminiscence, recognition and reflection. I am interested in making theory feel embodied rather than abstract; using humour and emotional resonance to question how we perform authenticity.
 
 ## Solo Exhibition
 
@@ -410,16 +411,22 @@ Thakur College of Science & Commerce
 ## Knowledge/Skills
 
 **Languages:**  
-English: native | Hindi: native | Czech: B1 | Urdu: advanced
+English: native
+Hindi: native
+Czech: B1
+Urdu: advanced
 
 **Skills:**  
-Video production (filming, editing, writing, producing) | Performance (documentation, performance, production) | Teaching (workshops) | Social media management and content creation
+Video production (filming, editing, writing, producing)
+Performance (documentation, performance, production)
+Teaching (workshops, creative facilitation)
+Social media management and content creation
 
 ---
 
 <div style="text-align: center; margin-top: 2em;">
 
 **Contact**  
-[keyasingh.net](https://keyasingh.net) | +420 775 994 839 | keyas95@gmail.com
++420 775 994 839 | keyas95@gmail.com
 
 </div>

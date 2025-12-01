@@ -7,9 +7,8 @@ categories:
   - commissioned
   - collaboration
   - "video"
-  - 2020
+  
 tags:
-  - czech republic
   - music
   - theatre
   - found material

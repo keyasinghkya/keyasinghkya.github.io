@@ -6,20 +6,12 @@ featureimage: "/images/vrbaicon.jpg"
 categories:
   - "live"
   - commissioned
-  - 2024
 tags:
-  - artist talk
   - live visuals
   - music
   - graphic score interpretation
   - found material
-  - visual feedback
-  - screen inputs
-  - live-camera
-  - czech republic
-  - poland
-  - slovakia
-  - improvisation
+  - live camera
   - OBS
   - Resolume Arena
   - MIDI controller

@@ -6,12 +6,9 @@ featureimage: "/images/caringicon.png"
 categories:
   - independent
   - video
-  - 2022
-tags:
-  - czech republic
-  - norway
-  - what-to-do-with-things-you-love
   - film
+tags:
+  - what-to-do-with-things-you-love
   - portrait
 draft: false
 ---

@@ -9,10 +9,8 @@ categories:
   - notes-to-self
   - watching
   - writing
-  - 2024
 tags:
   - media theory
   - what-to-do-with-things-you-love
-  - consumption
 draft: false
 ---

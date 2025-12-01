@@ -6,10 +6,7 @@ featureimage: "/images/naqesicon.png"
 categories:
   - independent
   - video
-  - 2019
 tags:
-  - czech republic
-  - india
   - self-image
   - audio manipulation
   - identity

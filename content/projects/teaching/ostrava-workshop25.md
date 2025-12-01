@@ -6,9 +6,7 @@ fullPageBackground: "/backgrounds/ostravaw-bg.JPG"
 categories:
   - workshop
   - teaching
-  - 2025
 tags:
-  - czech republic
   - creative facilitation
   - OBS
   - Resolume Arena

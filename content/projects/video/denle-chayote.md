@@ -6,15 +6,10 @@ featureimage: "/images/denleicon.png"
 categories:
   - independent
   - video
-  - 2023
-  - 2024
 tags:
-  - czech republic
-  - mexico
   - postcolonial theory
   - media theory
   - personal archiving
-  - exchange
   - reflective
   - video essay
   - bad-chroma-keying

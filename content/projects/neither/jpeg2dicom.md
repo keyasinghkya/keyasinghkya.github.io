@@ -1,15 +1,12 @@
 ---
 title: "#jpeg2dicom"
 date: 2020-04-01
+featureimage: "/images/jpegicon.png"
 categories:
   - independent
   - neither
-  - 2020
-  - ongoing
-featureimage: "/images/jpegicon.png"
 tags:
   - "#jpeg2dicom"
-  - czech republic
   - body stuff
   - glitch
   - found material

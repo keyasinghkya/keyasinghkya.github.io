@@ -8,16 +8,9 @@ fullPageBackground: "/backgrounds/intimate-bg.jpeg"
 categories:
   - "neither"
   - independent
-  - 2020
-  - 2021
+  - installation
 tags:
   - XR
-  - installation
-  - czech republic
-  - BA thesis
-  - gaston bachelard
-  - char davies
-  - covid19
   - introspective
   - reflective
 draft: false

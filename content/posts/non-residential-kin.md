@@ -5,15 +5,12 @@ year: 02/23 - ?
 featureimage: "/images/nriicon.png"
 categories:
   - notes-to-self
-  - 2023
 tags:
   - media theory
   - postcolonial theory
   - feminist theory
   - tech
-  - anthropocentrism
   - immigration
-  - wip
 draft: false
 ---
 {{< youtube mHn6jVxsB5U >}}

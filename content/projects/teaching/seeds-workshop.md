@@ -6,16 +6,14 @@ fullPageBackground: "/backgrounds/seedsbg.png"
 categories:
   - workshop
   - teaching
-  - 2025
 tags:
-  - denmark
   - creative facilitation
   - collaboration
   - OBS
 draft: false
 ---
 ### Workshop description + requirements:
-My workshop explored our presence and perception of reality at the residency/farm through audiovisual media. Drawing from my practise of continuous consumption and actively processing said consumption through video, we investigated how our surroundings shaped our identities and creative expressions. Actively learning from and engaging in the regenerative practises of the farm, this workshop provided the space and time for the residents to create together. During this workshop, we collected audiovisual information from our immediate surroundings while composing a live a/v set together. What happens when we bring insert play and collaboration into our individual creative practises?
+My workshop explored our presence and perception of reality at the residency/farm through audiovisual media. Drawing from my practise of continuous consumption and actively processing said consumption through video, we investigated how our surroundings shaped our present identities and creative expressions. Actively learning from and engaging in the regenerative practises of the farm, this workshop provided the space and time for the residents to create together. During this workshop, we gathered photo, video, sound and text materials while composing a live a/v set together. How does performing live together reshape what we make individually?
 
 ### Process
 **pre-workshop task for the residents:**
@@ -29,10 +27,10 @@ My workshop explored our presence and perception of reality at the residency/far
 day 1:
   - introduction to my practise, the workshop, tools/softwares to use
   - introduction to OBS/resolume
-  - we watch and listen to the materials that have been collected
+  - we watch and listen to the material that has been collected (the focus was on the land art piece being developed by the residents)
   - thinking about possible live interventions
       - live camera
-      - using midi keyboard to trigger clips/effects
+      - using MIDI keyboard to trigger clips/effects
 
 day 2:
   - working on spatial composition and dramaturgy of our AV set
@@ -42,12 +40,17 @@ day 2:
 
 ### Documentation
 {{< gallery
-  captions="introductions! >>> | | | workshop activity >>> |||screening and review >>>|"
-  images="/images/insomnia-w4.jpeg,/images/insomnia-w3.jpeg,/images/insomnia-w1.jpeg,/images/insomnia-w2.jpeg,,,/images/insomnia-w5.jpeg,"
-  orientations="landscape,landscape,landscape,landscape,portrait,portrait,landscape,portrait"
-  vimeos=",,,,1140753965,1140753914,,1140753863">}}
+  captions="day1 activities >>>|||day2 @ the barn stage|stage setup|stage setup|excerpt from the live performance|post-show dinner together <3"
+  images="/images/seeds-w1.JPG,/images/seeds-w6.JPG,/images/seeds-w2.JPG,/images/seeds-w3.JPG,/images/seeds-w4.JPG,/images/seeds-w5.JPG,,/images/seeds-w7.JPG,"
+  orientations="landscape,landscape,portrait,landscape,landscape,landscape,landscape,portrait"
+  vimeos=",,,,,,1141832572,">}}
 
 ## Related
 {{< related-links >}}
-  - [live visuals at Insomnia Festival 2021](/projects/live/insomnia21)
+  - [Seeds Residency](https://seedsresidency.com/)
+  - The residents:
+    - [Frida Brock](https://www.instagram.com/fridabrock/)
+    - [Mia Carl](https://miacarl.com/)
+    - [Thom Blane](https://www.thomblane.com/)
+
 {{< /related-links >}}

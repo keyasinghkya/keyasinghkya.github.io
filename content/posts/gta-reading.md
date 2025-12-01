@@ -8,7 +8,6 @@ categories:
   - notes-to-self
   - reading
   - learning
-  - 2024
 tags:
   - media theory
   - live gaming
@@ -16,8 +15,6 @@ tags:
   - remix
   - pop culture
   - internet culture
-  - consumption
-  - wip
 draft: false
 ---
 {{<toc>}}

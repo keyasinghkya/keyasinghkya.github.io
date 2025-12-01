@@ -8,13 +8,10 @@ categories:
   - "neither"
   - independent
   - collaboration
-  - 2019
-  - ongoing
+  - installation
 tags:
   - XR
-  - installation
   - opening
-  - czech republic
 draft: false
 ---
 

@@ -8,11 +8,7 @@ layout: "single"
 categories:
   - notes-to-self
   - watching
-  - 2024
-  - ongoing
 tags:
-  - media theory
   - what-to-do-with-things-you-love
-  - consumption
 draft: false
 ---

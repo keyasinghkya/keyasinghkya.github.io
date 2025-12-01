@@ -7,9 +7,7 @@ categories:
   - workshop
   - teaching
   - video
-  - 2021
 tags:
-  - norway
   - collaboration
   - creative facilitation
 draft: false

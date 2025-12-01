@@ -6,10 +6,7 @@ featureimage: "/images/validationicon.png"
 categories:
   - independent
   - video
-  - 2021
 tags:
-  - czech republic
-  - india
   - self-image
   - identity
   - reflective

@@ -9,11 +9,8 @@ categories:
   - learning
 tags:
   - media theory
-  - mark fisher
   - hauntology
   - internet culture
-  - consumption
-  - music theory
 draft: false
 ---
 

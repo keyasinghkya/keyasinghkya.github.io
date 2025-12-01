@@ -6,10 +6,7 @@ featureimage: "/images/prtyfr1.png"
 categories:
   - independent
   - video
-  - 2019
 tags:
-  - czech republic
-  - india
   - self-image
   - identity
   - pop culture

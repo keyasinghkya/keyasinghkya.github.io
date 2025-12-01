@@ -6,11 +6,9 @@ featureimage: "/images/plechyicon.png"
 categories:
   - commissioned
   - video
-  - 2020
-tags:
-  - czech republic
   - performance
   - documentation
+tags:
   - music
 draft: false
 ---

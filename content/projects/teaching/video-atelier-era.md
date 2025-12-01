@@ -5,12 +5,7 @@ featureimage: "/images/video-ateliericon.jpeg"
 categories:
   - teaching
   - workshop
-  - 2022
-  - 2023
-  - 2024
-  - 2025
 tags:
-  - czech republic
   - collaboration
 draft: false
 ---
