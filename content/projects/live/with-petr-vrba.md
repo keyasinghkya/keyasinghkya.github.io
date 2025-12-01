@@ -1,7 +1,10 @@
 ---
 title: "Światłodźwięki Festival 2024 with Petr Vrba"
+duration: live visuals and artist talks
+year: 2024
 date: 2024-10-24
 type: "projects"
+status: completed
 featureimage: "/images/vrbaicon.jpg"
 categories:
   - "live"

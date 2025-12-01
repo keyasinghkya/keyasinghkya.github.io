@@ -26,38 +26,70 @@
   " class="project-bg-overlay"></div>
 </div>
 {{ end }}
-
 <article class="project-page prose dark:prose-invert max-w-none" id="project-content">
   <header class="mb-10 pt-8">
-    <h1 class="mt-0 text-4xl font-extrabold mb-2">{{ .Title }}</h1>
-    <div class="project-meta text-sm flex flex-wrap items-center gap-2 mb-3">
-      {{ if .Params.year }}
-      <span>{{ .Params.year }}</span>
+  <h1 class="mt-0 text-4xl font-extrabold mb-4">{{ .Title }}</h1>
+
+  <!-- Line 1: Medium & Duration -->
+  <div class="project-meta text-sm flex flex-wrap items-center gap-2 mb-2">
+    {{ if .Params.medium }}
+    <span>{{ .Params.medium }}</span>
+    {{ end }}
+
+    {{ if .Params.duration }}
+    {{ if .Params.medium }}
+    <span class="text-primary-400 mx-1">·</span>
+    {{ end }}
+    <span>{{ .Params.duration }}</span>
+    {{ end }}
+  </div>
+
+  <!-- Line 2: Locations & Years -->
+  <div class="project-meta text-sm flex flex-wrap items-center gap-2 mb-3">
+    {{ if .Params.locations }}
+    <span class="flex items-center gap-1">
+      {{ range $index, $location := .Params.locations }}
+        {{ if $index }}, {{ end }}{{ $location }}
       {{ end }}
-      {{ if .Params.duration }}
-      {{ if .Params.year }}
-      <span class="text-primary-400 mx-1">·</span>
-      {{ end }}
-      <span>{{ .Params.duration }}</span>
-      {{ end }}
-      {{ if .Params.medium }}
-      {{ if or .Params.year .Params.duration }}
-      <span class="text-primary-400 mx-1">·</span>
-      {{ end }}
-      <span>{{ .Params.medium }}</span>
-      {{ end }}
-    </div>
+    </span>
+    {{ end }}
+
+    {{ if .Params.years }}
+    {{ if .Params.locations }}
+    <span class="text-primary-400 mx-1">·</span>
+    {{ end }}
+    <span>{{ delimit .Params.years " - " }}</span>
+    {{ end }}
+
+    <!-- Legacy year field -->
+    {{ if and .Params.year (not .Params.years) }}
+    {{ if .Params.locations }}
+    <span class="text-primary-400 mx-1">·</span>
+    {{ end }}
+    <span>{{ .Params.year }}</span>
+    {{ end }}
+  </div>
+
+  <!-- Line 3: Tags + Status Badge -->
+  <div class="flex flex-wrap gap-2 mt-3 items-center">
     {{ if .Params.tags }}
-    <div class="flex flex-wrap gap-2">
       {{ range .Params.tags }}
       <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"
          class="text-xs px-2 py-1 rounded border border-primary-400 bg-black/40 text-primary-300 backdrop-blur-sm no-underline hover:bg-primary-600 hover:text-white transition-colors">
         {{ . }}
       </a>
       {{ end }}
-    </div>
     {{ end }}
-  </header>
+
+    <!-- Status badge as clickable link -->
+{{ with .Params.status }}
+<a href="{{ "/status/" | relLangURL }}{{ . | urlize }}"
+   class="text-xs px-2 py-1 rounded border border-primary-400 bg-black/40 text-primary-300 backdrop-blur-sm no-underline hover:bg-primary-600 hover:text-white transition-colors">
+  {{ . }}
+</a>
+{{ end }}
+  </div>
+</header>
   <div class="project-content">
     {{ .Content }}
   </div>
@@ -90,6 +122,48 @@ body:has(#floating-toc) .project-page {
   font-size: 1.25rem;
   font-weight: 600;
 }
+
+/* Status badges - match tag style */
+.status-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: 1px solid;
+}
+
+.status-ongoing {
+  background: rgba(255, 193, 7, 0.2);
+  border-color: #ffc107;
+  color: #ffc107;
+}
+
+.status-completed {
+  background: rgba(76, 175, 80, 0.2);
+  border-color: #4caf50;
+  color: #4caf50;
+}
+
+.status-archived {
+  background: rgba(153, 153, 153, 0.2);
+  border-color: #999;
+  color: #999;
+}
+
+.dark .status-ongoing {
+  background: rgba(255, 193, 7, 0.15);
+}
+
+.dark .status-completed {
+  background: rgba(76, 175, 80, 0.15);
+}
+
+.dark .status-archived {
+  background: rgba(153, 153, 153, 0.15);
+}
+
 /* Dark mode overlay */
 .dark .project-bg-overlay {
   background: rgba(0, 0, 0, 0.6) !important;

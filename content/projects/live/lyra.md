@@ -1,7 +1,8 @@
 ---
 title: "LyrArkestra+"
-year: "2022 - 2024"
+years: [2022, 2023, 2024]
 date: 2022-11-18
+status: completed
 type: "projects"
 featureimage: "/images/lyraicon.jpg"
 categories:

@@ -15,7 +15,7 @@ showWordCount: false
 
 I am a Prague-based video artist working with film, installation, and performance. Currently pursuing a MA at the New Media studio in the Academy of Fine Arts Prague, my practice uses pop culture formats—cooking shows, YouTube tutorials, reality TV—to explore how cultural scripts shape identity and belonging. My work seems to land between documentation and fiction, often performing roles that reveal the gap between who we are told to be and who we actually are.
 
-Recent work includes [*as long as you promise not to make me do anything about the result*](/projects/video/eyes/), which explores professional interventions on the body with a focus on ophthalmology, rooted in Mark Fisher's concept of *"the eerie"* (the failure of presence and the failure of absence).[*Denle Chayote*](/projects/video/denle-chayote), which uses the humanised character of a chayote to explore themes of postcolonialism and the enduring legacy of cultural exchange, drawing inspiration from the narrative styles of TV and YouTube shows. [*Caring to Grow*](/projects/video/caring/) perceives people through their attachment to nature, telling stories of reminiscence, recognition and reflection. I am interested in making theory feel embodied rather than abstract; using humour and emotional resonance to question how we perform authenticity.
+Recent work includes [*as long as you promise not to make me do anything about the result*](/projects/video/eyes/), which explores professional interventions on the body with a focus on ophthalmology, rooted in Mark Fisher's concept of *"the eerie"* (the failure of presence and the failure of absence). [*Denle Chayote*](/projects/video/denle-chayote), which uses the humanised character of a chayote to explore themes of postcolonialism and the enduring legacy of cultural exchange, drawing inspiration from the narrative styles of TV and YouTube shows. [*Caring to Grow*](/projects/video/caring/) perceives people through their attachment to nature, telling stories of reminiscence, recognition and reflection. I am interested in making theory feel embodied rather than abstract; using humour and emotional resonance to question how we perform authenticity.
 
 ## Solo Exhibition
 
@@ -411,22 +411,18 @@ Thakur College of Science & Commerce
 ## Knowledge/Skills
 
 **Languages:**  
-English: native
-Hindi: native
-Czech: B1
-Urdu: advanced
+- English: native
+- Hindi: native
+- Czech: B1
+- Urdu: advanced
 
 **Skills:**  
-Video production (filming, editing, writing, producing)
-Performance (documentation, performance, production)
-Teaching (workshops, creative facilitation)
-Social media management and content creation
+- Video: filming, editing, writing, producing
+- Performance: documenting, performing, producing
+- Teaching: workshops, creative facilitation
+- Social media: planning, managing
+- Content creation
 
 ---
-
-<div style="text-align: center; margin-top: 2em;">
-
-**Contact**  
-+420 775 994 839 | keyas95@gmail.com
 
 </div>

@@ -68,7 +68,7 @@
     {{ range where .Site.RegularPages "Type" "projects" }}
       <article class="masonry-item" data-categories="{{ delimit (apply .Params.categories "urlize" ".") "," }}"
                data-tags="{{ delimit (apply .Params.tags "urlize" ".") "," }}">
-        {{ partial "article-link/card.html" . }}
+        {{ partial "article-link/project-card.html" . }}
       </article>
     {{ end }}
   </section>

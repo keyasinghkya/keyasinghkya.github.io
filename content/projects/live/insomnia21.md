@@ -1,7 +1,11 @@
 ---
 title: "Insomnia Festival 2021"
-duration: Festival kick-off event in Tromsø, 05:00:00
-year: October 2021
+medium: live visuals
+status: completed
+duration: 05:00:00
+year: 2021
+locations:
+  - "norway"
 featureimage: "/images/insomnia.jpeg"
 date: 2021-10-02
 type: "projects"
@@ -13,7 +17,7 @@ tags:
   - music
   - live visuals
   - found material
-  - archival material
+  - personal archiving
   - body stuff
   - self-image
 draft: false

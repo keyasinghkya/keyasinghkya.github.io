@@ -1,7 +1,10 @@
 ---
 title: "Lunchmeat Festival 2020"
+medium: live visuals
 duration: "50:00"
-year: "October 2020"
+locations:
+  - "czech republic"
+year: 2020
 featureimage: "/images/lunchicon.jpeg"
 date: 2020-10-01
 type: "projects"

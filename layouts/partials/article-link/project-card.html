@@ -1,0 +1,74 @@
+<div class="flex flex-col overflow-hidden hover:shadow-lg transition-shadow">
+
+  <!-- Project Thumbnail as Link -->
+  {{ with .Params.featureImage }}
+  {{ $link := $.RelPermalink }}
+  {{ if $.Params.externalUrl }}
+    {{ $link = $.Params.externalUrl }}
+  {{ end }}
+  <a href="{{ $link }}" {{ if $.Params.externalUrl }}target="_blank" rel="noopener noreferrer"{{ end }} class="block aspect-video overflow-hidden bg-neutral-200 dark:bg-neutral-800 rounded-lg">
+    <img src="{{ . }}"
+         alt="{{ $.Title }}"
+         class="w-full h-full object-cover hover:scale-105 transition-transform duration-300 nozoom">
+  </a>
+  {{ end }}
+
+  <div class="pt-3">
+      <!-- Status Badge -->
+  {{ with .Params.status }}
+  <span class="inline-block text-xs px-2 py-1 rounded border border-primary-400 bg-black/40 text-primary-300 backdrop-blur-sm mb-2">
+  {{ . }}
+  </span>
+  {{ end }}
+    <!-- Project Title -->
+    <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-100 mb-2">
+      {{ $titleLink := .RelPermalink }}
+      {{ if .Params.externalUrl }}
+        {{ $titleLink = .Params.externalUrl }}
+      {{ end }}
+      <a href="{{ $titleLink }}" {{ if .Params.externalUrl }}target="_blank" rel="noopener noreferrer"{{ end }} class="no-underline text-neutral-900 dark:text-neutral-100 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+        {{ .Title | emojify }}
+      </a>
+    </h2>
+
+    <!-- Project Meta Info -->
+    <div class="text-sm text-neutral-700 dark:text-neutral-300">
+      <!-- Medium & Duration -->
+      {{ if or .Params.medium .Params.duration }}
+      <div class="mb-1">
+        {{ if .Params.medium }}
+        <span>{{ .Params.medium }}</span>
+        {{ end }}
+        {{ if and .Params.medium .Params.duration }}
+        <span class="text-primary-600 dark:text-primary-400 mx-2">·</span>
+        {{ end }}
+        {{ if .Params.duration }}
+        <span>{{ .Params.duration }}</span>
+        {{ end }}
+      </div>
+      {{ end }}
+
+      <!-- Locations & Year -->
+      <!-- Locations & Year -->
+<div>
+  {{ if .Params.locations }}
+  <span>
+    {{ if reflect.IsSlice .Params.locations }}
+      {{ index .Params.locations 0 }}
+    {{ else }}
+      {{ .Params.locations }}
+    {{ end }}
+  </span>
+  {{ end }}
+  {{ if and .Params.locations (or .Params.years .Params.year) }}
+  <span class="text-primary-600 dark:text-primary-400 mx-2">·</span>
+  {{ end }}
+  {{ if .Params.years }}
+  <span>{{ delimit .Params.years " - " }}</span>
+  {{ else if .Params.year }}
+  <span>{{ .Params.year }}</span>
+  {{ end }}
+</div>
+    </div>
+  </div>
+</div>

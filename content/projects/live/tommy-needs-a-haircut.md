@@ -1,6 +1,8 @@
 ---
 title: "tommy needs a haircut"
-year: "2024 - ongoing"
+duration: live-gaming performance, ~33 mins
+year: 2024
+status: ongoing
 date: 2024-03-10
 type: "projects"
 featureimage: "/images/gtaicon.png"

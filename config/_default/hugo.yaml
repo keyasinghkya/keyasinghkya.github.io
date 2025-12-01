@@ -24,6 +24,7 @@ taxonomies:
   category: categories
   author: authors
   series: series
+  status: status
 
 sitemap:
   changefreq: daily

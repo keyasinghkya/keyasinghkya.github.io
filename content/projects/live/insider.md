@@ -1,10 +1,17 @@
 ---
 title: "Insider"
-year: "2019 - ongoing"
-duration: mixed-reality performance, 70:00
+year: 2019
+status: ongoing
+medium: mixed-reality performance
+duration: 70:00
 featureimage: "/images/insider.jpeg"
 date: 2019-11-30
 type: "projects"
+locations:
+  - "czech republic"
+  - "germany"
+  - "romania"
+  - "mexico"
 categories:
   - "live"
   - independent
@@ -12,6 +19,10 @@ categories:
   - performance
 tags:
   - XR
+  - tech
+  - reality
+  - body stuff
+  - mind stuff
 draft: false
 ---
 {{< toc >}}
