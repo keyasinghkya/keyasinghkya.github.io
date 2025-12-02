@@ -13,9 +13,8 @@
       <button class="category-btn active text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-category="all">all</button>
       <button class="category-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-category="video">video</button>
       <button class="category-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-category="live">live</button>
-      <button class="category-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-category="neither">neither</button>
-      <button class="category-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-category="teaching">workshop</button>
-      <button class="category-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-category="social-media-work">social media</button>
+      <button class="category-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-category="neither">← neither</button>
+      <button class="category-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-category="teaching">teaching</button>
     </div>
   </div>
 
@@ -73,42 +72,8 @@
     {{ end }}
   </section>
 
-  <style>
-    .category-btn.active, .tag-btn.active {
-      background-color: rgb(var(--color-primary-600));
-      color: white;
-      border-color: rgb(var(--color-primary-600));
-    }
-    .category-btn:hover, .tag-btn:hover {
-      background-color: rgb(var(--color-primary-500));
-      color: white;
-    }
-
-    /* Changed from CSS columns to CSS Grid */
-    .masonry-wall {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 2rem;
-      padding: 2rem 0;
-    }
-
-    .masonry-item {
-      /* Grid items automatically position themselves */
-      /* No need for break-inside, margin-bottom, display, or width */
-    }
-
-    @media (max-width: 1024px) {
-      .masonry-wall {
-        grid-template-columns: repeat(2, 1fr);
-      }
-    }
-
-    @media (max-width: 768px) {
-      .masonry-wall {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
+  {{ $css := resources.Get "css/project-cards.css" }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
   <script>
   document.addEventListener('DOMContentLoaded', function() {

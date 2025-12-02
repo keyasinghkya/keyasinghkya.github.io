@@ -6,6 +6,8 @@ year: 2021
 status: completed
 featureimage: "/images/zangezi.jpg"
 type: "projects"
+locations:
+  - "czech republic"
 categories:
   - "live"
   - commissioned

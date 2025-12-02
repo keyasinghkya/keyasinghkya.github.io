@@ -1,7 +1,13 @@
 ---
 title: "#jpeg2dicom"
 date: 2020-04-01
+medium: visual research
+status: ongoing
+year: since 2020
+type: "projects"
 featureimage: "/images/jpegicon.png"
+locations:
+  - czech republic
 categories:
   - independent
   - neither

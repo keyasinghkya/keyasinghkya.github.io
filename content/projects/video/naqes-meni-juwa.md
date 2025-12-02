@@ -1,6 +1,10 @@
 ---
 title: "أنا ناقص مني جوا Naqes Meni Juwa"
-duration: "video, 01:40"
+duration: "01:40"
+status: completed
+medium: video
+locations:
+  - czech republic
 date: 2019-10-29
 featureimage: "/images/naqesicon.png"
 categories:

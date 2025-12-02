@@ -1,6 +1,10 @@
 ---
 title: "Caring to Grow"
-duration: "series of 4 short films, 58:07 in total"
+duration: 58:07 (in total)
+medium: 4 short films
+status: completed
+locations:
+  - czech republic
 date: 2022-02-15
 featureimage: "/images/caringicon.png"
 categories:

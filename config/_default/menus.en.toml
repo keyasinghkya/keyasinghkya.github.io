@@ -41,23 +41,16 @@
   weight = 2
 
 [[main]]
-  name = "₍^. .^₎⟆ neither"
+  name = "₍^. .^₎↑ neither"
   parent = "projects ⋆.𐙚˚"
   pageRef = "categories/neither"
   weight = 3
 
 [[main]]
-  name = "workshop ˶ᵔ ᵕ ᵔ˶"
+  name = "teaching ˶ᵔ ᵕ ᵔ˶"
   parent = "projects ⋆.𐙚˚"
-  pageRef = "categories/workshop"
+  pageRef = "categories/teaching"
   weight = 4
-
-[[main]]
-  name = "social media work"
-  parent = "projects ⋆.𐙚˚"
-  pageRef = "categories/social-media-work"
-  weight = 5
-
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before

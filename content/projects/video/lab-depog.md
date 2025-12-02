@@ -1,13 +1,17 @@
 ---
-title: "LAB_D'epog"
-duration: "video, 11:44"
+title: "LAB_D'epog w/ John Object"
+medium: video
+duration: 11:44
+status: completed
+locations:
+  - czech republic
+  - online
 date: 2020-11-06
 featureimage: "/images/labdepogicon.png"
 categories:
   - commissioned
   - collaboration
   - "video"
-  
 tags:
   - music
   - theatre

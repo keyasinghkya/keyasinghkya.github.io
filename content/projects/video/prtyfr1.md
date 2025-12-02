@@ -1,6 +1,10 @@
 ---
 title: "PRTY FR 1"
-duration: "video, 01:40"
+duration: "04:57"
+status: completed
+medium: video, live coded audio
+locations:
+  - czech republic
 date: 2019-10-29
 featureimage: "/images/prtyfr1.png"
 categories:

@@ -1,10 +1,13 @@
 ---
 title: "everyone can create live visuals"
+medium: collaborative live a/v workshop
+duration: 02:00:00
 date: 2025-02-12
 featureimage: "/images/ostravawrkshp.png"
 fullPageBackground: "/backgrounds/ostravaw-bg.JPG"
+locations:
+  - ostrava, czech republic
 categories:
-  - workshop
   - teaching
 tags:
   - creative facilitation

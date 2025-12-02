@@ -1,10 +1,15 @@
 ---
 title: "that's you in the spotlight"
-duration: "karaoke installation, 04:30"
 featureimage: "/images/spotlighticon.jpeg"
 fullPageBackground: "/backgrounds/spotlight-bg.jpeg"
 date: 2023-03-25
 type: "projects"
+year: 2023
+locations:
+  - czech republic
+medium: karaoke installation
+status: completed
+duration: "04:30"
 categories:
   - "neither"
   - independent

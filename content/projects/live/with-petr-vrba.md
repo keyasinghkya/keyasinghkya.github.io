@@ -6,6 +6,8 @@ date: 2024-10-24
 type: "projects"
 status: completed
 featureimage: "/images/vrbaicon.jpg"
+locations:
+  - "czech republic"
 categories:
   - "live"
   - commissioned

@@ -4,12 +4,12 @@ date: 2020-01-08
 featureimage: "/images/orientalism-text.png"
 type: "posts"
 categories:
-  - video
   - learning
   - writing
 tags:
   - video essay
-  - art history
+  - postcolonial theory
+  - portrait
 draft: false
 ---
 ### supporting text for the [video essay](/projects/video/orientalism-not/)

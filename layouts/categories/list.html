@@ -1,0 +1,43 @@
+{{ define "main" }}
+  <header>
+    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+    <p class="text-neutral-600 dark:text-neutral-400 mt-2">{{ .Params.description }}</p>
+  </header>
+
+  <section class="mt-8 prose dark:prose-invert max-w-full">
+    {{ .Content }}
+  </section>
+
+  <div id="result-count" class="text-sm text-neutral-600 dark:text-neutral-400 my-5">
+    showing {{ len .Pages }} projects
+  </div>
+
+  <section class="masonry-wall">
+    {{ range .Pages }}
+      <article class="masonry-item">
+        {{ partial "article-link/project-card.html" . }}
+      </article>
+    {{ end }}
+  </section>
+
+  <style>
+    .masonry-wall {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      padding: 2rem 0;
+    }
+
+    @media (max-width: 1024px) {
+      .masonry-wall {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .masonry-wall {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+{{ end }}

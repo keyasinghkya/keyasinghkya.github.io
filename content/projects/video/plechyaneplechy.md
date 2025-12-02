@@ -1,6 +1,8 @@
 ---
 title: "Plechy a neplechy"
-duration: "video, 11:44"
+duration: "11:44"
+status: completed
+medium: video documentation
 date: 2020-06-24
 featureimage: "/images/plechyicon.png"
 categories:

@@ -1,10 +1,13 @@
 ---
-title: "co-creating live a/v at Seeds Residency 2025"
+title: "Seeds Residency 2025"
+medium: co-creating live a/v
+duration: 2 days
 date: 2025-09-18
 featureimage: "/images/seedswrkshp.jpeg"
 fullPageBackground: "/backgrounds/seedsbg.png"
+locations:
+  - føllenslev, denmark
 categories:
-  - workshop
   - teaching
 tags:
   - creative facilitation

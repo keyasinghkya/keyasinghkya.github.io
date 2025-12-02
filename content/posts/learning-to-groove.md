@@ -5,7 +5,6 @@ featureimage: "/images/learningtoicon.png"
 externalUrl: "/pdfs/about-global-groove.pdf"
 type: "posts"
 categories:
-  - video
   - learning
   - writing
 tags:

@@ -1,6 +1,10 @@
 ---
 title: "About Global Groove"
-duration: "video, 20:30"
+duration: 20:30
+medium: video essay
+status: completed
+locations:
+  - czech republic
 date: 2019-01-15
 featureimage: "/images/globalicon.png"
 categories:

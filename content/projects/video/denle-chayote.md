@@ -1,6 +1,11 @@
 ---
 title: "Denle Chayote"
-duration: "video, 16:51"
+duration: 16:51
+medium: video essay/report
+status: completed
+locations:
+  - mexico
+  - czech republic
 date: 2024-01-15
 featureimage: "/images/denleicon.png"
 categories:

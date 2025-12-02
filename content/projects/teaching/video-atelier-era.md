@@ -1,10 +1,12 @@
 ---
 title: "Video Atelier w/ Cristina Maldonado + Isa Juchniewicz"
 date: 2021-10-03
+year: 2022 to 2025
+locations:
+  - prague, czech republic
 featureimage: "/images/video-ateliericon.jpeg"
 categories:
   - teaching
-  - workshop
 tags:
   - collaboration
 draft: false

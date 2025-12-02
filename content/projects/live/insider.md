@@ -1,6 +1,6 @@
 ---
 title: "Insider"
-year: 2019
+year: since 2019
 status: ongoing
 medium: mixed-reality performance
 duration: 70:00

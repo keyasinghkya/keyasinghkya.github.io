@@ -1,6 +1,11 @@
 ---
 title: "learning about validation"
-duration: "video, 01:40"
+duration: "06:29"
+status: completed
+medium: video
+locations:
+  - "czech republic"
+  - "india"
 date: 2021-01-22
 featureimage: "/images/validationicon.png"
 categories:

@@ -9,8 +9,6 @@ categories:
 draft: false
 ---
 
-![lynch](/images/lynch-ideas.png)
-
 1. FLORENTINE CODEX???!!!!
 2. the pigeon chapter (1) in Staying with the Trouble
 3. ethical stripclub/cultural space

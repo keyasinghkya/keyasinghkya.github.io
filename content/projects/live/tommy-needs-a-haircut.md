@@ -1,11 +1,13 @@
 ---
 title: "tommy needs a haircut"
-duration: live-gaming performance, ~33 mins
-year: 2024
+duration: live-gaming performances, ~33:00
+year: since 2024
 status: ongoing
 date: 2024-03-10
 type: "projects"
 featureimage: "/images/gtaicon.png"
+locations:
+  - "czech republic"
 categories:
   - "live"
   - independent

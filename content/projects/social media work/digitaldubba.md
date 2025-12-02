@@ -6,5 +6,7 @@ categories:
 tags:
   - digital marketing
   - film marketing
-draft: false
+locations:
+  - india
+draft: true
 ---

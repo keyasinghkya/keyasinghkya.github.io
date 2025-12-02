@@ -1,9 +1,13 @@
 ---
 title: "Insider: unwrapping reality/opening"
-year: "2019 - ongoing"
+year: since 2019
+medium: installation
+status: ongoing
 featureimage: "/images/insider-premiere.jpeg"
 date: 2019-11-30
 type: "projects"
+locations:
+  - czech republic
 categories:
   - "neither"
   - independent
@@ -35,5 +39,5 @@ These installations were created by a collective of artists - Cristina Maldonado
   images="/images/insider/prague-op-2.jpeg, /images/insider/prague-op-3.jpeg,/images/insider/prague-op-4.jpeg, /images/insider/prague-op-6.jpeg, /images/insider/prague-op-7.jpeg, /images/insider/prague-op-8.jpeg, /images/insider/prague-op-9.jpeg, /images/insider/prague-op-10.jpeg" >}}
 
   {{< related-links >}}
-   -  [Evil Medvěd](https://soundcloud.com/evilmedved)
+   -  [Insider](/projects/live/insider)
   {{< /related-links >}}

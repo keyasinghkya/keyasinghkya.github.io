@@ -1,10 +1,13 @@
 ---
-title: "collaborative video workshop at Insomnia Festival 2021"
+title: "Insomnia Festival 2021"
 date: 2021-10-03
 featureimage: "/images/norwaywrkshp.png"
 fullPageBackground: "/backgrounds/insomniabg.jpeg"
+medium: collaborative video workshop
+duration: 02:00:00
+locations:
+  - tromsø, norway
 categories:
-  - workshop
   - teaching
   - video
 tags:

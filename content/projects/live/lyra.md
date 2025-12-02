@@ -1,10 +1,13 @@
 ---
 title: "LyrArkestra+"
-years: [2022, 2023, 2024]
+year: 2022-2024
 date: 2022-11-18
 status: completed
 type: "projects"
+medium: live visuals
 featureimage: "/images/lyraicon.jpg"
+locations:
+  - "czech republic"
 categories:
   - "live"
   - commissioned
