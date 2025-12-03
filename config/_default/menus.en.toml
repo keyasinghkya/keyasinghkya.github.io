@@ -18,23 +18,23 @@
   weight = 10
 
 [[main]]
-  name = "♡´ video ♡´"
-  url = "categories/video"
+  name = "video𓆩❤︎𓆪"
+  pageRef = "categories/video"
   weight = 20
 
 [[main]]
-  name = "live ৻(•̀ᗜ •́৻)"
-  url = "categories/live"
+  name = "live𓆩^._.^𓆪"
+  pageRef = "categories/live"
   weight = 30
 
 [[main]]
-  name = "₍^. .^₎ neither"
-  url = "categories/neither"
+  name = "←↑₍^. .^₎neither"
+  pageRef = "categories/neither"
   weight = 40
 
 [[main]]
-  name = "teaching ˶ᵔ ᵕ ᵔ˶"
-  url = "categories/teaching"
+  name = "teaching˶•ᴗ•˶"
+  pageRef = "categories/teaching"
   weight = 50
 
 [[main]]

@@ -8,36 +8,156 @@
     {{ .Content }}
   </section>
 
-  <div id="result-count" class="text-sm text-neutral-600 dark:text-neutral-400 my-5">
-    showing {{ len .Pages }} projects
+  <!-- Tag Filter Section -->
+  <div class="flex justify-between items-center mb-6 mt-8">
+    <div class="filter-section">
+      <button id="tagFilterToggle" class="text-sm font-bold flex items-center gap-3 cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+        <span>filter by tags</span>
+        <span id="tagToggleIcon">↓</span>
+      </button>
+    </div>
+
+    <div class="flex gap-3 items-center">
+      <button id="clearFilters" class="text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800" style="display: none;">
+        clear filters
+      </button>
+
+      <div style="position: relative; display: inline-block;">
+        <label class="text-sm">sort: </label>
+        <select id="sortSelect" class="text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-800" style="appearance: none; padding-right: 2.5rem;">
+          <option value="date-desc">newest first</option>
+          <option value="date-asc">oldest first</option>
+          <option value="title">title (a-z)</option>
+        </select>
+        <span style="position: absolute; right: 0.75rem; top: 50%; transform: translateY(-50%); pointer-events: none;">↓</span>
+      </div>
+    </div>
   </div>
 
-  <section class="masonry-wall">
+  <div id="tagFilterContent" class="hidden mb-6">
+    <div class="tag-buttons flex gap-2 flex-wrap mb-2">
+      {{ $allTags := slice }}
+      {{ range .Pages }}
+        {{ range .Params.tags }}
+          {{ $allTags = $allTags | append . }}
+        {{ end }}
+      {{ end }}
+      {{ $uniqueTags := $allTags | uniq | sort }}
+
+      {{ range $uniqueTags }}
+      <button class="tag-btn text-sm px-3 py-1.5 rounded border border-neutral-300 dark:border-neutral-700" data-tag="{{ . | urlize }}">{{ . }}</button>
+      {{ end }}
+    </div>
+  </div>
+
+  <div id="result-count" class="text-sm text-neutral-600 dark:text-neutral-400 my-5">
+    showing <span id="visible-count">{{ len .Pages }}</span> of <span id="total-count">{{ len .Pages }}</span> projects
+  </div>
+
+  <section class="masonry-wall" id="article-container">
     {{ range .Pages }}
-      <article class="masonry-item">
+      <article class="masonry-item" data-tags="{{ delimit (apply .Params.tags "urlize" ".") "," }}">
         {{ partial "article-link/project-card.html" . }}
       </article>
     {{ end }}
   </section>
 
-  <style>
-    .masonry-wall {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 2rem;
-      padding: 2rem 0;
+  {{ $css := resources.Get "css/project-cards.css" }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const tagBtns = document.querySelectorAll('.tag-btn');
+    const articles = document.querySelectorAll('#article-container > article');
+    const clearBtn = document.getElementById('clearFilters');
+    const container = document.getElementById('article-container');
+
+    let activeTags = new Set();
+
+    // Initialize counts
+    const totalCount = articles.length;
+    document.getElementById('total-count').textContent = totalCount;
+    document.getElementById('visible-count').textContent = totalCount;
+
+    const tagToggle = document.getElementById('tagFilterToggle');
+    const tagContent = document.getElementById('tagFilterContent');
+    const tagIcon = document.getElementById('tagToggleIcon');
+
+    tagToggle.addEventListener('click', function() {
+      tagContent.classList.toggle('hidden');
+      tagIcon.textContent = tagContent.classList.contains('hidden') ? '↓' : '↑';
+    });
+
+    function updateClearButton() {
+      clearBtn.style.display = activeTags.size > 0 ? 'inline-block' : 'none';
     }
 
-    @media (max-width: 1024px) {
-      .masonry-wall {
-        grid-template-columns: repeat(2, 1fr);
+    function applyFilters() {
+      articles.forEach(article => {
+        const tags = article.dataset.tags.split(',');
+        const tagMatch = activeTags.size === 0 || [...activeTags].some(tag => tags.includes(tag));
+        article.style.display = tagMatch ? '' : 'none';
+      });
+
+      const visibleCount = [...articles].filter(a => a.style.display !== 'none').length;
+      document.getElementById('visible-count').textContent = visibleCount;
+
+      let noResultsMsg = document.getElementById('no-results-message');
+
+      if (visibleCount === 0) {
+        if (!noResultsMsg) {
+          noResultsMsg = document.createElement('div');
+          noResultsMsg.id = 'no-results-message';
+          noResultsMsg.className = 'text-center py-12 text-neutral-600 dark:text-neutral-400';
+          noResultsMsg.innerHTML = '<p class="text-lg">No projects match these filters</p><p class="text-sm mt-2">Try selecting different tags</p>';
+          container.appendChild(noResultsMsg);
+        }
+        noResultsMsg.style.display = 'block';
+      } else {
+        if (noResultsMsg) {
+          noResultsMsg.style.display = 'none';
+        }
       }
+
+      updateClearButton();
     }
 
-    @media (max-width: 768px) {
-      .masonry-wall {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
+    tagBtns.forEach(btn => {
+      btn.addEventListener('click', function() {
+        const tag = this.dataset.tag;
+        if (activeTags.has(tag)) {
+          activeTags.delete(tag);
+          this.classList.remove('active');
+        } else {
+          activeTags.add(tag);
+          this.classList.add('active');
+        }
+        applyFilters();
+      });
+    });
+
+    clearBtn.addEventListener('click', function() {
+      activeTags.clear();
+      tagBtns.forEach(b => b.classList.remove('active'));
+      applyFilters();
+    });
+
+    const select = document.getElementById('sortSelect');
+
+    select.addEventListener('change', function() {
+      const sorted = Array.from(articles).sort((a, b) => {
+        const timeA = a.querySelector('time')?.getAttribute('datetime') || '';
+        const timeB = b.querySelector('time')?.getAttribute('datetime') || '';
+        const titleA = a.querySelector('h2')?.textContent.toLowerCase() || '';
+        const titleB = b.querySelector('h2')?.textContent.toLowerCase() || '';
+
+        if (this.value === 'date-desc') return timeB.localeCompare(timeA);
+        if (this.value === 'date-asc') return timeA.localeCompare(timeB);
+        return titleA.localeCompare(titleB);
+      });
+
+      sorted.forEach(a => container.appendChild(a));
+    });
+  });
+  </script>
 {{ end }}

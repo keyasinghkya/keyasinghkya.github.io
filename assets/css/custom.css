@@ -1,72 +1,12 @@
-/* ====== EXISTING STYLES ====== */
+/* ============================================
+   SORTING & FILTERS
+   ============================================ */
+
 select#sortSelect {
   appearance: auto;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='currentColor' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
   background-position: right 0.5rem center;
   padding-right: 2rem;
-}
-
-.masonry-wall {
-  column-count: 3;
-  column-gap: 1.5rem;
-}
-
-.masonry-item {
-  break-inside: avoid;
-  margin-bottom: 1.5rem;
-  display: inline-block;
-  width: 100%;
-}
-
-@media (max-width: 1024px) {
-  .masonry-wall {
-    column-count: 2;
-  }
-}
-
-@media (max-width: 768px) {
-  .masonry-wall {
-    column-count: 1;
-  }
-}
-
-/* Increase tag spacing on project single pages to match list pages */
-article header .flex-wrap {
-  gap: 0.05rem !important;
-}
-
-.home article {
-  background: rgba(0, 0, 0, 0.9) !important;
-}
-
-.home article h2 {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-}
-
-.homepage-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.5);
-}
-
-.dark .homepage-overlay {
-  background: rgba(0, 0, 0, 0.6);
-}
-
-.post-overlay {
-  position: fixed;
-  top: 100px;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.8);
-}
-
-.dark .post-overlay {
-  background: rgba(0, 0, 0, 0.6);
 }
 
 .format-buttons {
@@ -105,7 +45,39 @@ article header .flex-wrap {
   border-color: rgb(var(--color-primary-400));
 }
 
-/* ====== MOVE NAVBAR LOWER ====== */
+
+/* ============================================
+   MASONRY GRID LAYOUT (Project Cards)
+   ============================================ */
+
+.masonry-wall {
+  column-count: 3;
+  column-gap: 1.5rem;
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .masonry-wall {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .masonry-wall {
+    column-count: 1;
+  }
+}
+
+
+/* ============================================
+   HEADER & NAVIGATION
+   ============================================ */
 
 /* Add space at top to push navbar down */
 body > header,
@@ -132,7 +104,7 @@ main.flex {
   margin-top: 0 !important;
 }
 
-/* Responsive adjustments */
+/* Responsive adjustments for mobile */
 @media (max-width: 768px) {
   header,
   header.fixed,
@@ -141,7 +113,114 @@ main.flex {
   }
 }
 
-/* Only add text shadows in dark mode or when there's a background */
+/* ============================================
+   MAKE HEADER/MENU MORE PROMINENT
+   ============================================ */
+
+/* Make the main menu container taller with better spacing */
+.main-menu {
+  padding-top: 2.5rem !important;
+  padding-bottom: 1.5rem !important;
+  max-width: 100% !important; /* Allow full width */
+}
+
+/* Target the actual menu text - make it bigger and cleaner */
+nav.hidden.md\:flex p.text-base {
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.02em !important;
+  line-height: 1.2 !important;
+  white-space: nowrap !important; /* Prevent text wrapping */
+}
+
+/* Add consistent spacing between menu items */
+nav.hidden.md\:flex {
+  gap: 2rem !important;
+  flex-wrap: nowrap !important; /* Keep everything in one line */
+}
+
+/* Make site title bigger and bolder */
+nav.flex.space-x-3 a.text-base {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.01em !important;
+}
+
+/* Ensure menu items align properly */
+nav.hidden.md\:flex.items-center {
+  align-items: center !important;
+}
+
+/* Clean up any emoji/icon sizing issues */
+nav.hidden.md\:flex a {
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* Make the entire header use more horizontal space */
+header > div,
+.main-menu > div {
+  max-width: 100% !important;
+}
+
+/* Responsive - slightly smaller on mobile */
+@media (max-width: 768px) {
+  .main-menu {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1rem !important;
+  }
+}
+
+/* ============================================
+   HOMEPAGE STYLES
+   ============================================ */
+
+.home article {
+  background: rgba(0, 0, 0, 0.9) !important;
+}
+
+.home article h2 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.homepage-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.dark .homepage-overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+
+/* ============================================
+   POST/ARTICLE OVERLAYS
+   ============================================ */
+
+.post-overlay {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.dark .post-overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+
+/* ============================================
+   PROJECT PAGE TEXT SHADOWS
+   For dark mode and background images
+   ============================================ */
+
+/* Only add text shadows in dark mode */
 .dark article header h1,
 .dark article header p,
 .dark article header .project-meta {
@@ -155,6 +234,11 @@ body:has(.project-bg-overlay) article header .project-meta {
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
   color: white;
 }
+
+
+/* ============================================
+   TAG SPACING (Project pages)
+   ============================================ */
 
 /* Increase tag spacing on project single pages to match list pages */
 article header .flex-wrap {
@@ -167,24 +251,14 @@ article header .flex-wrap {
   margin-bottom: 0.5rem;
 }
 
+
+/* ============================================
+   GALLERY STYLES
+   ============================================ */
+
 /* Reduce space between text and gallery */
 .gallery-box {
   margin-top: 1rem !important;
-}
-
-/* Only add text shadows in dark mode or when there's a background */
-.dark article header h1,
-.dark article header p,
-.dark article header .project-meta {
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
-}
-
-/* When page has project-bg, add shadows in light mode too */
-body:has(.project-bg-overlay) article header h1,
-body:has(.project-bg-overlay) article header p,
-body:has(.project-bg-overlay) article header .project-meta {
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
-  color: white;
 }
 
 /* Force clean light mode for ALL gallery text unless explicitly in dark mode */
@@ -213,6 +287,11 @@ body:has(.project-bg-overlay) article header .project-meta {
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9) !important;
 }
 
+
+/* ============================================
+   VIMEO EMBEDS
+   ============================================ */
+
 /* Force tighter spacing for portrait Vimeo embeds */
 .vimeo-responsive.portrait {
   margin-top: 0.5rem !important;
@@ -225,7 +304,11 @@ ol + .vimeo-responsive {
   margin-top: 0 !important;
 }
 
-/* Tags page - mobile optimization */
+
+/* ============================================
+   TAGS PAGE (Mobile)
+   ============================================ */
+
 @media (max-width: 768px) {
   .terms-list {
     display: grid;
