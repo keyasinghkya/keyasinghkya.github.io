@@ -18,39 +18,29 @@
   weight = 10
 
 [[main]]
-  name = "projects ⋆.𐙚˚"
-  pageRef = "projects"
+  name = "♡´ video ♡´"
+  url = "categories/video"
   weight = 20
+
+[[main]]
+  name = "live ৻(•̀ᗜ •́৻)"
+  url = "categories/live"
+  weight = 30
+
+[[main]]
+  name = "₍^. .^₎ neither"
+  url = "categories/neither"
+  weight = 40
+
+[[main]]
+  name = "teaching ˶ᵔ ᵕ ᵔ˶"
+  url = "categories/teaching"
+  weight = 50
 
 [[main]]
   name = "blog╭ರ_•́"
   pageRef = "posts"
-  weight = 30
-
-# Projects submenu
-[[main]]
-  name = "♡´ video ♡´"
-  parent = "projects ⋆.𐙚˚"
-  pageRef = "categories/video"
-  weight = 1
-
-[[main]]
-  name = "live ৻(•̀ᗜ •́৻)"
-  parent = "projects ⋆.𐙚˚"
-  pageRef = "categories/live"
-  weight = 2
-
-[[main]]
-  name = "₍^. .^₎↑ neither"
-  parent = "projects ⋆.𐙚˚"
-  pageRef = "categories/neither"
-  weight = 3
-
-[[main]]
-  name = "teaching ˶ᵔ ᵕ ᵔ˶"
-  parent = "projects ⋆.𐙚˚"
-  pageRef = "categories/teaching"
-  weight = 4
+  weight = 60
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
