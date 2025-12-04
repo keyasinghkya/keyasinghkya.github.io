@@ -50,6 +50,10 @@
     </div>
   </div>
 
+  <div id="result-count" class="hidden">
+      showing <span id="visible-count">0</span> of <span id="total-count">0</span> projects
+    </div>
+
   <section class="masonry-wall" id="article-container">
     {{ range .Pages }}
       <article class="masonry-item" data-tags="{{ delimit (apply .Params.tags "urlize" ".") "," }}">
