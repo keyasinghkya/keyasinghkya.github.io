@@ -2,7 +2,6 @@
 title: "LAB_D'epog w/ John Object"
 medium: video
 duration: 11:44
-status: completed
 locations:
   - czech republic
   - online

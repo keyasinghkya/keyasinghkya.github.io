@@ -1,7 +1,6 @@
 ---
 title: "أنا ناقص مني جوا Naqes Meni Juwa"
 duration: "01:40"
-status: completed
 medium: video
 locations:
   - czech republic

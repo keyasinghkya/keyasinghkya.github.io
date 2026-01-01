@@ -9,7 +9,6 @@ locations:
   - tromsø, norway
 categories:
   - teaching
-  - video
 tags:
   - collaboration
   - creative facilitation

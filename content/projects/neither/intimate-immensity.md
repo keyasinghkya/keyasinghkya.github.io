@@ -3,7 +3,6 @@ title: "Intimate Immensity"
 date: 2021-06-01
 year: 2021
 medium: XR installation
-status: completed
 type: "projects"
 duration: "08:00"
 locations:
@@ -26,7 +25,7 @@ So, Intimate Immensity was born out of curiosity, isolation and anxiety: curiosi
 
 The outcome included a sculptural installation with a virtual environment built to scale – physical elements such as soil, a tree, scents and a mirror. The virtual environment consisted of corresponding elements as well as additional elements – text, real-time camera view, etc – which were created with an abstract, figurative aesthetic. I created the visual, virtual material primarily using MRI software. This was in connection to another project of mine [#jpeg2dicom](/projects/neither/jpeg2dicom) where I am exploring how to compress videos into 3D objects using MRI readers. In the context of Intimate Immensity, these visuals served as a muted reference to the corporeal inner world that exists within each one of us.
 
-{{< pdf-link src="/pdfs/intimate-immensity-singh.pdf" text="read by BA thesis here" >}}
+{{< pdf-link src="/pdfs/intimate-immensity-singh.pdf" text="read my BA thesis here" >}}
 
 {{< gallery
   title="at \"Reflection in a Pond\""

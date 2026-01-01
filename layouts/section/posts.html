@@ -56,7 +56,7 @@
 
   <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3" id="article-container">
     {{ range where .Site.RegularPages "Type" "posts" }}
-      <article data-tags="{{ delimit (apply .Params.tags "urlize" ".") "," }}">
+      <article data-tags="{{ delimit (apply .Params.tags "urlize" ".") "," }}" data-date="{{ .Date.Format "2006-01-02" }}">
         {{ partial "article-link/card.html" . }}
       </article>
     {{ end }}
@@ -184,13 +184,13 @@
 
     select.addEventListener('change', function() {
       const sorted = Array.from(articles).sort((a, b) => {
-        const timeA = a.querySelector('time')?.getAttribute('datetime') || '';
-        const timeB = b.querySelector('time')?.getAttribute('datetime') || '';
+        const dateA = a.dataset.date || '';
+        const dateB = b.dataset.date || '';
         const titleA = a.querySelector('h2')?.textContent.toLowerCase() || '';
         const titleB = b.querySelector('h2')?.textContent.toLowerCase() || '';
 
-        if (this.value === 'date-desc') return timeB.localeCompare(timeA);
-        if (this.value === 'date-asc') return timeA.localeCompare(timeB);
+        if (this.value === 'date-desc') return dateB.localeCompare(dateA);
+        if (this.value === 'date-asc') return dateA.localeCompare(dateB);
         return titleA.localeCompare(titleB);
       });
 

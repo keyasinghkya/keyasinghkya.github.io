@@ -7,7 +7,6 @@ externalUrl: "https://www.internetpublicradio.live/episodes/evil-medved-31st-may
 type: "projects"
 locations:
   - online
-status: completed
 categories:
   - "neither"
 tags:

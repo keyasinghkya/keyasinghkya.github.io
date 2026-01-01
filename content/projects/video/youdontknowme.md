@@ -4,7 +4,6 @@ medium: video
 locations:
   - czech republic
 duration: "01:07"
-status: completed
 date: 2018-05-18
 featureimage: "/images/youdontknow.png"
 categories:

@@ -2,7 +2,6 @@
 title: "Denle Chayote"
 duration: 16:51
 medium: video essay/report
-status: completed
 locations:
   - mexico
   - czech republic

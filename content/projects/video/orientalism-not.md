@@ -1,7 +1,6 @@
 ---
 title: "Orientalism(not) feat. Edward Said"
 medium: video essay
-status: completed
 duration: 14:16
 date: 2020-01-08
 featureimage: "/images/orientalism-not.png"

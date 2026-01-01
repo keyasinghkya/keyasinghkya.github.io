@@ -2,7 +2,6 @@
 title: "as long as you promise not to make me do anything about the result"
 duration: 15:17
 medium: short film
-status: completed
 locations:
   - germany
 date: 2025-06-23

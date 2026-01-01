@@ -2,7 +2,6 @@
 title: "About Global Groove"
 duration: 20:30
 medium: video essay
-status: completed
 locations:
   - czech republic
 date: 2019-01-15

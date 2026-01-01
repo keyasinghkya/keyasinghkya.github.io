@@ -8,7 +8,6 @@ year: 2023
 locations:
   - czech republic
 medium: karaoke installation
-status: completed
 duration: "04:30"
 categories:
   - "neither"

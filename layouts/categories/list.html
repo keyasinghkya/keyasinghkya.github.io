@@ -146,8 +146,8 @@
 
     select.addEventListener('change', function() {
       const sorted = Array.from(articles).sort((a, b) => {
-        const timeA = a.querySelector('time')?.getAttribute('datetime') || '';
-        const timeB = b.querySelector('time')?.getAttribute('datetime') || '';
+        const dateA = a.dataset.date || '';
+        const dateB = b.dataset.date || '';
         const titleA = a.querySelector('h2')?.textContent.toLowerCase() || '';
         const titleB = b.querySelector('h2')?.textContent.toLowerCase() || '';
 

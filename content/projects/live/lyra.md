@@ -2,7 +2,6 @@
 title: "LyrArkestra+"
 year: 2022-2024
 date: 2022-11-18
-status: completed
 type: "projects"
 medium: live visuals
 featureimage: "/images/lyraicon.jpg"

@@ -2,7 +2,6 @@
 title: "Rickey Mouse saga"
 year: 2020-2023
 date: 2020-12-19
-status: completed
 type: "projects"
 featureimage: "/images/rickeyicon.JPG"
 medium: live visuals, video documentation

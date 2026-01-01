@@ -3,7 +3,6 @@ title: "Zangezi"
 duration: live visuals, 50:00
 date: 2021-11-13
 year: 2021
-status: completed
 featureimage: "/images/zangezi.jpg"
 type: "projects"
 locations:

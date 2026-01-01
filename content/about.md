@@ -319,7 +319,7 @@ ScreenSaverGallery
 
 **10/25** Copenhagen, DK  
 *Co-creating live AV workshop*  
-seeds Residency
+Seeds Residency
 
 **02/22 - 02/25** Prague, CZ  
 *Video Atelier w/ Cristina Maldonado, Isa Juchniewicz*  

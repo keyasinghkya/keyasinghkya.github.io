@@ -2,7 +2,6 @@
 title: "Caring to Grow"
 duration: 58:07 (in total)
 medium: 4 short films
-status: completed
 locations:
   - czech republic
 date: 2022-02-15

@@ -1,7 +1,6 @@
 ---
 title: "Lunchmeat Festival 2020"
 medium: live visuals
-status: completed
 duration: "50:00"
 locations:
   - "czech republic"

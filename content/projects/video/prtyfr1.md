@@ -1,7 +1,6 @@
 ---
 title: "PRTY FR 1"
 duration: "04:57"
-status: completed
 medium: video, live coded audio
 locations:
   - czech republic

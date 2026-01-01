@@ -1,7 +1,6 @@
 ---
 title: "Insomnia Festival 2021"
 medium: live visuals
-status: completed
 duration: 05:00:00
 year: 2021
 locations:

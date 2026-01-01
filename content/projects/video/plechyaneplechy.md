@@ -1,7 +1,8 @@
 ---
 title: "Plechy a neplechy"
 duration: "11:44"
-status: completed
+locations:
+  - "czech republic"
 medium: video documentation
 date: 2020-06-24
 featureimage: "/images/plechyicon.png"

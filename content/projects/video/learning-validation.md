@@ -1,8 +1,6 @@
 ---
 title: "learning about validation"
 duration: "06:29"
-status: completed
-medium: video
 locations:
   - "czech republic"
   - "india"
