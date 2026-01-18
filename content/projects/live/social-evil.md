@@ -3,7 +3,7 @@ title: "social obligations from people on the internet"
 duration: live a/v, 40:00
 date: 2024-03-16
 year: 2024
-featureimage: "/images/social-evil-icon.jpeg"
+featureimage: "/images/social-evil-icon.jpg"
 type: "projects"
 locations:
   - "czech republic"
