@@ -22,7 +22,7 @@ tags:
 draft: false
 ---
 ## About
-Being chronically online has instigated this project as an acceptance of our fate as we further drown in the internet. We do this not with dread but to collect our screen time & turn it into something visually hectic & maybe even danceable.
+Being chronically online instigated this performance as an acceptance of our fate as we further drown in the internet. We did this not with dread but to collect our screen time & turn it into something visually hectic & maybe even danceable.
 
 ## Documentation
 {{< gallery
