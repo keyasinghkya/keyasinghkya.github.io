@@ -16,7 +16,7 @@ draft: false
 ---
 
 ### Workshop description + requirements:
-Everything I make is in an attempt to position myself in the world. I pose questions that I answer through video.
+*Everything I make is in an attempt to position myself in the world. I pose questions that I answer through video.*
 
 <p> During the course of these two hours, I will briefly share how I make this happen with a combination of content, feelings, techniques, media and people. We will then work together for the rest of the workshop. Participants are strongly(!) encouraged to contribute their skills and thoughts to the process. Each of us will play a key role in the creation of a collaborative work(s). </p>
 

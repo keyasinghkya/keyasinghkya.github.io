@@ -32,7 +32,7 @@ So far the longest set I have made, this was a great opportunity to see how far 
 
 ## Related
 {{< related-links >}}
-  - [Collaborative Video workshop](/projects/teaching/insomnia2020-workshop/)
+  - [Collaborative Video workshop](/projects/teaching/insomnia2021-workshop/)
   - [Shape Platform](https://shapeplatform.eu/artist/evil-medved/)
   - [Insomnia Festival (facebook album)](https://www.facebook.com/insomniatromso/posts/thank-you-all-for-taking-part-in-the-insomnia-festival-kick-off-this-weekend-we-/10165721495960577/)
 {{< /related-links >}}

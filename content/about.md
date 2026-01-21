@@ -13,14 +13,14 @@ showWordCount: false
 <strong>identity, culture, reality, found</strong>
 </div>
 
-I am a Prague-based video artist working with film, installation, and performance. Currently pursuing a MA at the New Media studio in the Academy of Fine Arts Prague, my practice uses pop culture formats—cooking shows, YouTube tutorials, reality TV—to explore how cultural scripts shape identity and belonging. My work seems to land between documentation and fiction, often performing roles that reveal the gap between who we are told to be and who we actually are.
+I am a Prague-based, South Asian video artist working with film, installation, and performance. Currently pursuing a MA at the New Media 1 studio in the Academy of Fine Arts Prague, my practice uses pop culture formats—cooking shows, YouTube tutorials, reality TV—to explore how cultural scripts shape identity and belonging. My work seems to land between documentation and fiction, often performing roles that reveal the gap between who we are told to be and who we actually are.
 
 Recent work includes [*as long as you promise not to make me do anything about the result*](/projects/video/eyes/), which explores professional interventions on the body with a focus on ophthalmology, rooted in Mark Fisher's concept of *"the eerie"* (the failure of presence and the failure of absence). [*Denle Chayote*](/projects/video/denle-chayote), which uses the humanised character of a chayote to explore themes of postcolonialism and the enduring legacy of cultural exchange, drawing inspiration from the narrative styles of TV and YouTube shows. [*Caring to Grow*](/projects/video/caring/) perceives people through their attachment to nature, telling stories of reminiscence, recognition and reflection. I am interested in making theory feel embodied rather than abstract; using humour and emotional resonance to question how we perform authenticity.
 
 ## Solo Exhibition
 
 **02/25** Ostrava, CZ  
-*hey look what's staring back at you*  
+[*hey look what's staring back at you*](/posts/ostrava-solo/)
 Galerie Provoz
 
 ---
@@ -32,15 +32,15 @@ Galerie Provoz
 <div>
 
 **09/23** Mexico City, MX  
-*Insider\**  
+[*Insider\**](/projects/live/insider/)
 Museo Del Chopo
 
 **06/23** Prague, CZ  
-*Insider\* (apartment stage)*  
+[*Insider\* (apartment stage)*](/projects/live/insider/)  
 Prague Quadrennial 2023
 
 **06/22** Cluj-Napoca, RO  
-*Beyond Touring: Insider\**  
+[*Beyond Touring: Insider\**](/projects/live/insider/)
 Tranzit House
 
 </div>
@@ -48,15 +48,15 @@ Tranzit House
 <div>
 
 **05/22** Berlin, DE  
-*Beyond Touring: Insider\**  
+[*Beyond Touring: Insider\**](/projects/live/insider/)
 Kiezkapelle
 
 **03-04/22** Brno, CZ  
-*Beyond Touring: Insider\**  
+[*Beyond Touring: Insider\**](/projects/live/insider/)
 Apartment stage
 
 **10/21** Prague, CZ  
-*Insider\**  
+[*Insider\**](/projects/live/insider/)
 Alfred ve dvoře
 
 </div>
@@ -71,19 +71,19 @@ Alfred ve dvoře
 <div>
 
 **10/20** Prague, CZ  
-*Insider\**  
+[*Insider\**](/projects/live/insider/)
 4+4 Days in Motion 2020
 
 **08/20** Pardubice, CZ  
-*Insider\**  
+[*Insider\**](/projects/live/insider/)
 Tvárnost paměti 2020
 
 **08/20** Brno, CZ  
-*Insider\**  
+[*Insider\**](/projects/live/insider/)
 CED
 
 **12/19** Olomouc, CZ  
-*Insider\**  
+[*Insider\**](/projects/live/insider/)
 PAF 2019
 
 </div>
@@ -91,7 +91,7 @@ PAF 2019
 <div>
 
 **11/19** Brno, CZ  
-*Insider\* premiere*  
+[*Insider\* premiere*](/projects/live/insider/)  
 CED
 
 **10/18** Prague, CZ  
@@ -116,15 +116,15 @@ CED
 <div>
 
 **11/24** Poznań, PL  
-*Światłodźwięki Festival w/ Petr Vrba*  
+[*Światłodźwięki Festival w/ Petr Vrba*](/projects/live/with-petr-vrba/)
 CK Zamek
 
 **11/24** Bratislava, SK  
-*Światłodźwięki Festival w/ Petr Vrba*  
+[*Światłodźwięki Festival w/ Petr Vrba*](/projects/live/with-petr-vrba/)  
 A4
 
 **10/24** Prague, CZ  
-*Światłodźwięki Festival w/ Petr Vrba*  
+[*Światłodźwięki Festival w/ Petr Vrba*](/projects/live/with-petr-vrba/)
 Punctum
 
 </div>
@@ -132,15 +132,15 @@ Punctum
 <div>
 
 **06/24** Vienna, AT  
-*Lyrarkestra+ 2024 ed.*  
+*Lyrarkestra+ 2024 ed.*
 MuseumsQuartier
 
 **03/24** Pardubice, CZ  
-*Trať off the rails #2 w/ Evil Medvěd*  
+[*Trať off the rails #2 w/ Evil Medvěd*](/projects/live/social-evil/)
 Divaldo29
 
 **03/24** Prague, CZ  
-*Earday #1 w/ lizwiz*  
+[*Earday #1 w/ lizwiz*](/projects/live/tommy-needs-a-haircut/)
 Punctum
 
 </div>
@@ -155,27 +155,27 @@ Punctum
 <div>
 
 **10/23** Pardubice, CZ  
-*Rickey Mouse Fun House: Mousephonic Mayhem*  
+[*Rickey Mouse Fun House: Mousephonic Mayhem*](/projects/live/rickey-mouse/)
 Divaldo29
 
 **05/23** Ústí nad Labem, CZ  
-*Lyrarkestra+ 2023 ed.*  
+[*Lyrarkestra+ 2023 ed.*](/projects/live/lyra/)
 House of Arts
 
 **04/23** Brno, CZ  
-*Lyrarkestra+ 2023 ed.*  
+[*Lyrarkestra+ 2023 ed.*](/projects/live/lyra/)  
 House of the Lords of Kunštát
 
 **04/23** Prague, CZ  
-*Lyrarkestra+ 2023 ed.*  
+[*Lyrarkestra+ 2023 ed.*](/projects/live/lyra/)
 Punctum
 
 **04/23** Pardubice, CZ  
-*Lyrarkestra+ 2023 ed.*  
+[*Lyrarkestra+ 2023 ed.*](/projects/live/lyra/)
 GAMPA
 
 **11/22** Prague, CZ  
-*Lyrarkestra+ 2022 ed.*  
+[*Lyrarkestra+ 2022 ed.*](/projects/live/lyra/)  
 Alternativa Festival 2022
 
 **11/22** Prague, CZ  
@@ -191,31 +191,31 @@ Neone
 WUK
 
 **09/22** Brno, CZ  
-*Rickey Mouse Fun House: Night at the Mouseleum*  
+[*Rickey Mouse Fun House: Night at the Mouseleum*](/projects/live/rickey-mouse/)
 OC Dornych
 
 **09/22** Prague, CZ  
-*Rickey Mouse Fun House: Night at the Mouseleum*  
+[*Rickey Mouse Fun House: Night at the Mouseleum*](/projects/live/rickey-mouse/)  
 Alfred ve dvoře
 
 **11/21** Brno, CZ  
-*Rickey Mouse Fun House*  
+[*Rickey Mouse Fun House*](/projects/live/rickey-mouse/)
 Alfred ve dvoře
 
 **11/21** Brno, CZ  
-*Rickey Mouse Fun House*  
+[*Rickey Mouse Fun House*](/projects/live/rickey-mouse/)  
 CED
 
 **11/21** Prague, CZ  
-*Zangezi*  
+[*Zangezi*](/projects/live/zangezi/)
 Alternativa Festival 2021
 
 **10/21** Tromsø, NO  
-*Live A/V w/ Evil Medvěd + others*  
+[*Live A/V w/ Evil Medvěd + others*](/projects/live/insomnia21/)
 Insomnia Festival 2021
 
 **10/20** Prague, CZ  
-*Live A/V w/ Evil Medvěd*  
+[*Live A/V w/ Evil Medvěd*](/projects/live/lunchmeat2020/)  
 Lunchmeat Festival 2020
 
 </div>
@@ -237,7 +237,7 @@ Lunchmeat Festival 2020
 Academy of Fine Arts Munich
 
 **05/23** Prague, CZ  
-*Pater, no stare: The missing links*  
+*Pater, no stare: The missing links*
 National Theatre (New Scene)
 
 **03-04/23** Prague, CZ  
@@ -318,11 +318,11 @@ ScreenSaverGallery
 ## Teaching/Workshops
 
 **10/25** Copenhagen, DK  
-*Co-creating live AV workshop*  
+[*Co-creating live AV workshop*](/projects/teaching/seeds-workshop/)
 Seeds Residency
 
 **02/22 - 02/25** Prague, CZ  
-*Video Atelier w/ Cristina Maldonado, Isa Juchniewicz*  
+[*Video Atelier w/ Cristina Maldonado, Isa Juchniewicz*](/projects/teaching/video-atelier-era/)
 Prague City University
 
 <details>
@@ -333,7 +333,7 @@ Prague City University
 Prague City University
 
 **10/21** Tromsø, NO  
-*Creating Visuals (Insomnia Festival 2021)*  
+[*Creating Visuals (Insomnia Festival 2021)*](/projects/teaching/insomnia2021-workshop/)
 Small Projects Gallery
 
 </details>
@@ -388,13 +388,13 @@ Vašulka Kitchen Brno
 
 ## Education
 
-**10/24 - 08/25** Munich, DE  
-Erasmus exchange in Klasse Rosefeldt  
-Academy of Fine Arts of Munich
-
 **10/22 - currently** Prague, CZ  
 MgA (New Media 1 studio)  
 Academy of Fine Arts Prague
+
+**10/24 - 08/25** Munich, DE  
+Erasmus exchange in Klasse Rosefeldt  
+Academy of Fine Arts of Munich
 
 **02/18 - 06/21** Prague, CZ  
 BA (Hons) Fine Art Experimental Media  
@@ -422,7 +422,6 @@ Thakur College of Science & Commerce
 - Teaching: workshops, creative facilitation
 - Social media: planning, managing
 - Content creation
-
 ---
 
 </div>
