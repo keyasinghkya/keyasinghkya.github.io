@@ -14,9 +14,11 @@ categories:
 tags:
   - live av
   - OBS
+  - Resolume Arena
   - live camera
   - internet culture
   - found material
+  - personal archiving
   - consumption
   - reflective
 draft: false
@@ -24,9 +26,14 @@ draft: false
 ## About
 Being chronically online instigated this performance as an acceptance of our fate as we further drown in the internet. We did this not with dread but to collect our screen time & turn it into something visually hectic & maybe even danceable.
 
+My visuals for this work were created on Resolume Arena combined with OBS. I used pre-recorded game footage, filmed and found footage, personal messages, live-camera and screen manipulations. Some parts of the audio from my footage were incorporated by Evil Medvěd in his sound work. It was a fairly intuitive performance that would be hard to recreate :)
+
 ## Documentation
+
 {{< gallery
-  images="/images/zangezi1.jpeg,/images/zangezi2.jpeg,/images/zangezi3.jpeg,/images/zangezi4.jpeg,/images/zangezi5.jpeg,/images/zangezi6.jpeg,/images/zangezi7.jpeg,/images/zangezi8.jpeg">}}
+captions="cute digicam documentation ^-^"
+  images=",/images/socialevil_1.JPG,/images/socialevil_2.JPG,,/images/socialevil_3.JPG"
+  vimeos="1156823657,,,1156823691,">}}
 
 ## Related
 
